@@ -1,0 +1,45 @@
+/* FILEPATH: /home/wildcat/Documents/porte-folio/assets/css/global.css */
+
+/* Retro style */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+a:hover {
+  border-bottom: 2px solid #ff0;
+}
+
+/* Animation */
+@keyframes neon {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 100px #ff0, 0 0 150px #ff0;
+  }
+
+  20% {
+    text-shadow: none;
+  }
+
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 100px #ff0, 0 0 150px #ff0;
+  }
+}
+
+h1 {
+  animation: neon 1s ease-in-out infinite alternate;
+}
