@@ -6,12 +6,10 @@
 }
 
 #java ul.show {
-  max-height: 1000px;
   transition: max-height 0.5s ease-in;
 }
 
 #java ul.hidden {
-  max-height: 0;
   transition: max-height 0.5s ease-out;
 }
 #subtitleVersionsSelected{
