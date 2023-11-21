@@ -14,3 +14,16 @@
   max-height: 0;
   transition: max-height 0.5s ease-out;
 }
+#subtitleVersionsSelected{
+  font-style: italic;
+  font-size: 0.8em;
+  color: #666;
+  margin-left: 10px;
+}
+body {
+ /*  background-image: url("../pictures/littleRabbits.gif"); */
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #000000;
+  background-size: 70%;
+}

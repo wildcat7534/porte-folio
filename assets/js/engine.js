@@ -1,16 +1,17 @@
+var gifLogo = document.getElementById('imgHeader');
 
-// const javaUl = document.querySelector('#java');
-// const innerUl = javaUl.querySelector('ul');
-// const innerLi = javaUl.querySelector('li');
+function changeLogo() {
+    gifLogo.src = "assets/pictures/misc/favicons/cat1t2.gif";
+}
+setInterval(changeLogo, 3000);
 
-// javaUl.addEventListener('click', () => {
-//   innerUl.classList.toggle('hidden');
-//   if (!innerUl.classList.contains('hidden')) {
-//     javaUl.classList.add('show');
-//     innerUl.style.maxHeight = innerUl.scrollHeight + "px";
-//     innerLi.style.maxHeight = innerLi.scrollHeight + "px";
-//   } else {
-//     javaUl.classList.remove('show');
-//     innerUl.style.maxHeight = null;
-//   }
-// });
+var buttonVersions = document.getElementById('buttonVersions');
+
+function changeButton() {
+    buttonVersions.innerHTML = "Rabbits !!!";
+    let background = document.querySelector('body');
+    background.style.backgroundImage = "url('assets/pictures/littleRabbits.gif')";
+    background.style.backgroundColor = "#2d573f";
+}
+buttonVersions.addEventListener('click', changeButton);
+

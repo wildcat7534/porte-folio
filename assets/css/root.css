@@ -1,8 +1,8 @@
 /* FILEPATH: /home/wildcat/Documents/porte-folio/assets/css/global.css */
+
 ul li {
   list-style: none;
 }
-
 header nav ul {
   display: flex;
   width: 100%;
@@ -21,6 +21,13 @@ body {
 }
 h1 {
   text-align: center;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+h1::before {
+  content: '>';
+  margin-right: 10px;
 }
 h1,
 h2,
