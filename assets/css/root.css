@@ -5,7 +5,6 @@ ul li {
 }
 header nav ul {
   display: flex;
-  width: 100%;
   justify-content: space-evenly;
 }
 header nav ul li {
@@ -21,7 +20,7 @@ body {
 }
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   margin: 0;
   padding: 0;
 }
@@ -172,8 +171,22 @@ h3 {
   animation: neon2 1s ease-in-out infinite alternate;
 }
 #imgLabyby {
-  width: 70%;
+  width: 50%;
+  scale: 0.9;
+  border: rgb(230, 93, 245) 5px ridge;
+  transition: scale 0.5s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+#imgLabyby:hover {
+  scale: 1;
+  border: #460759 6px ridge; 
 }
 #imgServerRoom {
   width: 40%;
+}
+#imgHeader {
+  width: 100px;
+  position: relative;
+  top: 30px;
+  left: 0;
 }

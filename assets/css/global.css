@@ -23,5 +23,8 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   background-color: #000000;
-  background-size: 70%;
+  background-size: 40%;
+}
+h1 {
+  display: inline;
 }
