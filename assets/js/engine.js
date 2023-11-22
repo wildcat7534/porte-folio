@@ -9,9 +9,11 @@ var buttonVersions = document.getElementById('buttonVersions');
 
 function changeButton() {
     buttonVersions.innerHTML = "Rabbits !!!";
-    let background = document.querySelector('body');
-    background.style.backgroundImage = "url('assets/pictures/littleRabbits.gif')";
-    background.style.backgroundColor = "#2d573f";
+    let body = document.querySelector('body');
+    body.style.backgroundImage = "url('assets/pictures/littleRabbits.gif')";
+    body.style.backgroundColor = "#2d573f";
+    body.style.backgroundSize = "200px";
+    body.style.color = "deeppink";
 }
 buttonVersions.addEventListener('click', changeButton);
 
