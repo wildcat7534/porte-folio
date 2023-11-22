@@ -1,5 +1,11 @@
 /* FILEPATH: /home/wildcat/Documents/porte-folio/assets/css/global.css */
 
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  margin-left: 50px;
+}
 ul li {
   list-style: none;
 }
@@ -13,11 +19,6 @@ header nav ul li {
   width: 100%;
 }
 /* Retro style */
-body {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Press Start 2P', cursive;
-}
 h1 {
   text-align: center;
   font-size: 2em;
@@ -180,13 +181,24 @@ h1 {
 }
 @keyframes borderNeonFlashesViolet {
   0% {
+    filter: brightness(100%);
     border: ridge 6px darkviolet;
   }
   50% {
     border: ridge 6px #ff0;
+    filter: brightness(150%);
   }
   100% {
     border: ridge 6px darkviolet;
+    filter: brightness(100%);
+  }
+}
+@keyframes filterBrightnes {
+  0% {
+  }
+  50% {
+  }
+  100% {
   }
 }
 

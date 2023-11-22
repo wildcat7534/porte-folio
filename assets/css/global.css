@@ -12,11 +12,17 @@
 #java ul.hidden {
   transition: max-height 0.5s ease-out;
 }
-#subtitleVersionsSelected{
+#subtitleEncoding{
   font-style: italic;
   font-size: 0.8em;
   color: #666;
   margin-left: 10px;
+}
+#subtitleVersionsSelected {
+  color: #ff0;
+  font-family: system-ui;
+  letter-spacing: 2px;
+  font-size: 0.8em;
 }
 body {
   background-image: url("../pictures/fondStars.webp");
@@ -44,21 +50,22 @@ h1 {
 #divServerProject img:hover {
   border: ridge 6px #ff0;
 }
-#wildcatMix {
-  width: 30%;
+#neroWildcatDrawAI {
+  width: 45%;
   height: auto;
   margin: 10px;
   border: ridge 6px darkgoldenrod;
+}
+#wildcatMix {
+  width: 57%;
+  height: auto;
+  margin: 10px;
+  border: ridge 6px darkgoldenrod;
+  animation: filterBrightnes 2s infinite alternate;
   animation: borderNeonFlashesViolet 2s infinite alternate;
 }
-#neroWildcatDrawAI {
-  width: 24%;
-  height: auto;
-  margin: 10px;
-  border: ridge 6px darkgoldenrod;
-}
 #wildcatPodcast {
-  width: 20%;
+  width: 37%;
   height: auto;
   margin: 10px;
   border: ridge 6px darkgoldenrod;
@@ -68,4 +75,12 @@ h1 {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+article {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 680px;
+  height: 550px;
+  flex-direction: column;
 }
