@@ -19,12 +19,53 @@
   margin-left: 10px;
 }
 body {
- /*  background-image: url("../pictures/littleRabbits.gif"); */
+  background-image: url("../pictures/fondStars.webp");
   background-repeat: repeat;
   background-attachment: fixed;
   background-color: #000000;
-  background-size: 40%;
+  background-size: 100px;
 }
 h1 {
   display: inline;
+}
+#divServerProject {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#divServerProject img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
+  border: ridge 6px darkgoldenrod;
+}
+#divServerProject img:hover {
+  border: ridge 6px #ff0;
+}
+#wildcatMix {
+  width: 30%;
+  height: auto;
+  margin: 10px;
+  border: ridge 6px darkgoldenrod;
+  animation: borderNeonFlashesViolet 2s infinite alternate;
+}
+#neroWildcatDrawAI {
+  width: 24%;
+  height: auto;
+  margin: 10px;
+  border: ridge 6px darkgoldenrod;
+}
+#wildcatPodcast {
+  width: 20%;
+  height: auto;
+  margin: 10px;
+  border: ridge 6px darkgoldenrod;
+}
+#divImgHobbies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }

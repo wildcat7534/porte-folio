@@ -34,7 +34,9 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
-
+img {
+  width: 50%;
+}
 a {
   color: #fff;
   text-decoration: none;
@@ -165,6 +167,28 @@ h1 {
     color: #b3b321;
   }
 }
+@keyframes borderNeonFlashes {
+  0% {
+    border: ridge 6px darkgoldenrod;
+  }
+  50% {
+    border: ridge 6px #ff0;
+  }
+  100% {
+    border: ridge 6px darkgoldenrod;
+  }
+}
+@keyframes borderNeonFlashesViolet {
+  0% {
+    border: ridge 6px darkviolet;
+  }
+  50% {
+    border: ridge 6px #ff0;
+  }
+  100% {
+    border: ridge 6px darkviolet;
+  }
+}
 
 h2,
 h3 {
@@ -179,7 +203,7 @@ h3 {
 }
 #imgLabyby:hover {
   scale: 1;
-  border: #460759 6px ridge; 
+  border: #460759 7px ridge; 
 }
 #imgServerRoom {
   width: 40%;
