@@ -181,12 +181,15 @@ h1 {
 @keyframes borderNeonFlashesViolet {
   0% {
     border: ridge 6px darkviolet;
+    filter: brightness(0.8);
   }
   50% {
     border: ridge 6px #ff0;
+    filter: brightness(1.4);
   }
   100% {
     border: ridge 6px darkviolet;
+    filter: brightness(1);
   }
 }
 
@@ -198,7 +201,6 @@ h3 {
   width: 50%;
   scale: 0.9;
   border: rgb(230, 93, 245) 5px ridge;
-  transition: scale 0.5s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
 #imgLabyby:hover {
