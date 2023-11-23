@@ -1,4 +1,8 @@
 /* FILEPATH: /home/wildcat/Documents/porte-folio/assets/css/global.css */
+@font-face {
+  font-family: 'lobster';
+  src: url(fonts/Lobster/Lobster-Regular.ttf);
+}
 
 ul li {
   list-style: none;
@@ -32,6 +36,7 @@ h1 {
   animation: neonVioletBlueRetro 2s ease-in-out infinite alternate;
 }
 h2.wildcatTitle {
+  font-family: 'lobster';
   animation: neonVioletBlueRetro 2s ease-in-out infinite alternate;
 }
 h1,
@@ -63,6 +68,28 @@ a {
 
 a:hover {
   border-bottom: 2px solid #ff0;
+}
+p {
+  font-size: 1.1em;
+}
+/* Classe Néon */
+.neonRed {
+  text-shadow: 0 0 25px rgb(216 9 9 / 70%);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #a68181;
+}
+.neonBlue {
+  text-shadow: 0 0 25px rgb(9 9 216 / 70%);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #8181a6;
+}
+.neonGold {
+  text-shadow: 0 0 25px rgb(216 216 9 / 70%);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #a6a681;
 }
 /* Animation */
 @keyframes neon {
