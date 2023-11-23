@@ -29,9 +29,10 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   background-color: #000000;
-  background-size: 100px;
+  background-size: 170px;
+  margin-left: 30px;
 }
-h1 {
+h2.wildcatTitle {
   display: inline;
 }
 #divServerProject {

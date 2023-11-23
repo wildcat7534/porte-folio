@@ -1,4 +1,8 @@
 /* FILEPATH: /home/wildcat/Documents/porte-folio/assets/css/global.css */
+@font-face {
+  font-family: 'lobster';
+  src: url(fonts/Lobster/Lobster-Regular.ttf);
+}
 
 body {
   background-color: #000;
@@ -29,11 +33,29 @@ h1::before {
   content: '>';
   margin-right: 10px;
 }
+h1 {
+  animation: neonVioletBlueRetro 2s ease-in-out infinite alternate;
+}
+h2.wildcatTitle {
+  font-family: 'lobster';
+  animation: neonVioletBlueRetro 2s ease-in-out infinite alternate;
+}
 h1,
 h2,
 h3 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+h2,
+h3 {
+  animation: neon2 1s ease-in-out infinite alternate;
+}
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
 }
 img {
   width: 50%;
@@ -48,24 +70,41 @@ a {
 a:hover {
   border-bottom: 2px solid #ff0;
 }
+p {
+  font-size: 1.1em;
+}
+/* Classe Néon */
+.neonRed {
+  text-shadow: 0 0 25px rgb(255 44 44);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #f4d8d8;
+}
+.neonBlue {
+  text-shadow: 0 0 20px rgb(45 45 243);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #c6c6e4;
+}
+.neonGold {
+  text-shadow: 0 0 25px rgb(246 246 22 / 84%);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #e1e1a4;
+}
 /* Animation */
 @keyframes neon {
   0% {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 100px #ff0, 0 0 150px #ff0;
   }
-  
   20% {
     text-shadow: none;
   }
-
   100% {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 100px #ff0, 0 0 150px #ff0;
   }
 }
 
-h1 {
-  animation: neon 1s ease-in-out infinite alternate;
-}
 /* Neon animation leger*/
 @keyframes neonLighter {
   0% {
@@ -116,13 +155,6 @@ h1 {
   }
 }
 
-h1 {
-  animation: neon 2s ease-in-out infinite alternate;
-}
-h1 {
-  animation: neonLighter2 2s ease-in-out infinite alternate;
-}
-
 @keyframes neonLighter2 {
   0% {
     text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 15px #ff0, 0 0 20px #ff0, 0 0 25px #ff0, 0 0 30px #ff0, 0 0 35px #ff0, 0 0 40px #ff0;
@@ -168,6 +200,21 @@ h1 {
     color: #b3b321;
   }
 }
+@keyframes neonVioletBlueRetro {
+  0% {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(179, 179, 33), 0 0 70px rgb(179, 179, 33), 0 0 80px rgb(179, 179, 33), 0 0 100px rgb(179, 179, 33), 0 0 150px rgb(179, 179, 33);
+  }
+  
+  20% {
+    text-shadow: none;
+  }
+
+  100% {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(179, 179, 33), 0 0 70px rgb(179, 179, 33), 0 0 80px rgb(179, 179, 33), 0 0 100px rgb(179, 179, 33), 0 0 150px rgb(179, 179, 33);
+  }
+
+}
+
 @keyframes borderNeonFlashes {
   0% {
     border: ridge 6px darkgoldenrod;
@@ -183,34 +230,23 @@ h1 {
   0% {
     filter: brightness(100%);
     border: ridge 6px darkviolet;
+    filter: brightness(0.8);
   }
   50% {
     border: ridge 6px #ff0;
-    filter: brightness(150%);
+    filter: brightness(1.4);
   }
   100% {
     border: ridge 6px darkviolet;
-    filter: brightness(100%);
-  }
-}
-@keyframes filterBrightnes {
-  0% {
-  }
-  50% {
-  }
-  100% {
+    filter: brightness(1);
   }
 }
 
-h2,
-h3 {
-  animation: neon2 1s ease-in-out infinite alternate;
-}
+
 #imgLabyby {
   width: 50%;
   scale: 0.9;
   border: rgb(230, 93, 245) 5px ridge;
-  transition: scale 0.5s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
 #imgLabyby:hover {

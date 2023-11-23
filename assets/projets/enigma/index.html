@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<title>Enigma</title>
+</head>
+<body>
+
+	<div class="page" id="page1">
+		<span class="level-title" id="lvl1">Niveau 1 - Tundra</span>
+		<!-- <span class="level-title" id="debug">MODE DEV</span> -->
+		<div class="right">
+			<div class="exit">
+				<button id="next">EXIT</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="page" id="page2">
+		<span class="level-title" id="lvl2">Niveau 2 - Pont</span>
+		<div id="block-bridge">
+			<figure id="loco">
+				<img src="tools/pictures/locomotive.png">
+			</figure>
+			<div id="bridge">
+				<div></div>
+				<div></div>
+				<div id="bridge-broken"></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+
+	<div  class="page"  id="page3">
+		<span class="level-title" id="lvl3">Niveau 3 - Hexagone</span>
+		<section id="theBalls">
+			<div id="firstBall" class="ball"></div>
+			<div id="centerBall" class="ball"></div>
+			<div id="lastBall" class="ball"></div>
+		</section>
+	</div>
+
+	<div class="page"  id="page4">
+		<span class="level-title" id="lvl4">Niveau 4 - sur le grill</span><button class="recharger">RECHARGER</button>
+		<div id="container">
+			<figure class="assise">
+				<img class="mouton" draggable="true" src="tools/pictures/sheep.png">
+				<img class="mouton" draggable="true" src="tools/pictures/sheep.png">
+				<img class="mouton" id="moutonRouge" draggable="true" src="tools/pictures/sheepRed.png">
+				<img class="mouton" draggable="true" src="tools/pictures/sheep.png">
+				<img class="mouton" draggable="true" src="tools/pictures/sheep.png">
+			</figure>
+			<div id="start">
+				<figure class="moveme">
+					<img id="chat" draggable="true" src="tools/pictures/chatColor.gif">
+				</figure>
+			</div>
+			<div class="dropzone">			
+			</div>
+		</div>
+	</div>
+
+	<div  class="page" id="page5">
+		<span class="level-title" id="lvl5">Niveau 5 - à venir</span>
+		<div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="java.js"></script>
+</body>
+</html>
