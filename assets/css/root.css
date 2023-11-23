@@ -28,11 +28,28 @@ h1::before {
   content: '>';
   margin-right: 10px;
 }
+h1 {
+  animation: neonVioletBlueRetro 2s ease-in-out infinite alternate;
+}
+h2.wildcatTitle {
+  animation: neonVioletBlueRetro 2s ease-in-out infinite alternate;
+}
 h1,
 h2,
 h3 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+h2,
+h3 {
+  animation: neon2 1s ease-in-out infinite alternate;
+}
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
 }
 img {
   width: 50%;
@@ -62,9 +79,6 @@ a:hover {
   }
 }
 
-h1 {
-  animation: neon 1s ease-in-out infinite alternate;
-}
 /* Neon animation leger*/
 @keyframes neonLighter {
   0% {
@@ -115,13 +129,6 @@ h1 {
   }
 }
 
-h1 {
-  animation: neon 2s ease-in-out infinite alternate;
-}
-h1 {
-  animation: neonLighter2 2s ease-in-out infinite alternate;
-}
-
 @keyframes neonLighter2 {
   0% {
     text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 15px #ff0, 0 0 20px #ff0, 0 0 25px #ff0, 0 0 30px #ff0, 0 0 35px #ff0, 0 0 40px #ff0;
@@ -167,6 +174,21 @@ h1 {
     color: #b3b321;
   }
 }
+@keyframes neonVioletBlueRetro {
+  0% {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(179, 179, 33), 0 0 70px rgb(179, 179, 33), 0 0 80px rgb(179, 179, 33), 0 0 100px rgb(179, 179, 33), 0 0 150px rgb(179, 179, 33);
+  }
+  
+  20% {
+    text-shadow: none;
+  }
+
+  100% {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(179, 179, 33), 0 0 70px rgb(179, 179, 33), 0 0 80px rgb(179, 179, 33), 0 0 100px rgb(179, 179, 33), 0 0 150px rgb(179, 179, 33);
+  }
+
+}
+
 @keyframes borderNeonFlashes {
   0% {
     border: ridge 6px darkgoldenrod;
@@ -193,10 +215,7 @@ h1 {
   }
 }
 
-h2,
-h3 {
-  animation: neon2 1s ease-in-out infinite alternate;
-}
+
 #imgLabyby {
   width: 50%;
   scale: 0.9;
