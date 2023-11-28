@@ -13,144 +13,190 @@
   <body>
     <header>
       <div id="divImgHeader">
-        <div id="titleportefolio"><h1>Porte-folio_</h1></div>
+        <div id="titleportefolio"><h1>Porte-folio_&nbsp;&nbsp;&nbsp;&nbsp;v0.2</h1></div>
         <img id="imgHeader" src="assets/pictures/misc/favicons/cat1t2.gif" alt="Wildcat's logo"/>
         <h2 class="wildcatTitle">WiLDCaT</h2>
       </div>
         <h5 id="subtitleEncoding">Écrit en HTML/CSS et JavaScript Vanilla</h5>
-        <h5 id="subtitleVersionsSelected"> <3 Version rétro web 1.0 <3 </h5>
-        <button id="buttonVersions">Changer de version</button>
-      <nav>
-        <ul>
-          <li><a class="neonGold" href="#formations">Formations</a></li>
-          <li><a class="neonGold" href="#skills">Skills</a></li>
-          <li><a class="neonGold" href="#projects">Projects</a></li>
-          <li><a class="neonGold" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <h5 id="subtitleVersionsSelected"> Version rétro web 1.0 des années 2000 </h5>
+        <button id="buttonVersions">Changer de version [à faire]</button>
     </header>
-
-    <section id="Formations">
-      <h2>Diplomes</h2>
-      <ul>
-        <li>Diplome de Développeur Web et Web Mobile</li>
-        <li>Diplome de Creative Technologist</li>
-        <li>Diplome de développeur Java(en cours)</li>
-      </ul>
-    </section>
-    <section id="skills">
-      <h2>Compétances</h2>
-      <ul>
-        <li id="java">Compétance : Java
-          <ul>
-            <li>Skill : Les classes dans Java !
-              <ul>
-                <li>jeux de cartes (exo)
-                  <ul>
-                    <li>Création de classes et vérification des entrés entre les classes 
-                        pour éviter des erreurs.</li>
-                  </ul>
-                </li>
-                <li>INSCRYPTION (projet)</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>Compétances : HTML</li>
-        <li>Compétances : CSS</li>
-        <li>Compétances : JavaScript
-          <ul>
-            <li>Skill : Les classes en JavaScipt !
-              <ul>
-                <li>La ferme à Objets
-                  <ul>
-                    <li>Skill : Projet pour montrer plus concrètement les classes en JavaScript.
-                      Et aussi découvrir l'équivalence avec Java.</li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li>Skill : Labybi le jeu !</li>
-          </ul>
-        </li>
-        <li>Compétance : Servers
-          <ul>
-            <li>Hébergement server Linux à distance</li>
-            <li>configuration du routeur</li>
-            <li>configuration d'Apache</li>
-            <li>configuration de CertBot</li>
-          </ul>
-        </li>
-        <li>3D Fusion</li>
-        <li>Arduino</li>
-        <li>I.A.
-          <ul>
-            <li>Images</li>
-            <li>Voix</li>
-            <li>Vidéos</li>
-          </ul>
-        </li>
-        <li>Autres codes</li>
-      </ul>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <h3>Labybi</h3>
-          <a href="assets/projets/labyby/index.html">
-            <img id="imgLabyby" src="assets/pictures/games/labyMenuFin.png" href="assets/projets/labyby/index.html" alt="Screenshot of Labyby">
-          </a>
+    <section class="projects">
+      <div class="box" id="projet1">
+        <div id="divImgProjet1">
+          <img id="labybiImage" src="assets/pictures/games/labyMenuFin.png" alt="Screenshot of Labyby">
+        </div>
+        <div id="divTextProject1" class="divTextProject">
+          <h3>Labyby</h3>
           <p class="neonRed">Un exercice où il fallait dynamiquement changer de niveau en utilisant que du HTML et CSS.
             Je n'ai pas pu m'empècher de le transformer en jeu. Le but est de trouver la sortie en
             passant sur la dernière case puis en cliquant sur "go lvl x". Sans utilisation de Javascript! 
             Tous le reste à été fait en Javascript.
           </p>
-        </li>
-        <li>
-          <h3>Servers projet</h3>
-          <div id="divServerProject">
-            <img id="imgServerProject" src="assets/pictures/servers/brontoCity.jpg" alt="Screenshot of Server's project">
-            <img id="imgServerProject2" src="assets/pictures/servers/Bronto.jpg" alt="Screenshot of Server's project">
-            <img id="imgServerRoom" src="assets/pictures/servers/serversRoomStart.jpg" alt="Screenshot of Server's room">
-          </div>
-          <p class="neonBlue">Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à démarrer des
+        </div>
+      </div>
+      <div class="box" id="projet2">
+        <div id="divImgProjet2">
+          <img class="ilcImage" src="assets/pictures/pro/ILC_France_After_home.png" alt="Screenshot of website ILC France">
+        </div>
+        <div id="divTextProjet2" class="divTextProject">
+          <h3>Refonte page Home/noteHome Header</h3>
+          <p class="neonRed">
+            Refonte de la page Home et du Header de la page NoteHome pour le site ILC France.
+            Le but était de rendre le site plus moderne et plus responsive.
+            Le site est en cours de développement.
+          </p>
+        </div>
+      </div>
+      <div class="box" id="projet3">
+        <div id="divImgProjet3">
+          <img class="serverImage" src="assets/pictures/servers/Bonto_settingUp.jpg" alt="Screenshot of setting up a big server">
+        </div>
+        <div id="divTextProjet3" class="divTextProject">
+          <h3>Making my own room's servers</h3>
+          <p class="neonBlue">
+            Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à démarrer des
             servers. J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les
             synchroniser entre mes différents appareils. J'ai ensuite installé un serveur web pour pouvoir
             héberger mon site web. J'ai aussi installé un serveur Ark pour pouvoir jouer avec mes amis.
-            
           </p>
-        </li>
-        <li>
-          <h3>Java (à venir)</h3>
-          <img src="exoJava.png" alt="Screenshot of Java's exercise">
-          <p>Suivi de cours en Java avec maitrise des Classes.</p>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>Postes de rêve</h2>
-      <ul>
-        <li>Chez CIG</li>
-        <li>Chez Ubisoft</li>
-        <li>Chez Quantic Dream</li>
-        <li>Chez Amazon(AWS)</li>
-      </ul>
+        </div>
+      </div>
+      <div class="box" id="projet4"></div>
+      <div class="box" id="projet5"></div>
+      <div class="box" id="projet6"></div>
+
     </section>
 
-    <section id="hobbies">
-      <h2>Hobbies</h2>
-          <div id="divImgHobbies">
-            <article>
-              <h4>Dessins(+AI)</h4>
+    <section  id="oldSection">
+
+      <section>
+        <nav>
+          <ul>
+            <li><a class="neonGold" href="#formations">Formations</a></li>
+            <li><a class="neonGold" href="#skills">Skills</a></li>
+            <li><a class="neonGold" href="#projects">Projects</a></li>
+            <li><a class="neonGold" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="Formations">
+        <h2>Diplomes</h2>
+        <ul>
+          <li>Diplome de Développeur Web et Web Mobile</li>
+          <li>Diplome de Creative Technologist</li>
+          <li>Diplome de développeur Java(en cours)</li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li id="java">Java
+            <ul>
+              <li>Les classes dans Java !
+                <ul>
+                  <li>jeux de cartes (exo)
+                    <ul>
+                      <li>Création de classes et vérification des entrés entre les classes 
+                          pour éviter des erreurs.</li>
+                    </ul>
+                  </li>
+                  <li>INSCRYPTION (projet)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript
+            <ul>
+              <li>Les classes en JavaScipt !
+                <ul>
+                  <li>La ferme à Objets
+                    <ul>
+                      <li>Projet pour montrer plus concrètement les classes en JavaScript.
+                        Et aussi découvrir l'équivalence avec Java.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Labyby le jeu !</li>
+            </ul>
+          </li>
+          <li>Servers
+            <ul>
+              <li>Hébergement server Linux à distance</li>
+              <li>configuration du routeur</li>
+              <li>configuration d'Apache</li>
+              <li>configuration de CertBot</li>
+            </ul>
+          </li>
+          <li>3D Fusion</li>
+          <li>Arduino</li>
+          <li>I.A.
+            <ul>
+              <li>Images</li>
+              <li>Voix</li>
+              <li>Vidéos</li>
+            </ul>
+          </li>
+          <li>Autres codes</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Labyby</h3>
+            <a href="assets/projets/labyby/index.html">
+              <img id="imgLabyby" src="assets/pictures/games/labyMenuFin.png" href="assets/projets/labyby/index.html" alt="Screenshot of Labyby">
+            </a>
+            <p class="neonRed">Un exercice où il fallait dynamiquement changer de niveau en utilisant que du HTML et CSS.
+              Je n'ai pas pu m'empècher de le transformer en jeu. Le but est de trouver la sortie en
+              passant sur la dernière case puis en cliquant sur "go lvl x". Sans utilisation de Javascript! 
+              Tous le reste à été fait en Javascript.
+            </p>
+          </li>
+          <li>
+            <h3>Server projet</h3>
+            <div id="divServerProject">
+              <img id="imgServerProject" src="assets/pictures/servers/brontoCity.jpg" alt="Screenshot of Server's project">
+              <img id="imgServerProject2" src="assets/pictures/servers/Bronto.jpg" alt="Screenshot of Server's project">
+              <img id="imgServerRoom" src="assets/pictures/servers/serversRoomStart.jpg" alt="Screenshot of Server's room">
+            </div>
+            <p class="neonBlue">Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à démarrer des
+              servers. J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les
+              synchroniser entre mes différents appareils. J'ai ensuite installé un serveur web pour pouvoir
+              héberger mon site web. J'ai aussi installé un serveur Ark pour pouvoir jouer avec mes amis.
+              
+            </p>
+          </li>
+          <li>
+            <h3>Java</h3>
+            <img src="exoJava.png" alt="Screenshot of Java's exercise">
+            <p>Suivi de cours en Java avec maitrise des Classes.</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Postes de rêve</h2>
+        <ul>
+          <li>Chez CIG</li>
+          <li>Chez Ubisoft</li>
+          <li>Chez Quantic Dream</li>
+          <li>Chez Amazon(AWS)</li>
+        </ul>
+      </section>
+      <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>
+            <div id="divImgHobbies">
+              Dessins(+AI)
               <img id="neroWildcatDrawAI" src="assets/pictures/Nero_WiLDCaT.jpg" alt="Wildcat's drawing"/>
-            </article>
-            <article>
-              <h4>musics</h4>
+              musics
               <img id="wildcatMix" src="assets/pictures/WiLDCaT_MiX.jpeg" alt="Wildcat's mixing"/>
-            </article>
-            <article>
-              <h4>podcats</h4>
+              podcats
               <img id="wildcatPodcast" src="assets/pictures/podcastStudio404_Lam.jpg" alt="Wildcat's podcast"/>
             </article>
             <article>

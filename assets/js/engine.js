@@ -17,3 +17,14 @@ function changeButton() {
 }
 buttonVersions.addEventListener('click', changeButton);
 
+function boxOnTouch() {
+    let box = document.getElementById('box');
+    box.style.backgroundColor = "#2d573f";
+    box.style.color = "#fff";
+    box.style.border = "1px solid #fff";
+    let divTextProjectClass = document.getElementsByClassName('divTextProject');
+    for (let i = 0; i < divTextProjectClass.length; i++) {
+        divTextProjectClass[i].style.display = "block";
+    }
+}
+

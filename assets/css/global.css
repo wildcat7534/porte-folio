@@ -4,7 +4,9 @@
   /* overflow: hidden; */
   transition: max-height 0.5s ease-out;
 }
-
+#oldSection {
+  display: none;
+}
 #java ul.show {
   transition: max-height 0.5s ease-in;
 }
@@ -34,6 +36,41 @@ body {
 }
 h2.wildcatTitle {
   display: inline;
+}
+section.projects {
+  height: 77vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+section.projects div.box {
+  margin: 20px;
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  animation: borderNeonFlashesViolet 2s infinite alternate;
+
+}
+.divTextProject {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: black;
+}
+.box:hover .divTextProject{
+  display: block;
+}
+#labybiImage {
+  width: 100%;
+}
+.ilcImage {
+  width: 100%;
+}
+.serverImage {
+  width: 100%;
 }
 #divServerProject {
   display: flex;
