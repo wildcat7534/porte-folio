@@ -4,7 +4,9 @@
   /* overflow: hidden; */
   transition: max-height 0.5s ease-out;
 }
-
+#oldSection {
+  display: none;
+}
 #java ul.show {
   transition: max-height 0.5s ease-in;
 }
@@ -53,6 +55,13 @@ section.projects div.box {
 }
 .divTextProject {
   display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: black;
+}
+.box:hover .divTextProject{
+  display: block;
 }
 #labybiImage {
   width: 100%;
