@@ -15,7 +15,7 @@
 #subtitleEncoding{
   font-style: italic;
   font-size: 0.8em;
-  color: #666;
+  color: #919090;
   margin-left: 10px;
 }
 #subtitleVersionsSelected {
@@ -29,7 +29,7 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   background-color: #000000;
-  background-size: 170px;
+  background-size: 250px;
   margin-left: 30px;
 }
 h2.wildcatTitle {
@@ -84,4 +84,9 @@ article {
   width: 680px;
   height: 550px;
   flex-direction: column;
+}
+#contact li:last-of-type a {
+  font-family: 'lobster';
+  animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
+  font-size: 1.3em;
 }

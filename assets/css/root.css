@@ -34,11 +34,11 @@ h1::before {
   margin-right: 10px;
 }
 h1 {
-  animation: neonVioletBlueRetro 2s ease-in-out infinite alternate;
+  animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
 }
 h2.wildcatTitle {
   font-family: 'lobster';
-  animation: neonVioletBlueRetro 2s ease-in-out infinite alternate;
+  animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
 }
 h1,
 h2,
@@ -214,7 +214,17 @@ p {
   }
 
 }
-
+@keyframes neonVioletRetroFlashes {
+  0% {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(147, 33, 179), 0 0 70px rgb(179, 33, 138), 0 0 80px rgb(179, 33, 167), 0 0 100px rgb(123, 33, 179), 0 0 150px rgb(179, 179, 33);
+  }
+  50% {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(99, 33, 179), 0 0 70px rgb(33, 40, 179) 0 0 80px rrgb(35, 33, 179) 0 0 100px rrgb(40, 33, 179) 0 0 150px rrgb(35, 33, 179)
+  }
+  100% {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(67, 33, 179), 0 0 70px rrgb(160, 33, 179) 0 0 80px rgb(150, 33, 179), 0 0 100px rgb(179, 179, 33), 0 0 150px rgb(179, 179, 33);
+  }
+}
 @keyframes borderNeonFlashes {
   0% {
     border: ridge 6px darkgoldenrod;
