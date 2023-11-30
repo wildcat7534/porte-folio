@@ -38,31 +38,50 @@ h2.wildcatTitle {
   display: inline;
 }
 section.projects {
-  height: 77vh;
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-section.projects div.box {
-  margin: 20px;
+section.projects div.projectBoxes {
+  position: relative;
+  margin: 60px;
   width: 33%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  animation: borderNeonFlashesViolet 2s infinite alternate;
-
+  /* animation: borderNeonFlashesViolet 2s infinite alternate; */
 }
-.divTextProject {
-  display: none;
+.pro {
+  border: var(--wc-pink-800) 6px ridge;
+}
+.perso {
+  border: var(--wc-darkblue-600) 6px ridge;
+}
+.titleProject {
+  margin: 40px 40px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.descriptionProject {
+  opacity: 0;
   position: absolute;
-  top: 0;
-  left: 50%;
-  background: black;
+  top: 0px;
+  /* background: black; */
+  height: 100%;
+  overflow: hidden;
 }
-.box:hover .divTextProject{
+
+.projectBoxes:hover {
+  cursor: pointer;
+}
+.projectImages  {
+  z-index: 10;
+}
+/* .projectBoxes:hover .descriptionProject{
   display: block;
-}
+} */
 #labybiImage {
   width: 100%;
 }
@@ -122,8 +141,8 @@ article {
   height: 550px;
   flex-direction: column;
 }
-#contact li:last-of-type a {
+#contact li a {
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
-  font-size: 1.3em;
+  font-size: 2em;
 }

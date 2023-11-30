@@ -5,6 +5,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="assets/css/root.css"/>
     <link rel="stylesheet" href="assets/css/global.css"/>
+    <link rel="stylesheet" href="assets/css/colors.css"/>
     <link rel="icon" href="assets/pictures/misc/favicons/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="assets/pictures/misc/favicons/favicon.ico" type="image/x-icon"/>
   </head>
@@ -13,7 +14,8 @@
   <body>
     <header>
       <div id="divImgHeader">
-        <div id="titleportefolio"><h1>Porte-folio_&nbsp;&nbsp;&nbsp;&nbsp;v0.2</h1></div>
+        <div id="titleportefolio">
+          <h1>Porte-folio_&nbsp;&nbsp;&nbsp;&nbsp;v0.2</h1></div>
         <img id="imgHeader" src="assets/pictures/misc/favicons/cat1t2.gif" alt="Wildcat's logo"/>
         <h2 class="wildcatTitle">WiLDCaT</h2>
       </div>
@@ -22,25 +24,26 @@
         <button id="buttonVersions">Changer de version [à faire]</button>
     </header>
     <section class="projects">
-      <div class="box" id="projet1">
-        <div id="divImgProjet1">
+      <div class="projectBoxes perso" id="projet1">
+        <div id="divImgProjet1" class="projectImages">
           <img id="labybiImage" src="assets/pictures/games/labyMenuFin.png" alt="Screenshot of Labyby">
         </div>
-        <div id="divTextProject1" class="divTextProject">
-          <h3>Labyby</h3>
-          <p class="neonRed">Un exercice où il fallait dynamiquement changer de niveau en utilisant que du HTML et CSS.
+        <div id="descriptionProject1" class="descriptionProject">
+          <h3 class="titleProject">Labybi</h3>
+          <p class="neonRed">
+            Un exercice où il fallait dynamiquement changer de niveau en utilisant que du HTML et CSS.
             Je n'ai pas pu m'empècher de le transformer en jeu. Le but est de trouver la sortie en
             passant sur la dernière case puis en cliquant sur "go lvl x". Sans utilisation de Javascript! 
             Tous le reste à été fait en Javascript.
           </p>
         </div>
       </div>
-      <div class="box" id="projet2">
-        <div id="divImgProjet2">
+      <div class="projectBoxes pro" id="projet2">
+        <div id="divImgProjet2" class="projectImages">
           <img class="ilcImage" src="assets/pictures/pro/ILC_France_After_home.png" alt="Screenshot of website ILC France">
         </div>
-        <div id="divTextProjet2" class="divTextProject">
-          <h3>Refonte page Home/noteHome Header</h3>
+        <div id="divTextProjet2" class="descriptionProject">
+          <h3 class="titleProject">Refonte page Home/not Home Header</h3>
           <p class="neonRed">
             Refonte de la page Home et du Header de la page NoteHome pour le site ILC France.
             Le but était de rendre le site plus moderne et plus responsive.
@@ -48,12 +51,12 @@
           </p>
         </div>
       </div>
-      <div class="box" id="projet3">
-        <div id="divImgProjet3">
+      <div class="projectBoxes perso" id="projet3">
+        <div id="divImgProjet3" class="projectImages">
           <img class="serverImage" src="assets/pictures/servers/Bonto_settingUp.jpg" alt="Screenshot of setting up a big server">
         </div>
-        <div id="divTextProjet3" class="divTextProject">
-          <h3>Making my own room's servers</h3>
+        <div id="divTextProjet3" class="descriptionProject">
+          <h3 class="titleProject">Making my own room's servers</h3>
           <p class="neonBlue">
             Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à démarrer des
             servers. J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les
@@ -62,11 +65,43 @@
           </p>
         </div>
       </div>
-      <div class="box" id="projet4"></div>
-      <div class="box" id="projet5"></div>
-      <div class="box" id="projet6"></div>
-
+      <div class="projectBoxes" id="projet4">
+        <div id="divImgProjet4" class="projectImages">
+          <img class="javaImage" src="#" alt="Screenshot of Java's exercise">
+        </div>
+        <div id="divTextProjet4" class="descriptionProject">
+          <h3 class="titleProject">Java</h3>
+          <p class="neonBlue">
+            Suivi de cours en Java avec maitrise des Classes.
+          </p>
+        </div>
+      </div>
     </section>
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>
+          <div id="divImgHobbies">
+            Dessins(+AI)
+            <img id="neroWildcatDrawAI" src="assets/pictures/Nero_WiLDCaT.jpg" alt="Wildcat's drawing" />
+            musics
+            <img id="wildcatMix" src="assets/pictures/WiLDCaT_MiX.jpeg" alt="Wildcat's mixing" />
+            podcats
+            <img id="wildcatPodcast" src="assets/pictures/podcastStudio404_Lam.jpg" alt="Wildcat's podcast" />
+            </article>
+            <article>
+              <h4>vidéos, etc...</h4>
+            </article>
+          </div>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><a id="linkContact" href="https://github.com/wildcat7534">Mon GitHub !</a></li>
+      </ul>
+    </section>
+    <script src="assets/js/engine.js"></script>
 
     <section  id="oldSection">
 
@@ -187,30 +222,6 @@
           <li>Chez Amazon(AWS)</li>
         </ul>
       </section>
-      <section id="hobbies">
-        <h2>Hobbies</h2>
-        <ul>
-          <li>
-            <div id="divImgHobbies">
-              Dessins(+AI)
-              <img id="neroWildcatDrawAI" src="assets/pictures/Nero_WiLDCaT.jpg" alt="Wildcat's drawing"/>
-              musics
-              <img id="wildcatMix" src="assets/pictures/WiLDCaT_MiX.jpeg" alt="Wildcat's mixing"/>
-              podcats
-              <img id="wildcatPodcast" src="assets/pictures/podcastStudio404_Lam.jpg" alt="Wildcat's podcast"/>
-            </article>
-            <article>
-              <h4>vidéos, etc...</h4>
-            </article>
-          </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <ul>
-        <li><a href="https://github.com/wildcat7534">Mon GitHub !</a></li>
-      </ul>
-    </section>
-    <script src="assets/js/engine.js"></script>
-  </body>
+      
+    </body>
 </html>
