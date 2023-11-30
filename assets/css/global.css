@@ -98,7 +98,7 @@ section.projects div.box {
   width: 57%;
   height: auto;
   margin: 10px;
-  border: ridge 6px darkgoldenrod;
+  border: ridge 6px #b8860b;
   animation: filterBrightnes 2s infinite alternate;
   animation: borderNeonFlashesViolet 2s infinite alternate;
 }

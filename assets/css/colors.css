@@ -1,0 +1,74 @@
+/* https://coolors.co/ffffeb-b8860b-ff00ff-004e64-00a5cf */
+:root {
+  --wc-yellow: #ff0;
+  --wc-yellow-50: #ffffeb;
+  --wc-yellow-100: #ffffc2;
+  --wc-yellow-200: #ffff99;
+  --wc-yellow-300: #ffff70;
+  --wc-yellow-400: #ffff47;
+  --wc-yellow-500: #ffff00;
+  --wc-yellow-600: #e6e600;
+  --wc-yellow-700: #cccc00;
+  --wc-yellow-800: #b3b300;
+  --wc-yellow-900: #999900;
+  --wc-yellow-1000: #808000;
+
+  --wc-gold-50: #FFF8E7;
+  --wc-gold-100: #FFEFC2;
+  --wc-gold-200: #FFE6A0;
+  --wc-gold-300: #FFDD7E;
+  --wc-gold-400: #FFD45C;
+  --wc-gold-500: #E7AA0D;
+  --wc-gold-600: #D99E0B;
+  --wc-gold-700: #C89209;
+  --wc-gold-800: #BA8607;
+  --wc-gold-900: #AB7A05;
+
+
+  --wc-pink-50: #ffebff;
+  --wc-pink-100: #ffc2ff;
+  --wc-pink-200: #ff99ff;
+  --wc-pink-300: #ff70ff;
+  --wc-pink-400: #ff47ff;
+  --wc-pink-500: #ff00ff;
+  --wc-pink-600: #e600e6;
+  --wc-pink-700: #cc00cc;
+  --wc-pink-800: #b300b3;
+  --wc-pink-900: #990099;
+  --wc-pink-1000: #800080;
+
+  --wc-darkblue-50: #e7f2ff;
+  --wc-darkblue-100: #c2dfff;
+  --wc-darkblue-200: #99ccff;
+  --wc-darkblue-300: #70b8ff;
+  --wc-darkblue-400: #47a5ff;
+  --wc-darkblue-500: #1f91ff;
+  --wc-darkblue-600: #1a7de6;
+  --wc-darkblue-700: #1669cc;
+  --wc-darkblue-800: #1255b3;
+  --wc-darkblue-900: #0d4199;
+  --wc-darkblue-1000: #092d80;
+
+
+  --wc-blue-50: #d7dfea;
+  --wc-blue-100: #bccadc;
+  --wc-blue-200: #a1b5ce;
+  --wc-blue-300: #87a0c0;
+  --wc-blue-400: #6c8cb2;
+  --wc-blue-500: #5f81ab;
+  --wc-blue-600: #4d6c93;
+  --wc-blue-700: #3f5978;
+  --wc-blue-800: #31455e;
+  --wc-blue-900: #233143;
+  --wc-blue-1000: #151e28;
+
+/*variante par co-pilot*/
+  --wc-blue-600: #4f6d99;
+  --wc-blue-700: #3f5988;
+  --wc-blue-800: #2f4576;
+  --wc-blue-900: #1f3365;
+  --wc-blue-1000: #0f1f53;
+
+
+}
+/* Breakpoints */
