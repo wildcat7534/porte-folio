@@ -37,6 +37,19 @@ body {
 h2.wildcatTitle {
   display: inline;
 }
+#tilteProjectColorCode {
+  font-family: system-ui;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#tilteProjectColorCode h4 {
+  display: inline;
+  font-size: 24px;
+  color: var(--wc-pink-800);
+}
 section.projects {
   margin-top: 30px;
   display: flex;
@@ -78,18 +91,16 @@ section.projects div.projectBoxes {
 }
 .projectImages  {
   z-index: 10;
+  width: 100%;
 }
 /* .projectBoxes:hover .descriptionProject{
   display: block;
 } */
 #labybiImage {
-  width: 100%;
 }
-.ilcImage {
-  width: 100%;
+#ilcImage {
 }
-.serverImage {
-  width: 100%;
+#serverImage {
 }
 #divServerProject {
   display: flex;
@@ -106,6 +117,12 @@ section.projects div.projectBoxes {
 }
 #divServerProject img:hover {
   border: ridge 6px #ff0;
+}
+#divImgHobbies img {
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
+  border: ridge 6px darkgoldenrod;
 }
 #neroWildcatDrawAI {
   width: 45%;
@@ -137,12 +154,15 @@ article {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width: 680px;
-  height: 550px;
+  width: 550px;
+  height: fit-content;
   flex-direction: column;
 }
-#contact li a {
+#contact a{
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
-  font-size: 2em;
+  font-size: 1.8em;
+  margin-top: 1em;
+  margin-left: 2em;
+  display: inline-block;
 }

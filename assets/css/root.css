@@ -1,9 +1,23 @@
 /* FILEPATH: /home/wildcat/Documents/porte-folio/assets/css/global.css */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* Fonts */
 @font-face {
   font-family: 'lobster';
   src: url(fonts/Lobster/Lobster-Regular.ttf);
 }
-
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url(fonts/PressStart2P/PressStart2P-Regular.ttf);
+}
+/* Global */
 body {
   background-color: #000;
   color: #fff;
@@ -60,15 +74,11 @@ h2 {
 img {
   width: 50%;
 }
-a {
+a.link {
   color: #fff;
   text-decoration: none;
   border-bottom: 2px solid #fff;
   transition: border-bottom 0.3s ease-in-out;
-}
-
-a:hover {
-  border-bottom: 2px solid #ff0;
 }
 p {
   font-size: 1.1em;

@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="assets/pictures/misc/favicons/favicon.ico" type="image/x-icon"/>
   </head>
 
-
   <body>
     <header>
       <div id="divImgHeader">
@@ -23,11 +22,19 @@
         <h5 id="subtitleVersionsSelected"> Version rétro web 1.0 des années 2000 </h5>
         <button id="buttonVersions">Changer de version [à faire]</button>
     </header>
+
     <section class="projects">
-      <div class="projectBoxes perso" id="projet1">
-        <div id="divImgProjet1" class="projectImages">
-          <img id="labybiImage" src="assets/pictures/games/labyMenuFin.png" alt="Screenshot of Labyby">
+<!--        one title and a color code for perso and pro -->      
+      <div id="tilteProjectColorCode">
+        <h4>Projects : &nbsp;</h2>
+        <div id="colorCode">
+          <span class="neonBlue">Perso[blue]</span>
+          <span class="neonRed">Pro[red]</span>
         </div>
+      </div>
+<!--       Boxes of my projects -->
+      <div class="projectBoxes perso" id="projet1">
+        <img id="labybiImage" class="projectImages" src="assets/pictures/games/labyMenuFin.png" alt="Screenshot of Labyby">
         <div id="descriptionProject1" class="descriptionProject">
           <h3 class="titleProject">Labybi</h3>
           <p class="neonRed">
@@ -39,9 +46,7 @@
         </div>
       </div>
       <div class="projectBoxes pro" id="projet2">
-        <div id="divImgProjet2" class="projectImages">
-          <img class="ilcImage" src="assets/pictures/pro/ILC_France_After_home.png" alt="Screenshot of website ILC France">
-        </div>
+        <img id="ilcImage" class="projectImages" src="assets/pictures/pro/ILC_France_After_home.png" alt="Screenshot of website ILC France">
         <div id="divTextProjet2" class="descriptionProject">
           <h3 class="titleProject">Refonte page Home/not Home Header</h3>
           <p class="neonRed">
@@ -52,9 +57,7 @@
         </div>
       </div>
       <div class="projectBoxes perso" id="projet3">
-        <div id="divImgProjet3" class="projectImages">
-          <img class="serverImage" src="assets/pictures/servers/Bonto_settingUp.jpg" alt="Screenshot of setting up a big server">
-        </div>
+        <img id="serverImage" class="projectImages" src="assets/pictures/servers/Bonto_settingUp.jpg" alt="Screenshot of setting up a big server">
         <div id="divTextProjet3" class="descriptionProject">
           <h3 class="titleProject">Making my own room's servers</h3>
           <p class="neonBlue">
@@ -65,10 +68,8 @@
           </p>
         </div>
       </div>
-      <div class="projectBoxes" id="projet4">
-        <div id="divImgProjet4" class="projectImages">
-          <img class="javaImage" src="#" alt="Screenshot of Java's exercise">
-        </div>
+      <div class="projectBoxes perso" id="projet4">
+        <img id="javaImage" class="projectImages" src="assets/pictures/codes/MotCroise.java_(CNAM_NFA032)_version_SANS_NOM .png" alt="Screenshot of Java's exercise">
         <div id="divTextProjet4" class="descriptionProject">
           <h3 class="titleProject">Java</h3>
           <p class="neonBlue">
@@ -79,32 +80,42 @@
     </section>
     <section id="hobbies">
       <h2>Hobbies</h2>
-      <ul>
-        <li>
           <div id="divImgHobbies">
-            Dessins(+AI)
-            <img id="neroWildcatDrawAI" src="assets/pictures/Nero_WiLDCaT.jpg" alt="Wildcat's drawing" />
-            musics
-            <img id="wildcatMix" src="assets/pictures/WiLDCaT_MiX.jpeg" alt="Wildcat's mixing" />
-            podcats
-            <img id="wildcatPodcast" src="assets/pictures/podcastStudio404_Lam.jpg" alt="Wildcat's podcast" />
+            <article>
+              <span>
+                Dessins(+AI)
+              </span>
+              <img id="neroWildcatDrawAI" src="assets/pictures/Nero_WiLDCaT.jpg" alt="Wildcat's drawing" />
             </article>
             <article>
-              <h4>vidéos, etc...</h4>
+              <span>
+                musics
+              </span>
+              <img id="wildcatMix" src="assets/pictures/WiLDCaT_MiX.jpeg" alt="Wildcat's mixing" />
+            </article>
+            <article>
+              <span>
+              podcats
+              </span>
+              <img id="wildcatPodcast" src="assets/pictures/podcastStudio404_Lam.jpg" alt="Wildcat's podcast" />
+            </article>
+            <article>
+              <span>vidéos, etc...</span>
             </article>
           </div>
     </section>
     
     <section id="contact">
       <h2>Contact</h2>
-      <ul>
-        <li><a id="linkContact" href="https://github.com/wildcat7534">Mon GitHub !</a></li>
-      </ul>
+      <a id="linkContact" href="https://github.com/wildcat7534">Mon GitHub !</a></li>
     </section>
     <script src="assets/js/engine.js"></script>
 
-    <section  id="oldSection">
 
+
+
+<!--    Old version of the site-->
+    <section  id="oldSection">
       <section>
         <nav>
           <ul>
@@ -222,6 +233,6 @@
           <li>Chez Amazon(AWS)</li>
         </ul>
       </section>
-      
+          
     </body>
 </html>
