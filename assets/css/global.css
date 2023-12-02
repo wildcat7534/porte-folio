@@ -45,6 +45,9 @@ h2.wildcatTitle {
   display: flex;
   justify-content: space-between;
 }
+#colorCode {
+  font-size: 1.4rem;
+}
 #tilteProjectColorCode h4 {
   display: inline;
   font-size: 24px;

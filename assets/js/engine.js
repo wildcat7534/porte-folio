@@ -19,7 +19,7 @@ function changeButton() {
     let body = document.querySelector('body');
     body.style.backgroundImage = "url('assets/pictures/littleRabbits.gif')";
     body.style.backgroundColor = "#2d573f";
-    body.style.backgroundSize = "200px";
+    body.style.backgroundSize = "300px";
     body.style.color = "deeppink";
 }
 
