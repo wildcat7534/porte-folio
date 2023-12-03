@@ -32,7 +32,6 @@ body {
   background-attachment: fixed;
   background-color: #000000;
   background-size: 250px;
-  margin-left: 30px;
 }
 h2.wildcatTitle {
   display: inline;
@@ -50,17 +49,20 @@ h2.wildcatTitle {
 }
 #tilteProjectColorCode h4 {
   display: inline;
-  font-size: 24px;
-  color: var(--wc-pink-800);
+  font-size: 26px;
+  color: var(--wc-pink-200);
+  animation: neonVioletRetroFlashes 1s ease-in-out infinite alternate;
 }
-section.projects {
-  margin-top: 30px;
+section#projects {
+  width: 90vw;
+  margin: 3vh auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  padding: 2em;
 }
-section.projects div.projectBoxes {
+section#projects div.projectBoxes {
   position: relative;
   margin: 60px;
   width: 33%;
@@ -121,6 +123,19 @@ section.projects div.projectBoxes {
 #divServerProject img:hover {
   border: ridge 6px #ff0;
 }
+#hobbies {
+  width: 90vw;
+  margin: 3vh auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+}
+#divImgHobbies article span{
+  color: var(--wc-blue-400);
+  font-size: 18px;
+}
 #divImgHobbies img {
   max-width: 300px;
   height: auto;
@@ -161,11 +176,14 @@ article {
   height: fit-content;
   flex-direction: column;
 }
+footer {
+  margin: 2em;
+}
 #contact a{
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
   font-size: 1.8em;
-  margin-top: 1em;
+  margin: 1em;
   margin-left: 2em;
   display: inline-block;
 }

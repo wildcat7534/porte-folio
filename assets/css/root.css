@@ -20,9 +20,7 @@ a {
 /* Global */
 body {
   background-color: #000;
-  color: #fff;
   font-family: 'Press Start 2P', cursive;
-  margin-left: 50px;
 }
 ul li {
   list-style: none;

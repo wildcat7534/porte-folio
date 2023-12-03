@@ -68,7 +68,25 @@
   --wc-blue-800: #2f4576;
   --wc-blue-900: #1f3365;
   --wc-blue-1000: #0f1f53;
-
-
+}
+.border-radiant {
+  border: 6px ridge var(--wc-yellow-800);
+  background: linear-gradient(#040b13, #040b13) padding-box,linear-gradient(90deg, #29abe2, #8e98df, #cda9e8, #f2bbb7, #fff893) border-box;
+  border-radius: 16px;
+}
+.boerdr-linear-gradient-cyberpunk {
+  border: 6px ridge var(--wc-yellow-800);
+  background: linear-gradient(#040b13, #040b13) padding-box,linear-gradient(90deg, #29abe2, #8e98df, #cda9e8, #f2bbb7, #fff893) border-box;
+  border-radius: 16px;
+}
+.border-gradient-linear-neon-purple {
+  border: 6px ridge var(--wc-pink-800);
+  background: linear-gradient(#040b13, #040b13) padding-box,linear-gradient(90deg, #29abe2, #8e98df, #cda9e8, #f2bbb7, #fff893) border-box;
+  border-radius: 16px;
+}
+.border-gradient-linear-rainbow {
+  border: 2px solid transparent;
+  background: linear-gradient(#040b13, #040b13) padding-box,linear-gradient(90deg, #29abe2, #8e98df, #cda9e8, #f2bbb7, #fff893) border-box;
+  border-radius: 16px;
 }
 /* Breakpoints */
