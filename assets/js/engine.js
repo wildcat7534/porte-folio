@@ -31,6 +31,7 @@ function projectBoxesOnTouch() {
     let descriptionProjectClass = document.getElementsByClassName('descriptionProject');
     for (let i = 0; i < descriptionProjectClass.length; i++) {
         descriptionProjectClass[i].style.display = "block";
+        
     }
 }
 
