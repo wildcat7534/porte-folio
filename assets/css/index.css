@@ -21,7 +21,6 @@ body {
   border-radius: 50%;
   background-color: #bd2fd6;
   z-index: -1;
-
 }
 .boxShadowGradiantRadius {
   box-shadow: 0 0 8px 12px #ea51f1, 0 0 16px 20px #ce2eef, 0 0 16px 20px #a704be;
