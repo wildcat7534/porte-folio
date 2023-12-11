@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/root.css"/>
+    <link rel="stylesheet" href="assets/css/global.css"/>
+    <link rel="stylesheet" href="assets/css/colors.css"/>
+    <link rel="icon" href="assets/pictures/misc/favicons/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/pictures/misc/favicons/favicon.ico" type="image/x-icon"/>
+  </head>
+
+  <body>
+    <header>
+      <div id="divImgHeader">
+        <div id="titleportefolio">
+          <h1>Porte-folio_&nbsp;&nbsp;&nbsp;&nbsp;V.0.2.2</h1></div>
+        <img id="imgHeader" src="assets/pictures/misc/favicons/cat1t2.gif" alt="Wildcat's logo"/>
+        <h2 class="wildcatTitle">WiLDCaT</h2>
+      </div>
+        <h5 id="subtitleEncoding">Écrit en HTML/CSS et JavaScript Vanilla</h5>
+        <h5 id="subtitleVersionsSelected"> Version rétro web 1.0 des années turbo 2000</h5>
+        <button id="buttonVersions">Changer de version [à faire]</button>
+    </header>
+
+
+    <main>
+      <section id="projects" class="border-gradient-linear-rainbow projects">
+        <!--  One title and a color code for perso and pro -->      
+        <div id="tilteProjectColorCode">
+          <h4>Projects : </h2>
+          <div id="colorCode">
+            <span id="neonBlue">Perso[blue]</span>
+            <span id="neonViolet">Pro[violet]</span>
+          </div>
+        </div>
+        <!--       Boxes of my projects -->
+        <div class="projectBoxes perso" id="projet1">
+          <img id="labybiImage" class="projectImages" src="assets/pictures/games/labyMenuFin.png" alt="Screenshot of Labyby">
+          <div id="descriptionProject1" class="descriptionProject">
+            <h3 class="titleProject">Labybi</h3>
+            <p id="neonRed">
+              Un exercice où il fallait dynamiquement changer de niveau en utilisant que du HTML et CSS.
+              Je n'ai pas pu m'empècher de le transformer en jeu. Le but est de trouver la sortie en
+              passant sur la dernière case puis en cliquant sur "go lvl x". Sans utilisation de Javascript! 
+              Tous le reste à été fait en Javascript.
+            </p>
+          </div>
+        </div>
+        <div class="projectBoxes pro" id="projet2">
+          <img id="ilcImage" class="projectImages" src="assets/pictures/pro/ILC_France_After_home.png" alt="Screenshot of website ILC France">
+          <div id="divTextProjet2" class="descriptionProject">
+            <h3 class="titleProject">Refonte page Home/not Home Header</h3>
+            <p id="neonRed">
+              Refonte de la page Home et du Header de la page NoteHome pour le site ILC France.
+              Le but était de rendre le site plus moderne et plus responsive.
+              Le site est en cours de développement.
+            </p>
+          </div>
+        </div>
+        <div class="projectBoxes perso" id="projet3">
+          <img id="serverImage" class="projectImages" src="assets/pictures/servers/Bonto_settingUp.jpg" alt="Screenshot of setting up a big server">
+          <div id="divTextProjet3" class="descriptionProject">
+            <h3 class="titleProject">Making my own room's servers</h3>
+            <p id="neonBlue">
+              Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à démarrer des
+              servers. J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les
+              synchroniser entre mes différents appareils. J'ai ensuite installé un serveur web pour pouvoir
+              héberger mon site web. J'ai aussi installé un serveur Ark pour pouvoir jouer avec mes amis.
+            </p>
+          </div>
+        </div>
+        <div class="projectBoxes perso" id="projet4">
+          <img id="javaImage" class="projectImages" src="assets/pictures/codes/MotCroise.java_(CNAM_NFA032)_version_SANS_NOM .png" alt="Screenshot of Java's exercise">
+          <div id="divTextProjet4" class="descriptionProject">
+            <h3 class="titleProject">Java</h3>
+            <p id="neonBlue">
+              Suivi de cours en Java avec maitrise des Classes.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="hobbies" class="border-gradient-linear-rainbow">
+        <h2>Hobbies</h2>
+            <div id="divImgHobbies">
+              <article>
+                <span>
+                  Dessins(+AI)
+                </span>
+                <img id="neroWildcatDrawAI" src="assets/pictures/Nero_WiLDCaT.jpg" alt="Wildcat's drawing" />
+              </article>
+              <article>
+                <span>
+                  musics
+                </span>
+                <img id="wildcatMix" src="assets/pictures/WiLDCaT_MiX.jpeg" alt="Wildcat's mixing" />
+              </article>
+              <article>
+                <span>
+                podcats
+                </span>
+                <img id="wildcatPodcast" src="assets/pictures/podcastStudio404_Lam.jpg" alt="Wildcat's podcast" />
+              </article>
+              <article>
+                <span>vidéos, etc...</span>
+              </article>
+            </div>
+      </section>
+      
+      <footer>
+        <section id="contact">
+          <h2>Contact</h2>
+          <a id="linkContact" href="https://github.com/wildcat7534">
+                  Mon GitHub !
+          </a>
+        </section>
+        <script src="assets/js/engine.js"></script>
+      </footer>
+    </main>
+  </body>
+
+
+<!--    Old version of the site-->
+    <section  id="oldSection">
+      <section>
+        <nav>
+          <ul>
+            <li><a id="neonGold" href="#formations">Formations</a></li>
+            <li><a id="neonGold" href="#skills">Skills</a></li>
+            <li><a id="neonGold" href="#projects">Projects</a></li>
+            <li><a id="neonGold" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="Formations">
+        <h2>Diplomes</h2>
+        <ul>
+          <li>Diplome de Développeur Web et Web Mobile</li>
+          <li>Diplome de Creative Technologist</li>
+          <li>Diplome de développeur Java(en cours)</li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li id="java">Java
+            <ul>
+              <li>Les classes dans Java !
+                <ul>
+                  <li>jeux de cartes (exo)
+                    <ul>
+                      <li>Création de classes et vérification des entrés entre les classes 
+                          pour éviter des erreurs.</li>
+                    </ul>
+                  </li>
+                  <li>INSCRYPTION (projet)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript
+            <ul>
+              <li>Les classes en JavaScipt !
+                <ul>
+                  <li>La ferme à Objets
+                    <ul>
+                      <li>Projet pour montrer plus concrètement les classes en JavaScript.
+                        Et aussi découvrir l'équivalence avec Java.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Labyby le jeu !</li>
+            </ul>
+          </li>
+          <li>Servers
+            <ul>
+              <li>Hébergement server Linux à distance</li>
+              <li>configuration du routeur</li>
+              <li>configuration d'Apache</li>
+              <li>configuration de CertBot</li>
+            </ul>
+          </li>
+          <li>3D Fusion</li>
+          <li>Arduino</li>
+          <li>I.A.
+            <ul>
+              <li>Images</li>
+              <li>Voix</li>
+              <li>Vidéos</li>
+            </ul>
+          </li>
+          <li>Autres codes</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Labyby</h3>
+            <a href="assets/projets/labyby/index.html">
+              <img id="imgLabyby" src="assets/pictures/games/labyMenuFin.png" href="assets/projets/labyby/index.html" alt="Screenshot of Labyby">
+            </a>
+            <p id="neonRed">Un exercice où il fallait dynamiquement changer de niveau en utilisant que du HTML et CSS.
+              Je n'ai pas pu m'empècher de le transformer en jeu. Le but est de trouver la sortie en
+              passant sur la dernière case puis en cliquant sur "go lvl x". Sans utilisation de Javascript! 
+              Tous le reste à été fait en Javascript.
+            </p>
+          </li>
+          <li>
+            <h3>Server projet</h3>
+            <div id="divServerProject">
+              <img id="imgServerProject" src="assets/pictures/servers/brontoCity.jpg" alt="Screenshot of Server's project">
+              <img id="imgServerProject2" src="assets/pictures/servers/Bronto.jpg" alt="Screenshot of Server's project">
+              <img id="imgServerRoom" src="assets/pictures/servers/serversRoomStart.jpg" alt="Screenshot of Server's room">
+            </div>
+            <p id="neonBlue">Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à démarrer des
+              servers. J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les
+              synchroniser entre mes différents appareils. J'ai ensuite installé un serveur web pour pouvoir
+              héberger mon site web. J'ai aussi installé un serveur Ark pour pouvoir jouer avec mes amis.
+              
+            </p>
+          </li>
+          <li>
+            <h3>Java</h3>
+            <img src="exoJava.png" alt="Screenshot of Java's exercise">
+            <p>Suivi de cours en Java avec maitrise des Classes.</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Postes de rêve</h2>
+        <ul>
+          <li>Chez CIG</li>
+          <li>Chez Ubisoft</li>
+          <li>Chez Quantic Dream</li>
+          <li>Chez Amazon(AWS)</li>
+        </ul>
+      </section>
+          
+
+</html>
