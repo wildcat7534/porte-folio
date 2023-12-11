@@ -1,5 +1,6 @@
 function init() {
     titleProjectGetBoundingClientRect();
+    onClickProjectBoxesShadowBoxesEffect();
    
 }
 init();
@@ -52,8 +53,23 @@ function titleProjectGetBoundingClientRect() {
             descriptionProject.style.top = "-" + (titleProjectHeight + 18.72 + 29) + "px";
             descriptionProject.style.transition = "all 0.5s ease-in-out";
         });
-       
     }
 }
+
+function onClickProjectBoxesShadowBoxesEffect() {
+    let projectBoxes = document.querySelectorAll('.projectBoxes');
+    console.log("project boxes : ", projectBoxes);
+    for (let i = 0; i < projectBoxes.length; i++) {
+        projectBoxes[i].addEventListener('click', function () {
+            if (projectBoxes[i].style.boxShadow == "rgb(255 236 120) 0px 0px 11px 9px") {
+                console.log("box shadow : ", projectBoxes[i].style.boxShadow);
+                projectBoxes[i].style.boxShadow = "none";
+            } else {
+                projectBoxes[i].style.boxShadow = "rgb(255 236 120) 0px 0px 11px 9px";
+            }
+        });
+    }
+}
+
 
 // projectsData = [{title: "labiby", description: "description", picture: "picture"}]

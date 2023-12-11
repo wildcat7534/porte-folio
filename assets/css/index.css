@@ -1,0 +1,83 @@
+/* CSS for the different styles */
+/*PAGE Accueil*/
+body {
+  background-color: #3b5565;
+  font-family: 'Press Start 2P', cursive;
+}
+.glass {
+  border-radius: 5%;
+  background-color: rgb(193 237 222 / 20%);
+  width: 80%;
+  margin: 5% auto;
+  height: 80vh;
+}
+
+.backgroundCercleColor {
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  width: 210px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #bd2fd6;
+  z-index: -1;
+
+}
+.boxShadowGradiantRadius {
+  box-shadow: 0 0 8px 12px #ea51f1, 0 0 16px 20px #ce2eef, 0 0 16px 20px #a704be;
+}
+.retro {
+  background: #000;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 0 5px #fff, 0 0 0 10px #000;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  width: 33%;
+}
+
+/* Modern Style */
+.modern {
+  background: #fff;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border: 2px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 0 0 5px #000, 0 0 0 10px #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+/* 3D Style */
+.three-d {
+  background: #fff;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border: 2px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 0 0 5px #000, 0 0 0 10px #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
