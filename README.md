@@ -13,3 +13,8 @@
 - [x] To begin with, I focused on setting up the necessary files and directories for my portfolio project.
       VScode, FileZilla, server, router (Freebox Delta), HTML, CSS, JavaScript
       Vscode plugin's : SynthWave '84, Prettier, React Native Tools, Sublime Text Keymap, ES7+, Eslint, Github Copilot, GitHub Pull Requests.
+
+11/12/23
+
+- [x] Animation projet ILC Avant Après, création d'une page index pour choicir les styles, page retro renomée
+      récupération police player 2P, refonte header "divHeaderBlock"
