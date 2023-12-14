@@ -115,6 +115,9 @@ section#projects div.projectBoxes {
   height: 100%;
   overflow: hidden;
 }
+.descriptionProject p {
+  visibility: hidden;
+}
 .titleProject {
   opacity: 0;
   margin: 40px 40px;
@@ -228,28 +231,28 @@ a.link {
 }
 
 /* Classe Néon */
-#neonViolet {
+.neonViolet {
   text-shadow: 0 0 25px rgb(255 0 255);
   font-family: sans-serif;
   font-weight: bold;
   color: #f4d8f4;
 }
 
-#neonRed {
+.neonRed {
   text-shadow: 0 0 25px rgb(255 44 44);
   font-family: sans-serif;
   font-weight: bold;
   color: #f4d8d8;
 }
 
-#neonBlue {
+.neonBlue {
   text-shadow: 0 0 20px rgb(45 45 243);
   font-family: sans-serif;
   font-weight: bold;
   color: #c6c6e4;
 }
 
-#neonGold {
+.neonGold {
   text-shadow: 0 0 25px rgb(246 246 22 / 84%);
   font-family: sans-serif;
   font-weight: bold;

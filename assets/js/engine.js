@@ -39,6 +39,7 @@ function projectBoxesOnTouch() {
     }
 }
 var projectBoxesActived = false;
+var clickDetail = 0;
 function titleProjectGetBoundingClientRect() {
     const projectBoxes = document.querySelectorAll('.projectBoxes');
     for (projectBox of projectBoxes) {
@@ -49,23 +50,48 @@ function titleProjectGetBoundingClientRect() {
         let titleProjectHeight = titleProjectDimensions.height;
         //console.log("titleProjectHeight : ", (titleProjectHeight + 18.72 + 19));
         projectBox.addEventListener('click', function () {
+            let para = this.querySelector('p');
             
-            if (projectBoxesActived == false) {
+            if ( clickDetail == 0 && projectBoxesActived == false ) {
                 projectBoxesActived = true;
                 descriptionProject.style.transition = "all 0.5s ease-in-out";
                 titleProject.style.transition = "all 1s ease-in-out";
                 descriptionProject.style.opacity = "1";
                 titleProject.style.opacity = "1";
                 descriptionProject.style.top = "-" + (titleProjectHeight + 18.72 + 29) + "px";
-            } else {
+                clickDetail++;
+                console.log("if : ", clickDetail, " et " , projectBoxesActived);
+            }
+            else if (clickDetail == 1 && projectBoxesActived == true) {
+                console.log("else if : ", clickDetail, " et " , projectBoxesActived);
+                divTextProjet2.style.zIndex = "10";
+                divTextProjet2.style.overflow = "unset";
+                para.style.backgroundColor = "black";
+                para.style.visibility = "visible";
+                console.log("else if : this : ", this, "this.p : ", para);
+                clickDetail++;
+                
+            }
+            else {
+                para.style.visibility = "hidden";
+                console.log("else : ", clickDetail, " et " , projectBoxesActived);
                 projectBoxesActived = false;
                 descriptionProject.style.transition = "all 0.5s ease-in-out";
                 titleProject.style.transition = "all 1s ease-in-out";
                 descriptionProject.style.opacity = "0";
                 titleProject.style.opacity = "0";
                 descriptionProject.style.top = "0px";
+                clickDetail = 0;
+                console.log("else ");
             }
         });
+    }
+}
+class Boxe {
+    constructor(title, description, picture) {
+        this.title = title;
+        this.description = description;
+        this.picture = picture;
     }
 }
 
@@ -87,7 +113,7 @@ function onClickProjectBoxesShadowBoxesEffect() {
                     setTimeout(() => {
                         imgILC.style.transition = "all 1s ease-in-out";
                         imgILC.style.opacity = "1";
-                    }, 700);
+                    }, 500);
                 }
             }
         });
