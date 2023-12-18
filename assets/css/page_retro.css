@@ -167,6 +167,9 @@ section#projects div.projectBoxes {
   align-items: center;
   padding: 2em;
 }
+#hobbies article {
+  margin: 20px;
+}
 #divImgHobbies article span{
   color: var(--wc-blue-400);
   font-size: 18px;
@@ -192,10 +195,21 @@ section#projects div.projectBoxes {
   animation: borderNeonFlashesViolet 2s infinite alternate;
 }
 #wildcatPodcast {
+  padding: 3%;
   width: 37%;
   height: auto;
   margin: 10px;
   border: ridge 6px darkgoldenrod;
+}
+#sakura {
+  padding: 3%;
+}
+#listPodcast {
+  
+}
+#listPodcast li {
+  color: var(--wc-yellow-300);
+  font-size: 0.9em;
 }
 #divImgHobbies {
   display: flex;
@@ -214,7 +228,7 @@ article {
 footer {
   margin: 2em;
 }
-#contact a{
+#contact a {
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
   font-size: 1.8em;
