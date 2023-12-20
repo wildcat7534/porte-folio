@@ -210,6 +210,7 @@ section#projects div.projectBoxes {
 #listPodcast li {
   color: var(--wc-yellow-300);
   font-size: 0.9em;
+  margin: 10px 0;
 }
 #divImgHobbies {
   display: flex;
