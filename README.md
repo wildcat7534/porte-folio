@@ -18,3 +18,6 @@
 
 - [x] Animation projet ILC Avant Après, création d'une page index pour choicir les styles, page retro renomée
       récupération police player 2P, refonte header "divHeaderBlock"
+
+- [x] Ticket BETA bien avancé, [PAGE RETRO] résumé d'accueil, Email, decritpion projets et titres tjs apparent, titre des sections cohérent,
+      numéro de version mis en dessous du titre,
