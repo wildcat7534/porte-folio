@@ -12,11 +12,18 @@
 
   <body>
     <header>
-        <h1>Porte-folio_&nbsp;&nbsp;&nbsp;&nbsp;V.0.2.5</h1>
+        <h1>Porte-folio_</h1>
+        <h2 id="version">V.0.4.0</h2>
       <div id="divHeaderBlock">
         <img id="imgHeader" src="assets/pictures/misc/favicons/cat1t2.gif" alt="Wildcat's logo"/>
-        <h2 class="wildcatTitle">WiLDCaT</h2>
-        <h5 id="subtitleEncoding">Écrit en HTML/CSS et JavaScript Vanilla</h5>
+        <h2 class="wildcatTitle">Clément</h2>
+        <p id="description">Développeur Web et Web Mobile, je fais mon Porte-folio pour présenter mes projets réalisés ou en cours
+          et mes compétences. Mes diplomes acquis et en cours. Mes hobbies et mes projets personnels.
+          Je suis aussi un passionné de jeux vidéos et de nouvelles technologies. 
+          Je suis aussi un grand fan de la culture japonaise et de la culture geek en général.
+
+        </p>
+        <h5 id="subtitleEncoding">Page écrite en HTML/CSS et JavaScript Vanilla</h5>
         <h5 id="subtitleVersionsSelected"> Version rétro web 1.0 des années turbo 2000</h5>
       </div>
     </header>
@@ -33,10 +40,10 @@
           </div>
         </div>
         <!--       Boxes of my projects -->
-        <div class="projectBoxes perso" id="projet1">
-          <img id="labybiImage" class="projectImages" src="assets/pictures/games/labyMenuFin.png" alt="Screenshot of Labyby">
+        <div class="projectBoxes " id="projet1">
+          <h3 class="titleProject">Labybi</h3>
+          <img id="labybiImage" class="projectImages perso" src="assets/pictures/games/labyMenuFin.png" alt="Screenshot of Labyby">
           <div id="descriptionProject1" class="descriptionProject">
-            <h3 class="titleProject">Labybi</h3>
             <p class="neonRed">
               Un exercice où il fallait dynamiquement changer de niveau en utilisant que du HTML et CSS.
               Je n'ai pas pu m'empècher de le transformer en jeu. Le but est de trouver la sortie en
@@ -45,10 +52,10 @@
             </p>
           </div>
         </div>
-        <div class="projectBoxes pro" id="projet2">
-          <img id="ilcImage" class="projectImages" src="assets/pictures/pro/ILC_France_Before_home.png" alt="Screenshot of website ILC France">
+        <div class="projectBoxes " id="projet2">
+          <h3 class="titleProject ">Refonte Graphique d'un site existant</h3>
+          <img id="ilcImage" class="projectImages pro" src="assets/pictures/pro/ILC_France_Before_home.png" alt="Screenshot of website ILC France">
           <div id="divTextProjet2" class="descriptionProject">
-            <h3 class="titleProject">Refonte page Home/not Home Header</h3>
             <p class="neonRed">
               Refonte de la page Home et du Header de la page NoteHome pour le site ILC France.
               Le but était de rendre le site plus moderne et plus responsive.
@@ -56,22 +63,22 @@
             </p>
           </div>
         </div>
-        <div class="projectBoxes perso" id="projet3">
-          <img id="serverImage" class="projectImages" src="assets/pictures/servers/Bonto_settingUp.jpg" alt="Screenshot of setting up a big server">
+        <div class="projectBoxes" id="projet3">
+          <h3 class="titleProject">Making my own room's servers</h3>
+          <img id="serverImage" class="projectImages perso" src="assets/pictures/servers/Bonto_settingUp.jpg" alt="Screenshot of setting up a big server">
           <div id="divTextProjet3" class="descriptionProject">
-            <h3 class="titleProject">Making my own room's servers</h3>
             <p class="neonBlue">
-              Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à démarrer des
-              servers. J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les
+              Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à installer des
+              servers chez moi et faire une salle serveurs. J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les
               synchroniser entre mes différents appareils. J'ai ensuite installé un serveur web pour pouvoir
-              héberger mon site web. J'ai aussi installé un serveur Ark pour pouvoir jouer avec mes amis.
+              héberger mon site web. J'ai aussi installé un serveur de jeu (Ark, valheim) pour pouvoir jouer avec mes amis.
             </p>
           </div>
         </div>
-        <div class="projectBoxes perso" id="projet4">
-          <img id="javaImage" class="projectImages" src="assets/pictures/codes/MotCroise.java_(CNAM_NFA032)_version_SANS_NOM .png" alt="Screenshot of Java's exercise">
+        <div class="projectBoxes" id="projet4">
+          <h3 class="titleProject">Java</h3>
+          <img id="javaImage" class="projectImages perso" src="assets/pictures/codes/MotCroise.java_(CNAM_NFA032)_version_SANS_NOM .png" alt="Screenshot of Java's exercise">
           <div id="divTextProjet4" class="descriptionProject">
-            <h3 class="titleProject">Java</h3>
             <p class="neonBlue">
               Suivi de cours en Java avec maitrise des Classes.
             </p>
@@ -141,6 +148,9 @@
           <h2>Contact</h2>
           <a id="linkContact" href="https://github.com/wildcat7534">
                   Mon GitHub !
+          </a>
+          <a id="Email" href="mailto:clement.massol@gmail.com">
+                  Mon Email !
           </a>
         </section>
         <script src="assets/js/engine.js"></script>

@@ -11,16 +11,28 @@ h3 {
 }
 h2,
 h3 {
-  animation: neon2 1s ease-in-out infinite alternate;
+  animation: neon2 10s ease-in-out infinite alternate;
 }
 h1 {
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
   font-family: "Press Start 2p";
   margin: 30px auto 0px auto;
 }
+#version {
+  font-size: 1.4em;
+  color: #919090;
+  font-style: italic;
+  text-align: center;
+}
 h2.wildcatTitle {
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
+}
+#description {
+  font-size: 1.1em;
+  color: var(--wc-blue-300);
+  font-style: italic;
+  text-align: center;
 }
 #divHeaderBlock {
   margin-left: 2vw;;
@@ -51,7 +63,7 @@ h2.wildcatTitle {
   color: #919090;
 }
 #subtitleVersionsSelected {
-  color: #ff0;
+  color: var(--wc-gold-doree);
   font-family: system-ui;
   letter-spacing: 2px;
   font-size: 0.8em;
@@ -94,12 +106,16 @@ section#projects {
 }
 section#projects div.projectBoxes {
   position: relative;
+  flex-direction: column;
   margin: 60px;
   width: 33%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   /* animation: borderNeonFlashesViolet 2s infinite alternate; */
+}
+.projectBoxes:hover {
+  cursor: pointer;
 }
 .pro {
   border: var(--wc-pink-800) 6px ridge;
@@ -108,25 +124,21 @@ section#projects div.projectBoxes {
   border: var(--wc-darkblue-600) 6px ridge;
 }
 .descriptionProject {
-  opacity: 0;
-  position: absolute;
   top: 0px;
   /* background: black; */
   height: 100%;
   overflow: hidden;
 }
 .descriptionProject p {
-  visibility: hidden;
+  font-size: 0.9em;
+  padding: 3px 8px;
 }
 .titleProject {
-  opacity: 0;
-  margin: 40px 40px;
-  font-size: 1.5em;
+  margin-bottom: 20px;
+  opacity: 1;
+  font-size: 1.1em;
   text-align: center;
-}
-
-.projectBoxes:hover {
-  cursor: pointer;
+  color: var(--wc-gold-doree);
 }
 .projectImages  {
   z-index: 10;
@@ -208,6 +220,7 @@ section#projects div.projectBoxes {
   
 }
 #listPodcast li {
+  display: none;
   color: var(--wc-yellow-300);
   font-size: 0.9em;
   margin: 10px 0;
@@ -236,6 +249,9 @@ footer {
   margin: 1em;
   margin-left: 2em;
   display: inline-block;
+}
+#contact a:hover {
+  color: var(--wc-pink-800);
 }
 /* Retro style */
 a.link {
@@ -338,15 +354,16 @@ a.link {
 
 @keyframes neon2 {
   0% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 100px #ff0, 0 0 150px #ff0;
-  }
-
-  20% {
     text-shadow: none;
   }
-
+  70% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 100px #ff0, 0 0 120px #ff0;
+  }
+  80% {  
+   text-shadow: none;
+  }
   100% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 100px #ff0, 0 0 150px #ff0;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 100px #ff0, 0 0 120px #ff0;
   }
 }
 
