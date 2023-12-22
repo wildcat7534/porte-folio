@@ -29,7 +29,7 @@ function changeButton() {
 }
 
 function projectBoxesOnTouch() {
-    let box = document.getElementById('box');
+    let box = document.getElementById('projetBox');
     box.style.backgroundColor = "#2d573f";
     box.style.color = "#fff";
     box.style.border = "1px solid #fff";

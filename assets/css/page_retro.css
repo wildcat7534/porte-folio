@@ -1,6 +1,13 @@
 
 /* CSS */
 
+body {
+  background-image: url("../pictures/fondStars.webp");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #000000;
+  background-size: 250px;
+}
 h1,
 h2,
 h3 {
@@ -17,7 +24,7 @@ h3 {
 }
 h1 {
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
-  font-family: "Press Start 2p";
+  font-family: "Press-Start-2P";
   margin: 30px auto 0px auto;
 }
 #divHeaderTitle {
@@ -85,13 +92,7 @@ h2.wildcatTitle {
   letter-spacing: 2px;
   font-size: 0.8em;
 }
-body {
-  background-image: url("../pictures/fondStars.webp");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-color: #000000;
-  background-size: 250px;
-}
+
 h2.wildcatTitle {
   display: inline;
 }

@@ -1,4 +1,52 @@
 /* FILEPATH: /home/wildcat/Documents/porte-folio/assets/css/global.css */
+@font-face {
+  font-family: 'lobster';
+  src: url(fonts/Lobster/Lobster-Regular.ttf);
+}
+@font-face {
+  font-family: 'Press-Start-2P';
+  src: url(fonts/PressStart2P/PressStart2P-Regular.ttf);
+}
+@font-face {
+  font-family: 'inconsolata';
+  src: url(fonts/Inconsolata/static/Inconsolata-Regular.ttf);
+}
+@font-face {
+  font-family: 'inconsolata-bold';
+  src: url(fonts/Inconsolata/static/Inconsolata-Bold.ttf);
+}
+@font-face {
+  font-family: 'inconsolata-italic';
+  src: url(fonts/Inconsolata/static/Inconsolata-Italic.ttf);
+}
+@font-face {
+  font-family: 'inconsolata-bold-italic';
+  src: url(fonts/Inconsolata/static/Inconsolata-BoldItalic.ttf);
+}
+@font-face {
+  font-family: 'inconsolata-light';
+  src: url(fonts/Inconsolata/static/Inconsolata-Light.ttf);
+}
+@font-face {
+  font-family: 'inconsolata-extraExpanded-regular';
+  src: url(fonts\Inconsolata\static\inconsolata-extraExpanded-regular.ttf);
+}
+@font-face {
+  font-family: 'noto-color-emoji';
+  src: url(fonts\Noto_Color_Emoji\NotoColorEmoji-Regular.ttf);
+}
+@font-face {
+  font-family: 'pacifico';
+  src: url(fonts\Pacifico\Pacifico-Regular.ttf);
+}
+@font-face {
+  font-display: swap;
+  font-family: 'permanent-marker';
+  font-weight: 400 !important;
+  font-style: normal;
+  src: url(fonts/Permanent_Marker/PermanentMarker-Regular.ttf) format('truetype'), 
+        url(fonts/Permanent_Marker/permanent-marker-v16-latin-regular.woff2) format('woff2');
+}
 /* Reset */
 * {
   margin: 0;
@@ -9,20 +57,13 @@ a {
   text-decoration: none;
 }
 /* Fonts */
-@font-face {
-  font-family: 'lobster';
-  src: url(fonts/Lobster/Lobster-Regular.ttf);
-}
-@font-face {
-  font-family: 'Press Start 2P';
-  src: url(fonts/PressStart2P/PressStart2P-Regular.ttf);
-}
+
 /* Global */
 body {
   background-color: #000;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'inconsolata';
 }
-ul li {
+li {
   list-style: none;
 }
 header nav ul {
@@ -50,9 +91,11 @@ h2 {
   font-size: 2.5em;
   margin: 0;
   padding: 0;
+  font-weight: unset;
 }
 img {
   width: 50%;
+  border-radius: 5%;
 }
 p {
   font-size: 1.1em;
