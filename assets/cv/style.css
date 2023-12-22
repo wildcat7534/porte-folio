@@ -1,0 +1,917 @@
+@font-face{
+	font-family:"fontkarma";
+	src: url('fonts/Karma-Regular.ttf');
+}
+@font-face{
+	font-family:"fontkarmab";
+	src: url('fonts/Karma-Bold.ttf');
+}
+html{
+	font-size: 62.5%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: teal;
+	font-size: calc(1em + 1vw); /* après definir txt ex: p{font-size:.8em;}*/
+	margin: 3% 3%;
+
+}
+main{
+	position: relative;
+}
+h2{
+	color: palevioletred;
+	font-size: 1.8em;
+	font-family: system-ui;
+	text-align: center;
+	margin: 0 auto;
+	/*offset-x | offset-y | blur-radius | color */
+	text-shadow: 1px 1px 2px black;
+}
+h3{
+	text-align: center;
+	color: pink;
+	background: lightseagreen;
+	padding: 10px;
+	margin: 15px;
+	width: fit-content;
+	border: 5px ridge palegoldenrod;
+	border-radius: 10px;
+}
+span.titre{
+	display: flex;
+	width: 475px;
+	margin: 2% auto;
+	font-size: 1em;
+	justify-content: center;
+	border: 5px ridge palegoldenrod;
+	border-radius: 10px;
+	background: mediumaquamarine;
+	padding: 10px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: solid 0.3em;
+	border-color: transparent;
+	border-bottom-color: palegoldenrod;
+	border-bottom-style: dotted;
+	margin: 3% auto;
+	padding-bottom: 5%;
+	flex-wrap: wrap;
+}
+header h1{
+	color:plum;
+	font-size: 2em;
+	margin-bottom: 1.5%;
+	/*offset-x | offset-y | blur-radius | color */
+	text-shadow: 1px 1px 2px black;
+}
+header nav{
+	width: 10.3em;
+	margin-bottom: 1.5%;
+}
+header nav ul{
+	color: gold;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+header nav ul li{
+	list-style: none;
+	text-align: right;
+
+}
+header nav ul li a{
+	color: goldenrod;
+	text-decoration: none;
+}
+header nav ul li button{
+	background-color: goldenrod;
+    width: 100px;
+    height: 25px;
+}
+#choixStyle{
+
+    margin-top: 1em;
+    margin-left: 1em;
+    box-shadow: 13px 12px 16px -7px rgba(0,0,0,0.75);
+    border: 3px ridge;
+
+}
+#choixStyle label:first-child{
+
+	color: gold;
+}
+#choixStyle label:nth-child(3){
+	color: burlywood;
+}
+#choixStyle label:nth-child(5){
+	color: plum;
+}
+/*--------FIN HEADER -----------*/
+
+/*------main-----*/
+section.site{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 2%;
+	border: 5px ridge palegoldenrod;
+    border-radius: 15px;
+    background: mediumaquamarine;
+    margin: 10% auto;
+}
+section.site a{
+	text-decoration: none;
+}
+section.site h2{
+	padding: 2px;
+	width: 100%;
+}
+section.site article{
+	margin: 5%;
+	border: 2px ridge lightgoldenrodyellow;
+    border-radius: 7px;
+    text-align: center;
+    background-color: indianred;
+    position: relative;
+}
+section.site article div{
+	margin: 15px 0;
+}
+section.site article span{
+	font-size: 1.5em;
+}
+section.site article h2{
+	font-size: 1.9em;
+	color: pink;
+}
+section.site article p{
+	font-family: "fontkarma";
+	color: aliceblue;
+	font-size: 1.4em;
+	padding: 1% 2%;
+	margin: 3% auto;
+}
+section#apropos p{
+	text-align: justify;
+	font-family: "fontkarma";
+	color: aliceblue;
+	font-size: 1.5em;
+	margin: 5% 10%;
+}
+section#apropos #liencv{
+	text-decoration: none;
+	color: goldenrod;
+}
+
+/*----------------------------------------------------------*/
+/*----------------/------------------\----------------------*/
+/*---------------|-------[LUNE]-------|---début--------------*/
+/*----------------\------------------/----------------------*/
+/*----------------------------------------------------------*/
+
+section.lune{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+section.lune div#un{
+	background-color: rgb(15, 29, 48); /*lune sombre*/
+	border: 0px solid black;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 295px;
+	right: 185px;
+	z-index: 3;
+}
+section.lune div#deux{
+	background-color: rgb(232, 231, 201); /*lune clair*/
+	border: 0px solid blue;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 195px;
+	right: 85px;
+	z-index: 2;
+	animation: 3s eclipse linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+/*	animation-fill-mode: both;*/
+}
+@keyframes eclipse{
+		/* offset-x | offset-y | blur-radius | spread-radius | color */
+	0% {top: 195px; right: 85px; box-shadow: 2px 2px 5px 3px white}
+	50% {top: 293px; right: 182px; box-shadow: 2px 2px 150px 13px white}
+	53% {top: 298px; right: 187px; box-shadow: 2px 2px 200px 13px white}
+	100% {top: 344px; right: 245px; box-shadow: 2px 2px 5px 3px white}
+}
+/*----------------------------------[LUNE]--end------------------------------------*/
+
+/* -------------------------------- [FOOTER] ------------------------------------- */
+
+footer{
+    margin: 100px auto;
+    margin-top: 350px;
+}
+footer.bttnfooter a{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+footer span{
+	font-size: 1.8em;
+    color: gold;
+}
+footer img{
+	width: 40px;
+	color: gold;
+}
+
+/* -------------------------------- [FOOTER - END] ------------------------------------- */
+
+
+/*-------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ /*-----------------MINI_FORMULAIRE_volant---------START-------------------
+ ---------------------------------------------------------------------------
+ -----------------------------------------------------------------------------*/
+
+ section#miniform{
+ 	display: none;
+
+ }
+ .popup{
+ 	/*display: inline-block;*/
+ 	animation-name: pop;
+ 	animation-delay:  1s;
+ 	animation-duration: 2s;
+ 	animation-fill-mode: forwards;
+ 	position: fixed ; /*relative absolute fixed sticky*/
+	bottom: -450px;
+	right: 80px;
+/*	right: -350px;*/
+	z-index: 100;
+	width: 325px;
+	padding: 0.5%;
+	background-color: cadetblue;
+	border: 5px ridge goldenrod;
+}
+@keyframes pop{
+	0% {
+		    box-shadow: -144px -140px 6px 5px rgba(0,0,0,0.75);
+
+		bottom:-450px; right:80px;}
+	100% {
+
+		box-shadow: -22px 15px 11px 5px rgba(0,0,0,0.75);
+		bottom: 40px; right: 40px;}
+}
+.popup button{
+	border-radius: 20px;
+	border-color: palegoldenrod;
+	border-width: 2px;
+	background-color: lightgoldenrodyellow; /*papayawhip*/
+	padding: 2px 6px;
+}
+.popup div#fermer{
+	position: absolute;
+	right: 12px;
+	top: 7px;
+}
+.popup button.fermer{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 26px;
+}
+.popup button.fermer:before{
+	content: 'Fermer';
+    position: absolute;
+	margin-left: 0px;
+	width: 0px;
+	opacity: 0;
+	overflow: hidden;
+	transition: all 1.2s ease, opacity 3s;
+}
+.popup button.fermer:hover:before{
+	content: 'Fermer';
+    position: absolute;
+    margin-left: -53px;
+    width: 45px;
+    opacity: 1;
+}
+.popup form.float button#envoyer{
+	position: static;
+	display: block;
+	margin: 12px auto;
+}
+.popup form.float h2{
+	color: palevioletred;
+	padding: 15px;
+	font-size: 41.3px;
+	font-family: system-ui;
+	text-align: center;
+	/*offset-x | offset-y | blur-radius | color */
+	text-shadow: 1px 1px 2px black;
+}
+.popup form.float h3{
+	color: palevioletred;
+}
+.popup form.float{
+ 	width: 95%;
+ 	margin: 0% auto;
+}
+.popup form.float div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.popup form.float div div{
+	width: 45%;
+}
+.popup form.float div input {
+	width: 100%;
+	height: 24px;
+}
+.popup form.float div.fullcoll input {
+	display: block;
+}
+.popup form.float div.fullcoll textarea{
+	width: 100%;
+	height: 108px;
+}
+ /*-----------------MINI_FORMULAIRE-------END--------*/
+
+				/*---- FORMULAIRE -START----*/ 
+
+form.inscription{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 50em;
+	margin: 0 auto;
+}
+form.inscription div {
+	padding-left: 12%;
+	padding-bottom: 10px;
+	width: 32%;
+}
+form.inscription div div {
+	display: flex;
+	width: 100%;
+	padding-top: 3px;
+	padding-left: 0px;
+	flex-direction: row;
+}
+form.inscription div input{
+	padding-bottom: 17px;
+	padding-right: 23px;
+}
+form.inscription div div input {
+	width: 20%;
+}
+form.inscription div div label {
+	width: 20%;
+}
+form.inscription input {
+	width: 100%;
+	margin-bottom: 18px;
+	padding-bottom: 10px;
+}
+form.inscription .block{
+	display: block;
+	width: 100%;
+}
+form.inscription .fullcoll {
+	width: 100%;
+	display: block;
+}
+form.inscription input.fullcoll  {
+	width: 15%;
+}
+form.inscription .fullcoll label{
+	display: block;
+	width: 100%;
+}
+form.inscription .fullcoll textarea{
+	width: 90%;
+    padding-bottom: 2%;
+}
+form.inscription div.cgu {
+	width: 80%;
+}
+form.inscription div.cgu input{
+	width: 10%;
+}
+form.inscription button {
+	font-size: x-large;
+	color: gold;
+	margin: 0 auto;
+	padding: 1px 6px;
+}
+legend{
+	color: red;
+	display: inline-block;
+	width: 190px;
+	font-size: small;
+}
+						/* __ FORMULAIRE _END_ */
+#formEtoile{
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	top: 50%;
+	left: 50%;
+	background-color: antiquewhite;
+}
+
+#formEtoile input[type="textarea"]{
+	width: 250px;
+	height: 40px;
+}
+#formEtoile #closeformetoile{
+	position: absolute;
+    top: 3px;
+    right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    background-color: floralwhite;
+    box-shadow: 1px 1px 11px 0px rgba(0,0,0,0.75);
+}
+}
+#formEtoile label{
+	height: 25px;
+}
+#formEtoile textarea{
+	width: 250px;
+    height: 70px;
+}
+#formEtoile  input[type="text"]{
+	width: 130px;
+    height: 20px;
+}
+label.icon-star-o3:before{
+	color: lightcoral;
+	font-size: 1.8em;
+
+}
+#etoiles{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+label:hover:before,  
+label:hover ~ label:before,
+input:checked ~ label:before{
+	color: goldenrod;
+
+}
+#legend_formEtoile{
+	width: 20px;
+}
+
+#formEtoile input[type='radio']{
+	display: none;
+}
+#comms{
+	position: relative;
+}
+#comms span{
+
+}
+#leNom{
+	display: inline-block;
+	width: 100%;
+    font-size: 2em;
+    color: antiquewhite;
+    margin-left: 25px;
+}
+#lesAvis{
+	display:block; 
+	width: 100%;
+	font-size:1.5em;
+	color: lightskyblue;
+	margin-bottom: 20px;
+}
+#spanNom{
+    display: inline-block;
+    width: 100%;
+}
+.lesSpanEtoile{
+	display: inline-block;
+	width: 100%;
+	font-size: 1em;
+    color: whitesmoke;
+}
+#lesComms{
+	display: inline-block;
+	width: 100%;
+    font-size: 2em;
+    color: antiquewhite;
+    margin-left: 25px;
+    margin-bottom: 60px;
+
+}
+#note{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+.reducimg{
+/* <percentage> value */
+	width: 100%;
+	border-radius: 1%;
+/* vertical | horizontal */
+/*	border-image-width: 0.2em 0.2em;
+*/	}
+.reducimgheight{
+	width: 100%;
+	border-radius: 1%;
+/*	height: 157px;
+*/}
+.nouveau:before{
+	content: "◊ Nouveau ! ◊";
+	font-family: "system-ui";
+	font-size: 1em;
+	background-color: indianred;
+	position: absolute;
+	left: 23px;
+	top: -17px;
+	animation-name: blink;
+	animation-duration: 1.8s; 
+	animation-iteration-count: infinite;
+
+}
+.emoji:before, .emoji:after{
+	content: '✰';
+	color: lightgoldenrodyellow;
+	font-size: 0.5em;
+}
+.emoji2:before, .emoji2:after{
+	content: '◊';
+	color: lightgoldenrodyellow;
+	font-size: 0.5em;
+}
+.emoji:before, .emoji:after{
+	content: '✰';
+	color: lightgoldenrodyellow;
+	font-size: 0.5em;
+}
+.icon-star-o:before, .icon-star-o:after{
+	/*offset-x | offset-y | blur-radius | color */
+	content: "\f006";
+	text-shadow: 1px 1px 2px black;
+	color: lightgoldenrodyellow;
+}
+.icon-star-o2:before{
+	content: "\f1b6"; /* puce Realisation */
+	color: lightgoldenrodyellow;
+	font-size: 0.9em;
+}
+.icon-star-o3:before{
+	content: "\f1b0"; /* puce a propos */
+	color: lightgoldenrodyellow;
+	font-size: 0.9em;
+}
+.icon-star-o4:before{
+	content: "\f08a"; /* Contact */
+	color: lightgoldenrodyellow;
+	font-size: 0.9em;
+}
+#blink1{
+	animation-name: blink;
+	animation-duration: 2s; 
+	animation-iteration-count: infinite;
+/*	animation-fill-mode: forwards;*/
+/*	transition: linear ;*/
+}
+@keyframes blink {
+	from {opacity: 0; color:sandybrown;}
+	to{opacity: 1; color: gold;}
+
+/*	0% {transform: rotate(0);}
+	100%{transform: rotate(360deg)}*/
+}
+
+
+/*---------------------------C.V.---------------------*/
+
+#bodyCV{
+	transition: 2s all ease;
+}
+#navbarChoix{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 10px;
+    width: 100%;
+}
+header.cv{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: unset;
+    align-items: unset;
+    padding-bottom: 61px;
+    height: 110px;
+    border-bottom-color: palegoldenrod;
+}
+header.cv img{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    left: 76px;
+}
+header.cv h1{
+    font-size: 1.2em;
+    display: inline-block;
+    position: relative;
+    left: -32px;
+    top: 78px;
+    margin: unset;
+}
+header.cv h2{
+    font-size: 1.1em;
+    top: 45px;
+    position: relative;
+    width: 100%;
+    display: block;
+    color: palevioletred;
+}
+main.cv h3{
+    display: inline-block;
+    width: 100%;
+    padding: 2% 0;
+    margin: unset;
+    margin-bottom: 50px;
+    color: palevioletred;
+    font-size: 1.4em;
+    font-weight: unset;
+    box-shadow: -3px 10px 13px -6px rgba(0,0,0,0.75);
+}
+main.cv h3#titreInfo{
+	display: none;
+}
+header.cv button#contact{
+    cursor: pointer;
+    position: relative;
+    top: 160%;
+    font-size: .9em;
+    padding: 0.5% 5.1%;
+    margin: 0 auto;
+    z-index: 50;
+}
+@keyframes colors{
+	0%{background-color: plum;}
+	25%{background-color: mediumvioletred;}
+	50%{background-color: purple;}
+	75%{background-color: mediumpurpule;}
+	100%{background-color: orchid;}
+}
+@keyframes moveFleche{
+	from{top: 0;}
+	to{top: 9px;}
+}
+#lechoix{
+	position: relative;
+    top: 6px;
+    right: 0;
+    width: 170px;
+    height: 30px;
+    z-index: 100;
+
+    color: aliceblue;
+    box-shadow: -7px 16px 17px 1px rgba(0,0,0,0.75);
+}
+#lechoix p{
+	animation-name: colors;
+    animation-duration: 8s;
+	animation-iteration-count: infinite;
+
+    background-color: aliceblue;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 6px;
+}
+#lechoix p:hover +  div, #lechoix #choixStyleCV:hover{
+	height: 35px;
+	box-shadow: -7px 7px 17px 1px rgba(0,0,0,0.75);
+}
+#lechoix p span{
+	animation-name: moveFleche;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+
+	position: relative;
+	font-size: 15px;
+    color: orangered;
+}
+#choixStyleCV{
+    border: 3px ridge;
+    background-color: aliceblue;
+    top: 5px;
+    height: 0;
+    overflow: hidden;
+   	transition: 1s all ease;
+   	box-shadow: -7px 5px 17px 1px rgba(0,0,0,0.75);
+}
+#choixStyleCV label{
+	cursor: pointer;
+}
+#choixStyleCV label[for="win95"]{
+	color: gold;
+    font-size: 19px;
+    border: 1px dotted;
+    background-color: cadetblue;
+}
+#choixStyleCV label[for="classic"]{
+	color: burlywood;
+	border: 1px solid;
+	font-size: 16px;
+}
+#choixStyleCV label[for="classic"]:hover{
+	font-size: 19px;
+}
+#choixStyleCV label[for="laser"]{
+	color: plum;
+	border: 1px solid;
+	font-size: 16px;
+}
+#choixStyleCV label[for="laser"]:hover{
+	font-size: 19px;
+}
+#choixStyleCV input{
+	display: none;
+}
+input[id="win95"]:checked ~ label[for="win95"]{
+    color: gold;
+    font-size: 19px;
+    border: 1px dotted;
+    background-color: cadetblue;
+}
+main.cv section.site{
+	margin: unset;
+}
+main.cv section.site#cv{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 50px;
+}
+main.cv section.site.skill#cv{
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+}
+main.cv section.site#cv.add{
+    margin-bottom: 110px;
+}
+main.cv section.site#cv ul{
+	margin: 10px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main.cv section.site#cv ul#listeSkill{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+main.cv section.site#cv ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    color: aliceblue;
+    width: auto;
+}
+main.cv section.site#cv ul li span{
+	color: palevioletred;
+	font-size: 1.1em;
+}
+main.cv section.site#cv div span:first-child{
+	font-size: 1em;
+	color: antiquewhite;
+	display: block;
+}
+#listeSkill li img{
+	width: 1.2em;
+}
+main.cv section.site#cv div span{
+	font-size: 0.9em;
+	font-style: italic;
+	color: darkslateblue;
+}
+main.cv section.site#cv div{
+	margin: 11px;
+}
+main.cv section.site#cv p{
+	font-weight: bold;
+    font-size: 0.9em;
+    color: dimgrey;
+}
+main.cv section.site#cv p a{
+    text-decoration: underline;
+	
+}
+footer.cv span:first-child{
+	color: goldenrod;
+}
+footer.cv img{
+	width: 20px;
+	color: gold;
+}
+
+
+/*---------------------------END C.V.---------------------*/
+
+
+/*------------ADAPTATIVE-----------*/
+
+  /*---------------TABLETTE-------*/
+@media screen and (min-width: 768px){
+	/* CSS pour les tablettes */
+
+	#choixStyle{
+	    margin-top: 1em;
+	    margin-left: 1em;
+	}
+	header nav{
+		width: 20em;
+	}
+	header nav ul{
+	    font-size: 1.2em;
+	    flex-direction: row;
+	    justify-content: space-around;
+	}
+
+	section.site article{
+		width: 36.5%;
+		height: fit-content;
+	}
+
+	section.site article div{
+		margin: 15px 0;
+	}
+	section.site h2{
+		padding: 20px 1px;
+		font-size: 1.7em;
+	}
+	section.site article h2{
+		font-size: 2.2em;
+	}
+	section.site article p{
+		font-size: 1.3em;
+		padding: 2% 5%;
+	}
+	.reducimgheight{
+		height: 12em;
+	}
+
+}
+
+  /*---------------ORDINATEUR-------*/
+@media screen and (min-width: 1024px){
+	/* CSS poour les ordianteurs */
+
+	#choixStyle{
+
+	}
+	section.site h2{
+		font-size: 1.7em;
+	}
+	section.site article{
+		width: 22%;
+		margin: 2%;
+		height: fit-content;
+	}
+	section.site article h2{
+		font-size: 1.3em;
+	}
+	section.site article p{
+		font-size: 0.9em;
+	}
+	section.#apropos p{
+		color: aliceblue;
+		font-size: 1.2em;		
+	}
+	.reducimgheight{
+		height: 9.5em;
+	}
+
+}

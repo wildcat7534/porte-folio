@@ -1,0 +1,419 @@
+*{
+	margin:0;
+	padding: 0;
+    transition: 2s all ease;
+	}
+@font-face{
+	font-family:"";
+	src: url('fonts/');
+}
+@font-face{
+	font-family:"";
+	src: url('fonts/');
+}
+@font-face{
+	font-family:"";
+	src: url('fonts/');
+}
+html{
+/*	font-size: 62.5%;
+*/}
+body{
+/*	font-size: calc(0.9em + 1vw);
+*/	display: flex;
+    flex-direction: row;
+}
+img{
+	max-width: 100%;
+}
+span, h3, p{
+	font-family: "";
+}
+
+
+#lechoix p{
+	display: none;
+}
+
+#choixStyleCV{
+    position: unset;
+    top: 6px;
+    right: 22px;
+    width: 150px;
+    background-color: teal;
+    height: 25px;
+}
+#choixStyleCV label{
+	cursor: pointer;
+}
+
+#choixStyleCV label:first-child{
+	color: gold;
+}
+#choixStyleCV label:nth-child(2){
+	color: burlywood;
+}
+#choixStyleCV label:nth-child(3){
+	color: plum;
+}
+#choixStyleCV label[for="classic"]{
+	color: blanchedalmond;
+	border: 1px solid;
+	padding-bottom: 3px;
+    border-bottom: none;
+}
+#choixStyleCV label[for="laser"]{
+	background-color: aliceblue;
+	color: plum;
+	border: 1px solid;
+}#choixStyleCV label[for="win95"]{
+	background-color: aliceblue;
+	color: turquoise;
+	border: 1px solid;
+}
+#choixStyleCV label[for="win95"]:hover{
+    font-size: 16.2px;
+    background-color: blueviolet;
+}
+#choixStyleCV input{
+	display: none;
+}
+header{
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 25vh;
+    position: fixed;
+    z-index: 10;
+}
+header h1{
+    display: unset;
+    font-size: 1.2em;
+    color: darkblue;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 29px;
+    left: 33px;
+}
+header img{
+    margin-bottom: 50px;
+    border-radius: 50%;
+    transition: 2s all ease;
+    background-color: white;
+    position: absolute;
+    top: 54px;
+    left: 64px;
+}
+header h2{
+    display: unset;
+    font-size: 1.4em;
+    color: cornflowerblue;
+    background-color: white;
+    padding-bottom: 30px;
+    position: fixed;
+    top: -1px;
+    left: 214px;
+    width: 100%;
+    padding-top: 30px;
+    box-shadow: 0px 10px 71px 5px rgba(255,255,255,0.75);
+}
+button#contact{
+	position: absolute;
+    top: 136px;
+    left: 46px;
+    border: 1px dotted;
+    cursor: pointer;
+}
+#adresse{
+    position: fixed;
+    top: 175px;
+    left: 45px;
+    color: darkblue;
+    z-index: 10;
+}
+#adresse li{
+	padding-bottom: 8px;
+}
+hr{
+	display: none;
+}
+hr#hr1{
+    display: unset;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 44px;
+    left: -420px;
+    width: 100vh;
+}
+#hr2{
+    display: unset;
+    width: 26vh;
+    position: absolute;
+    top: -52px;
+    left: 105px;
+}
+input[id="classic"]:checked ~ label[for="classic"]{
+    font-size: 20px;
+    background-color: cornflowerblue;
+    border: 1px dotted;
+
+  	animation-name: colors;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes colors{
+	from{background-color: cornflowerblue;}
+	to{background-color: gold;}
+}
+input[id="laser"]:checked ~ label[for="laser"]{
+    font-size: 20px;
+    background-color: cornflowerblue;
+    border: 1px dotted;
+}
+section.skill{
+	position: fixed;
+    top: 266px;
+    left: 17px;
+    color: darkblue;
+    width: 170px;
+    z-index: 10;
+}
+section.skill ul li{
+    padding-bottom: 13px;
+    font-size: 0.9em;
+}
+section.skill ul li span{
+	color: goldenrod;
+    font-size: 1.2em;
+}
+#titre_entreprise{
+	display: unset;
+    position: absolute;
+	top: 135px;
+    left: 215px;
+    font-size: 1.5em;
+}
+section.entreprise{
+    position: absolute;
+    top: 170px;
+    left: 215px;
+}
+section.entreprise p,
+section.cursus p{
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+
+section.entreprise span,
+section.cursus span{
+	color: goldenrod;
+	display: block;
+	width: 100%;
+	padding-bottom: 3px;
+}
+section.entreprise span:nth-child(2),
+section.cursus span:nth-child(2){
+	color: blue;
+	padding-bottom: 5px;
+	font-style: italic;
+	font-size: 1.3em;
+}
+section.entreprise div,
+section.cursus div{
+	padding-bottom: 20px;
+}
+#titre_cursus{
+    display: unset;
+    position: absolute;
+    top: 880px;
+    left: 217px;
+    font-size: 1.5em;
+}
+
+section.cursus{
+	position: absolute;
+    top: 920px;
+    left: 217px;
+    color: darkblue;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+main h3{
+	display: none;
+}
+main section{
+
+}
+main section ul{
+	display: unset;
+}
+
+footer{
+	display: none;
+}
+.section_apropos{
+	width: 60vh;
+	height: 100vh; 
+
+	display: unset;
+	
+    color: cadetblue;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header nav ul li{
+	margin-bottom: 25px;
+	color: white;
+	font-size: 1.3em;
+
+	transition: 2.5s margin-bottom ease;
+	transition: 2.5s font-size ease;
+}
+header nav ul li:hover{
+	color: antiquewhite;
+}
+
+
+/*-----------------MINI_FORMULAIRE_volant---------START----*/
+
+ section.miniform{
+ 	display: none;
+ }
+ .popup{
+ 	/*display: inline-block;*/
+ 	animation-name: pop;
+ 	animation-delay:  1s;
+ 	animation-duration: 2s;
+ 	animation-fill-mode: forwards;
+ 	position: fixed ; /*relative absolute fixed sticky*/
+	bottom: -450px;
+	right: 80px;
+/*	right: -350px;*/
+	z-index: 100;
+	width: 325px;
+	padding: 0.5%;
+	background-color: palegoldenrod;
+	border: 2px ridge gold;
+}
+@keyframes pop{
+	0% {bottom:-450px; right:80px;}
+	100% {bottom:20px; right:10px;}
+}
+
+.popup button{
+	border-radius: 20px;
+	border-color: palegoldenrod;
+	border-width: 3px;
+	background-color: #ffefd5; /*papayawhip*/
+	padding: 2px 6px;
+}
+.popup div#fermer{
+	position: absolute;
+	right: 12px;
+	top: 7px;
+}
+.popup button.fermer{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35px;
+
+}
+.popup button.fermer:before{
+	content: 'Fermer';
+    position: absolute;
+	margin-left: 0px;
+	width: 0px;
+	opacity: 0;
+	overflow: hidden;
+	transition: all 1.2s ease, opacity 3s;
+}
+.popup button.fermer:hover:before{
+	content: 'Fermer';
+    position: absolute;
+    margin-left: -53px;
+    width: 45px;
+    opacity: 1;
+}
+
+.popup form.float button#envoyer{
+	position: static;
+	display: block;
+	margin: 12px auto;
+}
+.popup form.float h2{
+	color: lightpink;
+	padding: 15px;
+	font-size: 41.3px;
+	font-family: system-ui;
+	text-align: center;
+	/*offset-x | offset-y | blur-radius | color */
+	text-shadow: 1px 1px 2px black;
+}
+.popup form.float{
+ 	width: 95%;
+ 	margin: 0% auto;
+}
+.popup form.float div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.popup form.float div div{
+	width: 45%;
+}
+.popup form.float div input {
+	width: 100%;
+	height: 24px;
+}
+.popup form.float div.fullcoll input {
+	display: block;
+}
+.popup form.float div.fullcoll textarea{
+	width: 100%;
+	height: 108px;
+}
+ /*-----------------MINI_FORMULAIRE-------END--------*/
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+	/* CSS pour les tablettes */
+	
+		
+
+
+	
+
+@media screen and (min-width: 1024px){
+	/* CSS poour les ordianteurs */
+
+	header h2 {
+    	padding-left: 150px;
+    	font-size: 2em;
+	}
+	section.entreprise{
+	    top: 170px;
+	    font-size: 1.5em;
+	}
+	#hr2 {
+	    top: -75px;
+	}
+	#titre_cursus {
+    	top: 850px;
+	}
+	section.cursus{
+    	top: 900px;
+		font-size: 1.5em;
+	}

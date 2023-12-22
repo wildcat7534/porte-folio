@@ -20,6 +20,13 @@ h1 {
   font-family: "Press Start 2p";
   margin: 30px auto 0px auto;
 }
+#divHeaderTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 20vh;
+}
 #version {
   margin-top: 10px;
   font-size: 1.4em;
@@ -29,22 +36,25 @@ h1 {
   text-shadow: 3px 3px 10px var(--wc-gold-doree);
   animation: none;
 }
+#catLogoFigure {
+  width: 200px;
+  height: 200px;
+}
+#catLogoFigure img {
+  width: 100%;
+  transform: scale(1.9)
+}
 h2.wildcatTitle {
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
 }
-#description {
+.description {
   font-size: 1.1em;
   color: var(--wc-blue-300);
   font-style: italic;
   text-align: center;
   text-shadow: 3px 3px 10px var(--wc-blue-300);
-}
-#subtitleEncoding{
-  font-style: italic;
-  font-size: 0.8em;
-  color: #919090;
-  margin: 20px 0;
+  line-height: 25px;
 }
 #divHeaderBlock {
   margin-left: 2vw;;
@@ -109,16 +119,18 @@ h2.wildcatTitle {
   color: var(--wc-pink-200);
   animation: neonVioletRetroFlashes 1s ease-in-out infinite alternate;
 }
-section#projects {
+.mousePad {
+  padding: 20px;
+}
+#projects {
   width: 90vw;
   margin: 3vh auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 2em;
 }
-section#projects div.projectBoxes {
+#projects div.projectBoxes {
   position: relative;
   flex-direction: column;
   margin: 60px;
@@ -191,7 +203,6 @@ section#projects div.projectBoxes {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 2em;
 }
 #hobbies article {
   margin: 20px;
@@ -528,9 +539,3 @@ a.link {
   width: 40%;
 }
 
-#imgHeader {
-  width: 100px;
-  position: relative;
-  top: 30px;
-  left: 2vw;
-}
