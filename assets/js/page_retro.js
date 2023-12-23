@@ -9,7 +9,7 @@ init();
 /////////////////////page RETRO///////////////////////////
 //......................................................//
 var debugWidth = document.querySelector('#debugWidth');
-debugWidth.innerHTML = window.innerWidth;
+debugWidth.innerHTML = "_w " +window.innerWidth;
 var gifLogo = document.getElementById('imgHeader');
 
 if ((buttonVersions = document.getElementById('buttonVersions')) != null) {

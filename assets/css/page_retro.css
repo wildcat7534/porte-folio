@@ -54,9 +54,11 @@ h1 {
   width: 100%;
   transform: scale(1)
 }
-h2.wildcatTitle {
+h2#wildcatTitle {
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
+  text-shadow: 3px 3px 10px var(--wc-pink-200);
+  font-size: 1.8em;
 }
 .description {
   font-size: 1.1em;
@@ -145,7 +147,7 @@ h2.wildcatTitle {
 }
 .descriptionProject p {
   font-size: 1.1em;
-  padding: 3px 8px;
+  padding: 12px;
 }
 .projectBoxes:hover {
   cursor: pointer;
@@ -208,8 +210,8 @@ h2.wildcatTitle {
   color: var(--wc-blue-400);
   font-size: 18px;
 }
-#divImgHobbies img {
-  max-width: 300px;
+.imgHobbies {
+  width: 45%;
   height: auto;
   margin: 10px;
   border: ridge 6px darkgoldenrod;
@@ -253,13 +255,14 @@ h2.wildcatTitle {
   align-items: center;
   flex-wrap: wrap;
 }
-article {
+#divImgHobbies article {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   width: 550px;
   height: fit-content;
   flex-direction: column;
+  cursor: pointer;
 }
 footer {
   margin: 2em;
@@ -288,6 +291,12 @@ footer {
   }
   .titleProject {
     font-size: 1.7em;
+  }
+  .imgHobbies {
+    width: 100% !important;
+  }
+  #wildcatPodcast {
+    padding: 4em;
   }
 }
 /* Retro style */
@@ -491,15 +500,15 @@ a.link {
 
 @keyframes neonVioletRetroFlashes {
   0% {
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(147, 33, 179), 0 0 70px rgb(179, 33, 138), 0 0 80px rgb(179, 33, 167), 0 0 100px rgb(123, 33, 179), 0 0 150px rgb(179, 179, 33);
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(147, 33, 179), 0 0 70px rgb(179, 33, 138), 0 0 80px rgb(179, 33, 167), 0 0 100px rgb(123, 33, 179), 0 0 150px rgb(188, 132, 184);
   }
 
   50% {
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(99, 33, 179), 0 0 70px rgb(33, 40, 179) 0 0 80px rrgb(35, 33, 179) 0 0 100px rrgb(40, 33, 179) 0 0 150px rrgb(35, 33, 179)
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(99, 33, 179), 0 0 70px rgb(33, 40, 179) 0 0 80px rgb(35, 33, 179) 0 0 100px rgb(40, 33, 179) 0 0 150px rgb(35, 33, 179)
   }
 
   100% {
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(67, 33, 179), 0 0 70px rrgb(160, 33, 179) 0 0 80px rgb(150, 33, 179), 0 0 100px rgb(179, 179, 33), 0 0 150px rgb(179, 179, 33);
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px rgb(67, 33, 179), 0 0 70px rgb(160, 33, 179) 0 0 80px rgb(150, 33, 179), 0 0 100px rgb(204, 100, 228), 0 0 150px rgb(247, 137, 223);
   }
 }
 
