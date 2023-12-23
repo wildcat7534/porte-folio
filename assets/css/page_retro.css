@@ -7,6 +7,7 @@ body {
   background-attachment: fixed;
   background-color: #000000;
   background-size: 250px;
+  padding: 0 5vw;
 }
 h1,
 h2,
@@ -25,11 +26,13 @@ h3 {
 h1 {
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
   font-family: "Press-Start-2P";
-  margin: 30px auto 0px auto;
+  margin: 0px auto 0px auto;
+  font-size: 2.5em;
 }
 #divHeaderTitle {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   height: 20vh;
@@ -44,12 +47,12 @@ h1 {
   animation: none;
 }
 #catLogoFigure {
-  width: 100px;
-  height: 80px;
+  width: 120px;
+  height: 40px;
 }
 #catLogoFigure img {
   width: 100%;
-  transform: scale(1.9)
+  transform: scale(1)
 }
 h2.wildcatTitle {
   font-family: 'lobster';
@@ -64,13 +67,11 @@ h2.wildcatTitle {
   line-height: 25px;
 }
 #divHeaderBlock {
-  margin-left: 2vw;;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
   gap: 15px;
-  margin: 0px 4.5vw;
 }
 #java ul {
   /* overflow: hidden; */
@@ -90,7 +91,7 @@ h2.wildcatTitle {
   color: var(--wc-gold-doree);
   font-family: system-ui;
   letter-spacing: 2px;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 h2.wildcatTitle {
@@ -124,22 +125,27 @@ h2.wildcatTitle {
   padding: 20px;
 }
 #projects {
-  width: 90vw;
   margin: 3vh auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
 }
 #projects div.projectBoxes {
   position: relative;
   flex-direction: column;
-  margin: 60px;
-  width: 33%;
+  margin: 25px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* animation: borderNeonFlashesViolet 2s infinite alternate; */
+  width: 45%;
+}
+.descriptionProject {
+  top: 0px;
+  /* background: black; */
+  height: 100%;
+  overflow: hidden;
+}
+.descriptionProject p {
+  font-size: 1.1em;
+  padding: 3px 8px;
 }
 .projectBoxes:hover {
   cursor: pointer;
@@ -149,16 +155,6 @@ h2.wildcatTitle {
 }
 .perso {
   border: var(--wc-darkblue-600) 6px ridge;
-}
-.descriptionProject {
-  top: 0px;
-  /* background: black; */
-  height: 100%;
-  overflow: hidden;
-}
-.descriptionProject p {
-  font-size: 0.9em;
-  padding: 3px 8px;
 }
 .titleProject {
   margin-bottom: 20px;
@@ -278,6 +274,21 @@ footer {
 }
 #contact a:hover {
   color: var(--wc-pink-800);
+  animation: none;
+}
+@media screen and (max-width: 925px) {
+  #projects div.projectBoxes {
+    width: 100%;
+  }
+  .descriptionProject p {
+    font-size: 1.7em;
+  }
+  .mousePad h2{
+    font-size: 2em;
+  }
+  .titleProject {
+    font-size: 1.7em;
+  }
 }
 /* Retro style */
 a.link {

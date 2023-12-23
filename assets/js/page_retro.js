@@ -1,5 +1,5 @@
 function init() {
-    titleProjectGetBoundingClientRect();
+    //titleProjectGetBoundingClientRect();
     onClickProjectBoxesShadowBoxesEffect();
    
 }
@@ -8,12 +8,9 @@ init();
 //......................................................//
 /////////////////////page RETRO///////////////////////////
 //......................................................//
+var debugWidth = document.querySelector('#debugWidth');
+debugWidth.innerHTML = window.innerWidth;
 var gifLogo = document.getElementById('imgHeader');
-
-function changeLogo() {
-    gifLogo.src = "assets/pictures/misc/favicons/cat1t2.gif";
-}
-setInterval(changeLogo, 3000);
 
 if ((buttonVersions = document.getElementById('buttonVersions')) != null) {
     var buttonVersions = document.getElementById('buttonVersions');
