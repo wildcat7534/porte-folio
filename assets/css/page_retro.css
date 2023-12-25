@@ -59,6 +59,7 @@ h2#wildcatTitle {
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
   text-shadow: 3px 3px 10px var(--wc-pink-200);
   font-size: 1.8em;
+  text-align: left;
 }
 .description {
   font-size: 1.3em;

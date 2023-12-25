@@ -34,5 +34,12 @@
 - [x] Intégration carte NVIDIA Quadro 4200k 4Go
 - [x] Installation des pilotes CUDA, et pilote legacy 434 sur le serveur
 - [x] Suppression de Labybi dans le site pour qu'il ait sa propre adresse / dossier
+- [x] Lancement test du petit model mistral dans un container: succès !
+- [x] tentative de personnaliser le mode dans le conteneur : échec -> doit fournir le PATH du dossier de config au lancement du conteneur ?
+
+25/12/2023 :
+
 - [x] Installation de Docker + lazydocker (affichage info docker dans terminal avec prise en charge de la souris)
-- [x] Lancement test du petit model msitral dans un container: succès !
+- [x] Rustinage du CV.html (mes premiers code html,css,js...)
+- [x] Rajout de la bibliothèque icomoon (Pfiou...)
+- [x] 
