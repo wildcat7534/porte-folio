@@ -129,11 +129,11 @@ h2.wildcatTitle {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 #projects div.projectBoxes {
   position: relative;
   flex-direction: column;
-  margin: 25px;
   display: flex;
   width: 45%;
 }
@@ -160,7 +160,6 @@ h2.wildcatTitle {
 .titleProject {
   margin-bottom: 20px;
   opacity: 1;
-  font-size: 1.1em;
   text-align: center;
   color: var(--wc-gold-doree);
 }
@@ -205,7 +204,7 @@ h2.wildcatTitle {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+/*   width: 100%; */
   height: fit-content;
   flex-direction: column;
   cursor: pointer;
@@ -217,6 +216,7 @@ h2.wildcatTitle {
 .imgHobbies {
   width: 45%;
   min-width: 200px;
+  max-width: 300px;
   height: auto;
   margin: 10px;
   border: ridge 6px darkgoldenrod;
@@ -262,7 +262,6 @@ footer {
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
   font-size: 1.8em;
   margin: 1em;
-  margin-left: 2em;
   display: inline-block;
 }
 #contact a:hover {
@@ -294,8 +293,14 @@ footer {
 /************************************************************/
 /************************************************************/
 @media  (max-width: 525px) {
+  h1 {
+    font-size: 2em;
+  }
   #projects div.projectBoxes {
     width: 100%;
+  }
+  .titleProject {
+    font-size: 1.2em;
   }
   .descriptionProject p {
     width: 100%;
@@ -315,7 +320,7 @@ footer {
 /************************************************************/
 @media (min-width: 525px) and (max-width: 1200px) {
   #projects div.projectBoxes {
-    width: 100%;
+    width: 45%;
   }
   .descriptionProject p {
     font-size: 1em;
@@ -323,11 +328,34 @@ footer {
   .mousePad h2{
     font-size: 2em;
   }
-  .titleProject {
-    font-size: 1.7em;
-  }
   .imgHobbies {
     width: 100% !important;
+  }
+  #wildcatPodcast {
+    padding: 4em;
+  }
+  #divHobbies article {
+    width: 45%;
+  }
+}
+/************************************************************/
+/************************************************************/
+                      /* Desktop */
+/************************************************************/
+/************************************************************/
+@media (min-width: 1200px) {
+  #projects div.projectBoxes {
+    width: 45%;
+    margin: 25px;
+  }
+  .descriptionProject p {
+    font-size: 1.2em;
+  }
+  .mousePad h2{
+    font-size: 2.5em;
+  }
+  .titleProject {
+    font-size: 2em;
   }
   #wildcatPodcast {
     padding: 4em;
