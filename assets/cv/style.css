@@ -13,6 +13,16 @@ html{
 	margin: 0;
 	padding: 0;
 }
+a {
+	text-decoration: none;
+}
+a:visited{
+	color: inherit;
+}
+a:hover{
+	text-decoration: underline;
+	color: indianred;
+}
 
 body{
 	background: teal;
@@ -42,11 +52,11 @@ h3{
 	border: 5px ridge palegoldenrod;
 	border-radius: 10px;
 }
-h4#warningObsolete{
+#warningObsolete{
 	position: absolute;
-    font-size: 0.8em;
+    font-size: 0.7em;
     left: 9%;
-    top: 3%;
+    top: 0.5%;
     color: #c7b966;
 	text-decoration: underline;
 }
@@ -639,6 +649,7 @@ header.cv img{
     height: 75px;
     position: relative;
     left: 76px;
+	z-index: 10;
 }
 header.cv h1{
     font-size: 1.2em;
@@ -680,6 +691,9 @@ header.cv button#contact{
 	border: 3px ridge bisque;
 	background-color: cadetblue;
 	box-shadow: -7px 7px 17px 1px rgba(0,0,0,0.75);
+}
+header.cv button#contact:hover{
+	background-color: bisque;
 }
 @keyframes colors{
 	0%{background-color: plum;}
@@ -799,6 +813,9 @@ main.cv section.site#cv ul#listeSkill{
     display: flex;
     flex-direction: column;
 }
+.icon::before {
+	color: palevioletred;
+}
 main.cv section.site#cv ul li{
     list-style: none;
     padding-bottom: 5px;
@@ -807,12 +824,24 @@ main.cv section.site#cv ul li{
 }
 main.cv section.site#cv ul li span{
 	color: palevioletred;
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 main.cv section.site#cv div span:first-child{
 	font-size: 1em;
 	color: antiquewhite;
 	display: block;
+}
+main.cv section.site#cv ul li p {
+	font-size: 0.9em;
+	color: aliceblue;
+	font-style: italic;
+	font-family: 'Courier New', Courier, monospace;
+	display: inline;
+}
+main.cv section.site#cv ul li p#serverLongText {
+	padding-left: 1.5em;
+    margin-top: -30px;
+    display: block;
 }
 #listeSkill li img{
 	width: 1.2em;

@@ -42,4 +42,4 @@
 - [x] Installation de Docker + lazydocker (affichage info docker dans terminal avec prise en charge de la souris)
 - [x] Rustinage du CV.html (mes premiers code html,css,js...)
 - [x] Rajout de la bibliothèque icomoon (Pfiou...)
-- [x] 
+- [x] Corrections des icones manquants etc 
