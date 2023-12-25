@@ -79,9 +79,6 @@ h2#wildcatTitle {
   /* overflow: hidden; */
   transition: max-height 0.5s ease-out;
 }
-#oldSection {
-  display: none;
-}
 #java ul.show {
   transition: max-height 0.5s ease-in;
 }
@@ -97,20 +94,36 @@ h2#wildcatTitle {
 h2.wildcatTitle {
   display: inline;
 }
-#tilteProjectColorCode {
-  font-family: system-ui;
-  letter-spacing: 2px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+.mousePad {
+  padding: 20px;
 }
 .mousePad h2{
+  text-align: center;
   color: var(--wc-gold-doree);
   font-family: system-ui;
   letter-spacing: 2px;
   margin: 10px 0;
   padding: 0;
   text-shadow: 3px 3px 10px var(--wc-gold-doree);
+}
+/****************************************************************/
+/****************************************************************/
+                      /* Projects */
+/****************************************************************/
+/****************************************************************/
+#projects {
+  margin: 3vh auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#tilteProjectColorCode {
+  font-family: system-ui;
+  letter-spacing: 2px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 #colorCode {
   font-size: 1.4rem;
@@ -120,16 +133,6 @@ h2.wildcatTitle {
   font-size: 26px;
   color: var(--wc-pink-200);
   animation: neonVioletRetroFlashes 1s ease-in-out infinite alternate;
-}
-.mousePad {
-  padding: 20px;
-}
-#projects {
-  margin: 3vh auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
 }
 #projects div.projectBoxes {
   position: relative;
@@ -188,7 +191,13 @@ h2.wildcatTitle {
 #divServerProject img:hover {
   border: ridge 6px #ff0;
 }
+/****************************************************************/
+/****************************************************************/
+                      /* Hobbies */
+/****************************************************************/
+/****************************************************************/
 #hobbies {
+  margin: 3vh auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -236,7 +245,7 @@ h2.wildcatTitle {
   animation: borderNeonFlashesViolet 2s infinite alternate;
 }
 #wildcatPodcast {
-  padding: 3%;
+  padding: 10px;
   width: 37%;
   height: auto;
   margin: 10px;
@@ -283,6 +292,31 @@ footer {
 }
 /****************************************************************/
 /****************************************************************/
+                      /* Jobs */
+/****************************************************************/
+/****************************************************************/
+#jobs {
+
+}
+#jobs li a{
+  color: var(--wc-blue-400);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+  flex-direction: column;
+  cursor: pointer;
+}
+#jobs li a:visited {
+  color: var(--wc-blue-400);
+}
+#jobs li a:hover {
+  color: var(--wc-gold-doree);
+}
+/****************************************************************/
+/****************************************************************/
                       /* Breakpoints */
 /****************************************************************/
 /****************************************************************/
@@ -318,9 +352,12 @@ footer {
                       /* Tablet */
 /************************************************************/
 /************************************************************/
-@media (min-width: 525px) and (max-width: 1200px) {
+@media (min-width: 525px) {
   #projects div.projectBoxes {
     width: 45%;
+  }
+  .titleProject {
+    font-size: 1.3em;
   }
   .descriptionProject p {
     font-size: 1em;
@@ -330,9 +367,6 @@ footer {
   }
   .imgHobbies {
     width: 100% !important;
-  }
-  #wildcatPodcast {
-    padding: 4em;
   }
   #divHobbies article {
     width: 45%;
@@ -348,17 +382,14 @@ footer {
     width: 45%;
     margin: 25px;
   }
+  .titleProject {
+    font-size: 1.7em;
+  }
   .descriptionProject p {
     font-size: 1.2em;
   }
   .mousePad h2{
     font-size: 2.5em;
-  }
-  .titleProject {
-    font-size: 2em;
-  }
-  #wildcatPodcast {
-    padding: 4em;
   }
   #divHobbies article {
     width: 45%;
