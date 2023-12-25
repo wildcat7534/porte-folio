@@ -32,11 +32,11 @@ for(var input of inputs){  //bouton choix du style
 var contact = document.getElementById("contact"); //bouton contact qui pop
 var sectionMini = document.createElement('section');
 
-sectionMini.classList.add('miniform');
+sectionMini.id = "miniform";
 
 mainCV.appendChild(sectionMini);
 
-sectionMini.innerHTML = "<button class='fermer'>X</button>\
+sectionMini.innerHTML = "<button id='fermerMiniForm'>X</button>\
 						<form class='float'>\
 						<h2>Contact :</h2>\
 						<div class='col1'>\
@@ -59,8 +59,8 @@ sectionMini.innerHTML = "<button class='fermer'>X</button>\
 						</section>";
 
 
-var mini_form = document.querySelector(".miniform");
-var fermer = document.querySelector(".fermer");  //bouton mini form float pour fermer
+var mini_form = document.querySelector("#miniform");
+var fermer = document.querySelector("#fermerMiniForm");  //bouton mini form float pour fermer
 
 contact.addEventListener("click", function(){
 	mini_form.classList.add("popup");

@@ -295,8 +295,14 @@ footer {
                       /* Jobs */
 /****************************************************************/
 /****************************************************************/
-#jobs {
-
+#jobs ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#jobs li {
+  width: fit-content;
 }
 #jobs li a{
   color: var(--wc-blue-400);
