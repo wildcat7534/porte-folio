@@ -34,17 +34,17 @@ body {
 a#readme {
   text-decoration: none;
   color: var(--wc-yellow-500);
-  font-size: 0.7em;
+  font-size: 0.5em;
   font-family: 'Press-Start-2P', cursive;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
   padding: 1em;
   cursor: pointer;
 }
 a#readme:hover {
   color: var(--wc-gold-doree);
-  font-size: 0.72em;;
+  text-decoration: underline;
 }
 .cercleColor {
   position: absolute;
