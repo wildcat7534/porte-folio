@@ -399,6 +399,10 @@ footer {
   .projectImages {
     width: 100%;
   }
+  .yearDiplome,
+  .diplomeDescription {
+    font-size: 0.8em;
+  }
   #contact a {
     font-size: 1.2em;
   }
@@ -410,7 +414,7 @@ footer {
 /************************************************************/
 @media (min-width: 525px) {
   #projects div.projectBoxes {
-    width: 45%;
+    width: 100%;
   }
   .titleProject {
     font-size: 1.3em;
@@ -420,6 +424,10 @@ footer {
   }
   .mousePad h2{
     font-size: 2em;
+  }
+  .yearDiplome,
+  .diplomeDescription {
+    font-size: 0.9em;
   }
   .imgHobbies {
     width: 100% !important;
