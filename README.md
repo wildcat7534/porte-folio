@@ -50,3 +50,5 @@
 - [x] Capture d'écran, tri des images de chaque podcast
 - [x] Intégration (version beta) du changement des images dans l'article section hobbies
 - [x] Retravaille de la taille, bordure etc des articles
+- [x] Ajout de la section Diplôme 
+ 

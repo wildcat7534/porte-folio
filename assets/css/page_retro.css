@@ -139,6 +139,7 @@ h2.wildcatTitle {
   flex-direction: column;
   display: flex;
   width: 45%;
+  margin: 25px;
 }
 .descriptionProject {
   top: 0px;
@@ -193,6 +194,35 @@ h2.wildcatTitle {
 }
 /****************************************************************/
 /****************************************************************/
+                      /* Diplomes */
+/****************************************************************/
+/****************************************************************/
+
+#diplomes {
+  margin: 3vh auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.yearDiplome {
+  font-size: 1.5em;
+  color: var(--wc-blue-400);
+  font-family: system-ui;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  padding: 0;
+  text-shadow: 3px 3px 10px var(--wc-blue-400);
+  width: 100%;
+}
+.diplomeDescription {
+  font-size: 1em;
+}
+.imgDiplomes {
+  display: none;
+}
+/****************************************************************/
+/****************************************************************/
                       /* Hobbies */
 /****************************************************************/
 /****************************************************************/
@@ -219,12 +249,19 @@ h2.wildcatTitle {
   cursor: pointer;
   border: ridge 6px darkgoldenrod;
   border-radius: 5%;
-  min-width: 345px;
+  width: 350px;
+  max-width: 350px;
   min-height: 390px;
+  height: 390px;
+  margin: 25px;
+  padding-top: 10px;
 }
-#divHobbies article span{
+#divHobbies article span:first-child{
   color: var(--wc-blue-400);
   font-size: 18px;
+}
+#divHobbies article span:nth-child(2){
+  font-size: 12px;
 }
 .imgHobbies {
   width: 45%;
@@ -247,17 +284,15 @@ h2.wildcatTitle {
   animation: borderNeonFlashesViolet 2s infinite alternate;
 }
 article#wildcatPodcast {
-  padding: 10px;
-  height: 390px;
-  max-width: 350px;
+
 }
 #wildcatPodcast .podcastsPictures {
-  position: relative;
-  left: -320px;
-  width: 100%;
+/*   position: relative; */
+  /*   left: -320px; */
+/*   top: 30px; */
+  width: 90%;
   height: auto;
-  top: 30px;
-  transform: scale(0.9);
+  transform: scale(0.8);
 }
 #imgPodcastTransparent {
   width: 100%;
@@ -435,8 +470,6 @@ a.link {
   text-shadow: 0 0 25px rgb(255 0 255);
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 12px !important;
-  margin: 8px 0 0 0;
 }
 /* Classe Néon */
 .neonViolet {
