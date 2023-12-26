@@ -1,6 +1,4 @@
-
 /* CSS */
-
 body {
   background-image: url("../pictures/fondStars.webp");
   background-repeat: repeat;
@@ -219,6 +217,10 @@ h2.wildcatTitle {
   height: fit-content;
   flex-direction: column;
   cursor: pointer;
+  border: ridge 6px darkgoldenrod;
+  border-radius: 5%;
+  min-width: 345px;
+  min-height: 390px;
 }
 #divHobbies article span{
   color: var(--wc-blue-400);
@@ -230,13 +232,11 @@ h2.wildcatTitle {
   max-width: 300px;
   height: auto;
   margin: 10px;
-  border: ridge 6px darkgoldenrod;
 }
 #neroWildcatDrawAI {
   width: 45%;
   height: auto;
   margin: 10px;
-  border: ridge 6px darkgoldenrod;
 }
 #wildcatMix {
   width: 57%;
@@ -246,15 +246,28 @@ h2.wildcatTitle {
   animation: filterBrightnes 2s infinite alternate;
   animation: borderNeonFlashesViolet 2s infinite alternate;
 }
-#wildcatPodcast {
+article#wildcatPodcast {
   padding: 10px;
-  width: 37%;
+  height: 390px;
+  max-width: 350px;
+}
+#wildcatPodcast .podcastsPictures {
+  position: relative;
+  left: -320px;
+  width: 100%;
   height: auto;
-  margin: 10px;
-  border: ridge 6px darkgoldenrod;
+  top: 30px;
+  transform: scale(0.9);
+}
+#imgPodcastTransparent {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  position: relative;
 }
 #sakura {
   padding: 3%;
+  margin-top: 20%;
 }
 #listPodcast {
   
@@ -377,7 +390,7 @@ footer {
     width: 100% !important;
   }
   #divHobbies article {
-    width: 45%;
+/*     width: 45%; */
   }
 }
 /************************************************************/
@@ -400,7 +413,7 @@ footer {
     font-size: 2.5em;
   }
   #divHobbies article {
-    width: 45%;
+/*     width: 45%; */
   }
 }
 
@@ -417,6 +430,14 @@ a.link {
   transition: border-bottom 0.3s ease-in-out;
 }
 
+.sakuraColor {
+  color: var(--wc-pink-200) !important;
+  text-shadow: 0 0 25px rgb(255 0 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px !important;
+  margin: 8px 0 0 0;
+}
 /* Classe Néon */
 .neonViolet {
   text-shadow: 0 0 25px rgb(255 0 255);
@@ -441,14 +462,6 @@ a.link {
   font-family: sans-serif;
   font-weight: bold;
   color: #e1e1a4;
-}
-.sakuraColor {
-  color: var(--wc-pink-200) !important;
-  text-shadow: 0 0 25px rgb(255 0 255);
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 12px !important;
-  margin: 8px 0;
 }
 /************************************************************/
 /************************************************************/

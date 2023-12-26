@@ -43,3 +43,10 @@
 - [x] Rustinage du CV.html (mes premiers code html,css,js...)
 - [x] Rajout de la bibliothèque icomoon (Pfiou...)
 - [x] Corrections des icones manquants etc 
+- [x] Ajout des postes de rêves avec leur adresse internet / de recrutement
+
+26/12/2023 :
+
+- [x] Capture d'écran, tri des images de chaque podcast
+- [x] Intégration (version beta) du changement des images dans l'article section hobbies
+- [x] Retravaille de la taille, bordure etc des articles

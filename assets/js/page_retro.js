@@ -1,6 +1,7 @@
 function init() {
     //titleProjectGetBoundingClientRect();
     onClickProjectBoxesShadowBoxesEffect();
+    podcastsPictures();
    
 }
 init();
@@ -123,3 +124,64 @@ function onClickProjectBoxesShadowBoxesEffect() {
 /////////////////////page RETRO END///////////////////////////
 //......................................................//
 // projectsData = [{title: "labiby", description: "description", picture: "picture"}]
+
+function podcastsPictures() {
+    var  podcastsPicturesTab = [];
+    podcastsPicturesTab.push(
+        "assets/pictures/podcast_logo.png",
+        "assets/pictures/podcasts/tech_cafe.jpg",
+        "assets/pictures/podcasts/quete_laterale.jpg",
+        "assets/pictures/podcasts/studio_404.jpg",
+        "assets/pictures/podcasts/zqsd.jpg",
+        "assets/pictures/podcasts/le_cosy_corner.jpg",
+        "assets/pictures/podcasts/la_matinale_jv.jpg",
+        "assets/pictures/podcasts/canard_pc.jpg",
+        "assets/pictures/podcasts/2_heures_de_perdues.jpg",
+        "assets/pictures/podcasts/silence_on_joue.jpg",
+        "assets/pictures/podcasts/floodcast.jpg",
+        "assets/pictures/podcasts/sumi_masen_turbo.jpg",
+        "assets/pictures/podcasts/fin_du_game.jpg",
+        "assets/pictures/podcasts/l_apero_du_captain.jpg",
+        "assets/pictures/podcasts/les_demons_du_midi.jpg",
+        "assets/pictures/podcasts/tanguy_pastureau_maltraite_l_info.jpg",
+        "assets/pictures/podcasts/la_drole_d_humeur_de_fanny_ruwet.jpg",
+        "assets/pictures/podcasts/la_drole_d_humeur_de_marina_rollman.jpg",
+        "assets/pictures/podcasts/le_moment_meurice.jpg",
+        "assets/pictures/podcasts/pardon_gpt.jpg",
+        "assets/pictures/podcasts/le_dernier_cyber_avant_la_fin_du_monde.jpg",
+        "assets/pictures/podcasts/le_rendez-vous_jeux.jpg",
+        "assets/pictures/podcasts/le_rendez-vous_tech.jpg",
+        "assets/pictures/podcasts/un_bon_moment.jpg",
+    );
+    
+    const podcastsPicturesBoxe = document.querySelector('#wildcatPodcast');
+    
+    console.log("podcastsPicturesTab : ", podcastsPicturesTab);
+
+    const  img = document.createElement('img');
+    img.classList.add('podcastsPictures');
+    img.style.transition = "all 1.2s ease-in-out";
+
+    setInterval(() => {
+/*         setTimeout(() => {
+        }, 1000); */
+        img.style.opacity = "0";
+        img.style.opacity = "1";
+        podcastsPicturesTab.push(podcastsPicturesTab.shift());
+        img.src = podcastsPicturesTab[0];
+        podcastsPicturesBoxe.appendChild(img);
+    }, 2000);
+
+
+
+/*     for (let i = 0; i < podcastsPicturesTab.length; i++) {
+        img.src = podcastsPicturesTab[i];
+        podcastsPicturesBoxe.appendChild(img);
+    } */
+}
+
+
+
+
+
+

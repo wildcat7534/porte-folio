@@ -114,3 +114,75 @@
           <li>Chez Amazon(AWS)</li>
         </ul>
       </section>
+
+      <ul id="listPodcast">
+        <li>Tech café
+          <img id="techCafe" class="imgHobbies" src="assets/pictures/podcasts/tech_cafe.jpg" alt="Tech café's logo" />
+        </li>
+        <li>Quête latérale
+          <img id="queteLaterale" class="imgHobbies" src="assets/pictures/podcasts/quete_laterale.jpg" alt="Quête latérale's logo" />
+        </li>
+        <li>Studio 404
+          <img id="studio404" class="imgHobbies" src="assets/pictures/podcasts/studio_404.jpg" alt="Studio 404's logo" />
+        </li>
+        <li>ZQSD
+          <img id="zqsd" class="imgHobbies" src="assets/pictures/podcasts/zqsd.jpg" alt="ZQSD's logo" />
+        </li>
+        <li>Le cosy corner
+          <img id="leCosyCorner" class="imgHobbies" src="assets/pictures/podcasts/le_cosy_corner.jpg" alt="Le cosy corner's logo" />
+        </li>
+        <li>La matinale JV
+          <img id="laMatinaleJV" class="imgHobbies" src="assets/pictures/podcasts/la_matinale_jv.jpg" alt="La matinale JV's logo" />
+        </li>
+        <li>CanardPC
+          <img id="canardPC" class="imgHobbies" src="assets/pictures/podcasts/canard_pc.jpg" alt="CanardPC's logo" />
+        </li>
+        <li>2 heures de perdues
+          <img id="deuxHeuresDePerdues" class="imgHobbies" src="assets/pictures/podcasts/2_heures_de_perdues.jpg" alt="2 heures de perdues's logo" />
+        </li>
+        <li>Silence on joue
+          <img id="silenceOnJoue" class="imgHobbies" src="assets/pictures/podcasts/silence_on_joue.jpg" alt="Silence on joue's logo" />
+        </li>
+        <li>Floodcast
+          <img id="floodcast" class="imgHobbies" src="assets/pictures/podcasts/floodcast.jpg" alt="Floodcast's logo" />
+        </li>
+        <li>Sumi masen TURBO
+          <img id="sumiMasenTurbo" class="imgHobbies" src="assets/pictures/podcasts/sumi_masen_turbo.jpg" alt="Sumi masen TURBO's logo" />
+        </li>
+        <li>Fin du game
+          <img id="finDuGame" class="imgHobbies" src="assets/pictures/podcasts/fin_du_game.jpg" alt="Fin du game's logo" />
+        </li>
+        <li>L'apéro du captain
+          <img id="laperoDuCaptain" class="imgHobbies" src="assets/pictures/podcasts/l_apero_du_captain.jpg" alt="L'apéro du captain's logo" />
+        </li>
+        <li>Les démons du MIDI
+          <img id="lesDemonsDeMidi" class="imgHobbies" src="assets/pictures/podcasts/les_demons_du_midi.jpg" alt="Les démons de MIDI's logo" />
+        </li>
+        <li>Tanguy Pastureau Maltraite l'info
+          <img id="tanguePastureauMaltraiteLinfo" class="imgHobbies" src="assets/pictures/podcasts/tanguy_pastureau_maltraite_l_info.jpg" alt="Tangue Pastureau Maltraite l'info's logo" />
+        </li>
+        <li>la drôle d'humeur de Fanny Ruwet
+          <img id="laDroleDHumeurDeFannyRuwet" class="imgHobbies" src="assets/pictures/podcasts/la_drole_d_humeur_de_fanny_ruwet.jpg" alt="la drôle d'humeur de Fanny Ruwet's logo" />
+        </li>
+        <li>la drôle d'humeur de Marina Rollman
+          <img id="laDroleDHumeurDeMarinaRollman" class="imgHobbies" src="assets/pictures/podcasts/la_drole_d_humeur_de_marina_rollman.jpg" alt="la drôle d'humeur de Marina Rollman's logo" />
+        </li>
+        <li>Le moment Meurice
+          <img id="leMomentMeurice" class="imgHobbies" src="assets/pictures/podcasts/le_moment_meurice.jpg" alt="Le moment Meurice's logo" />
+        </li>
+        <li>Pardon GPT
+          <img id="pardonGPT" class="imgHobbies" src="assets/pictures/podcasts/pardon_gpt.jpg" alt="Pardon GPT's logo" />
+        </li>
+        <li>Le dernier cyber avant la fin du monde
+          <img id="leDernierCyberAvantLaFinDuMonde" class="imgHobbies" src="assets/pictures/podcasts/le_dernier_cyber_avant_la_fin_du_monde.jpg" alt="Le dernier cyber avant la fin du monde's logo" />
+        </li>
+        <li>Le rendez-vous Jeux
+          <img id="leRendezVousJeux" class="imgHobbies" src="assets/pictures/podcasts/le_rendez-vous_jeux.jpg" alt="Le rendez-vous Jeux's logo" />
+        </li>
+        <li>Le rendez-vous Tech
+          <img id="leRendezVousTech" class="imgHobbies" src="assets/pictures/podcasts/le_rendez-vous_tech.jpg" alt="Le rendez-vous Tech's logo" />
+        </li>
+        <li>Un bon moment
+          <img id="unBonMoment" class="imgHobbies" src="assets/pictures/podcasts/un_bon_moment.jpg" alt="Un bon moment's logo" />
+        </li>
+      </ul>
