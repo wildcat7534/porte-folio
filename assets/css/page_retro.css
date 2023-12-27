@@ -291,8 +291,7 @@ article#wildcatPodcast {
   /*   left: -320px; */
 /*   top: 30px; */
   width: 90%;
-  height: auto;
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 #imgPodcastTransparent {
   width: 100%;
@@ -313,20 +312,6 @@ article#wildcatPodcast {
   font-size: 0.9em;
   margin: 10px 0;
 }
-footer {
-  margin: 2em;
-}
-#contact a {
-  font-family: 'lobster';
-  animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
-  font-size: 1.8em;
-  margin: 1em;
-  display: inline-block;
-}
-#contact a:hover {
-  color: var(--wc-pink-800);
-  animation: none;
-}
 #imgLabyby {
   width: 50%;
   scale: 0.9;
@@ -342,7 +327,7 @@ footer {
 }
 /****************************************************************/
 /****************************************************************/
-                      /* Jobs */
+/* Jobs */
 /****************************************************************/
 /****************************************************************/
 #jobs ul {
@@ -370,6 +355,26 @@ footer {
 }
 #jobs li a:hover {
   color: var(--wc-gold-doree);
+}
+/****************************************************************/
+/****************************************************************/
+                      /* Contact */
+/****************************************************************/
+/****************************************************************/
+footer {
+  margin: 2em;
+}
+#contact a {
+  font-family: 'lobster';
+  animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
+  font-size: 1.8em;
+  margin: 1em;
+  display: inline-block;
+  color: var(--wc-pink-100);
+}
+#contact a:hover {
+  color: var(--wc-pink-800);
+  animation: none;
 }
 /****************************************************************/
 /****************************************************************/

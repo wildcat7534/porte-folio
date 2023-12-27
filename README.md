@@ -51,4 +51,10 @@
 - [x] Intégration (version beta) du changement des images dans l'article section hobbies
 - [x] Retravaille de la taille, bordure etc des articles
 - [x] Ajout de la section Diplôme 
+
+27/12/2023 :
+
+- [x] Ajout de l'association de la Gamers Assembly dans mes Hobbies
+- [x] Correction Mobile
+- [x] Ajout sélection dessin par IA
  

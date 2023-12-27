@@ -53,12 +53,14 @@ h3{
 	border-radius: 10px;
 }
 #warningObsolete{
+	display: flex;
 	position: absolute;
-    font-size: 0.7em;
-    left: 9%;
-    top: 0.5%;
-    color: #c7b966;
+	font-size: 0.7em;
+	left: 9%;
+	top: 2.5%;
+	color: #c7b966;
 	text-decoration: underline;
+	animation: retroColors 2s linear infinite;
 }
 span.titre{
 	display: flex;
@@ -947,4 +949,12 @@ footer.cv img{
 		height: 9.5em;
 	}
 
+}
+
+@keyframes retroColors{
+	0%{background-color: plum;}
+	25%{background-color: mediumvioletred;}
+	50%{background-color: purple;}
+	75%{background-color: mediumpurpule;}
+	100%{background-color: orchid;}
 }
