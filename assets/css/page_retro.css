@@ -60,12 +60,13 @@ h2#wildcatTitle {
   text-align: left;
 }
 .description {
-  font-size: 1.3em;
+  font-size: 1.6em;
   color: var(--wc-blue-300);
   font-style: italic;
   text-align: center;
   text-shadow: 3px 3px 10px var(--wc-blue-300);
-  line-height: 25px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
 }
 #divHeaderBlock {
   display: flex;
@@ -241,11 +242,11 @@ h2.wildcatTitle {
 }
 #divHobbies article {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-/*   width: 100%; */
-  height: fit-content;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
   cursor: pointer;
   border: ridge 6px darkgoldenrod;
   border-radius: 5%;
@@ -268,7 +269,6 @@ h2.wildcatTitle {
   min-width: 200px;
   max-width: 300px;
   height: auto;
-  margin: 10px;
 }
 #neroWildcatDrawAI {
   width: 45%;
@@ -403,6 +403,12 @@ footer {
   .diplomeDescription {
     font-size: 0.8em;
   }
+  #divHobbies article {
+    width: 270px;
+  }
+  .imgHobbies {
+    min-width: 240px;
+  }
   #contact a {
     font-size: 1.2em;
   }
@@ -455,12 +461,14 @@ footer {
   .mousePad h2{
     font-size: 2.5em;
   }
+  .yearDiplome,
+  .diplomeDescription {
+    font-size: 1.3em;
+  }
   #divHobbies article {
 /*     width: 45%; */
   }
 }
-
-
 /************************************************************/
 /************************************************************/
                       /* Retro style */

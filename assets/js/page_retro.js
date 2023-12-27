@@ -128,7 +128,6 @@ function onClickProjectBoxesShadowBoxesEffect() {
 function podcastsPictures() {
     var  podcastsPicturesTab = [];
     podcastsPicturesTab.push(
-        "assets/pictures/podcast_logo.png",
         "assets/pictures/podcasts/tech_cafe.jpg",
         "assets/pictures/podcasts/quete_laterale.jpg",
         "assets/pictures/podcasts/studio_404.jpg",
