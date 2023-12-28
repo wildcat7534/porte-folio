@@ -1,7 +1,7 @@
 var classic = document.querySelector("#classic");
 var win95 = document.querySelector("#win95");
 var inputs = document.querySelectorAll("input");
-var fichier_css = document.querySelector("link[type='text/CSS']");
+var fichier_css = document.querySelector("#fichier_css");
 var mainCV = document.querySelector("main.cv");
 
 /*var barre_choix = document.querySelector("#choixStyleCV");
@@ -39,6 +39,7 @@ mainCV.appendChild(sectionMini);
 sectionMini.innerHTML = "<button id='fermerMiniForm'>X</button>\
 						<form class='float'>\
 						<h2>Contact :</h2>\
+						<h4 id='demo'>! DEMO !</h4>\
 						<div class='col1'>\
 							<div>\
 							<label for='nom'>Nom</label>\

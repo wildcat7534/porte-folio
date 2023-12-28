@@ -51,13 +51,14 @@ h3{
 	width: fit-content;
 	border: 5px ridge palegoldenrod;
 	border-radius: 10px;
+	letter-spacing: 2px;
 }
 #warningObsolete{
 	display: flex;
 	position: absolute;
 	font-size: 0.7em;
 	left: 9%;
-	top: 2.5%;
+	top: 0.5%;
 	color: #c7b966;
 	text-decoration: underline;
 	animation: retroColors 2s linear infinite;
@@ -375,6 +376,16 @@ footer img{
 
 				/*---- FORMULAIRE -START----*/ 
 
+#demo {
+	position: absolute;
+	top: 34px;
+	left: -3px;
+	border: 1px dotted;
+	cursor: pointer;
+	transform: rotate(-45deg);
+	color: aliceblue;
+	font-size: 23px;
+}
 form.inscription{
 	display: flex;
 	flex-wrap: wrap;
@@ -675,7 +686,7 @@ main.cv h3{
     padding: 2% 0;
     margin: unset;
     margin-bottom: 50px;
-    color: palevioletred;
+    color: #e72263;
     font-size: 1.4em;
     box-shadow: -3px 10px 13px -6px rgba(0,0,0,0.75);
 }
@@ -817,6 +828,18 @@ main.cv section.site#cv ul#listeSkill{
 }
 .icon::before {
 	color: palevioletred;
+}
+.icon-warning::before {
+	font-size: 1.6em;
+	position: relative;
+	top: -1px;
+	left: -31px;
+}
+@media screen and (max-width: 768px){
+	#warningObsolete{
+		top: 0.3%;
+		font-size: 0.7em;
+	}
 }
 main.cv section.site#cv ul li{
     list-style: none;

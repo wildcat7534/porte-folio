@@ -3,25 +3,9 @@
 	padding: 0;
     transition: 2s all ease;
 	}
-@font-face{
-	font-family:"";
-	src: url('fonts/');
-}
-@font-face{
-	font-family:"";
-	src: url('fonts/');
-}
-@font-face{
-	font-family:"";
-	src: url('fonts/');
-}
-html{
-/*	font-size: 62.5%;
-*/}
 body{
-/*	font-size: calc(0.9em + 1vw);
-*/	display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 img{
 	max-width: 100%;
@@ -29,24 +13,31 @@ img{
 span, h3, p{
 	font-family: "";
 }
-
-
+#warningObsolete {
+	position: fixed;
+	top: 0;
+	left: 260px;
+	background-color: rgba(255,255,255,0.9);
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 #lechoix p{
 	display: none;
 }
-
 #choixStyleCV{
-    position: unset;
-    top: 6px;
-    right: 22px;
-    width: 150px;
-    background-color: teal;
-    height: 25px;
+	position: unset;
+	top: 6px;
+	right: 22px;
+	width: 150px;
+	background-color: teal;
+	height: 25px;
 }
 #choixStyleCV label{
 	cursor: pointer;
 }
-
 #choixStyleCV label:first-child{
 	color: gold;
 }
@@ -60,7 +51,7 @@ span, h3, p{
 	color: blanchedalmond;
 	border: 1px solid;
 	padding-bottom: 3px;
-    border-bottom: none;
+	border-bottom: none;
 }
 #choixStyleCV label[for="laser"]{
 	background-color: aliceblue;
@@ -72,63 +63,74 @@ span, h3, p{
 	border: 1px solid;
 }
 #choixStyleCV label[for="win95"]:hover{
-    font-size: 16.2px;
-    background-color: blueviolet;
+	font-size: 16.2px;
+	background-color: blueviolet;
 }
 #choixStyleCV input{
 	display: none;
 }
 header{
-    background-color: blanchedalmond;
-    height: 100vh;
-    width: 25vh;
-    position: fixed;
-    z-index: 10;
+	background-color: blanchedalmond;
+	height: 100vh;
+	width: 25vh;
+	position: fixed;
+	z-index: 10;
 }
 header h1{
-    display: unset;
-    font-size: 1.2em;
-    color: darkblue;
-    padding-bottom: 30px;
-    position: absolute;
-    top: 29px;
-    left: 33px;
+	display: unset;
+	font-size: 1.2em;
+	color: darkblue;
+	padding-bottom: 30px;
+	position: absolute;
+	top: 29px;
+	left: 33px;
 }
 header img{
-    margin-bottom: 50px;
-    border-radius: 50%;
-    transition: 2s all ease;
-    background-color: white;
-    position: absolute;
-    top: 54px;
-    left: 64px;
+	margin-bottom: 50px;
+	border-radius: 50%;
+	transition: 2s all ease;
+	background-color: white;
+	position: absolute;
+	top: 54px;
+	left: 64px;
 }
 header h2{
-    display: unset;
-    font-size: 1.4em;
-    color: cornflowerblue;
-    background-color: white;
-    padding-bottom: 30px;
-    position: fixed;
-    top: -1px;
-    left: 315px;
-    width: 100%;
-    padding-top: 30px;
-    box-shadow: 0px 10px 71px 5px rgba(255,255,255,0.75);
+	display: unset;
+	font-size: 1.4em;
+	color: cornflowerblue;
+	background-color: white;
+	position: fixed;
+	top: 60px;
+	left: 315px;
+	width: 100%;
+	box-shadow: 0px 10px 71px 5px rgba(255,255,255,0.75);
 }
 button#contact{
 	position: absolute;
-    top: 136px;
-    left: 46px;
-    border: 1px dotted;
-    cursor: pointer;
+	top: 136px;
+	left: 46px;
+	border: 1px dotted;
+	cursor: pointer;
+}
+button#contact:hover{
+	background-color: cornflowerblue;
+}
+#demo {
+	position: absolute;
+	top: 34px;
+	left: -3px;
+	border: 1px dotted;
+	cursor: pointer;
+	transform: rotate(-45deg);
+	color: cadetblue;
+	font-size: 23px;
 }
 #adresse{
-    position: fixed;
-    top: 175px;
-    left: 45px;
-    color: darkblue;
-    z-index: 10;
+	position: fixed;
+	top: 175px;
+	left: 45px;
+	color: darkblue;
+	z-index: 10;
 }
 #adresse li{
 	padding-bottom: 8px;
@@ -137,26 +139,26 @@ hr{
 	display: none;
 }
 hr#hr1{
-    display: unset;
-    transform: rotate(90deg);
-    position: absolute;
-    top: 44px;
-    left: -510px;
-    width: 100vh;
+	display: unset;
+	transform: rotate(90deg);
+	position: absolute;
+	top: 44px;
+	left: -510px;
+	width: 100vh;
 }
 #hr2{
-    display: unset;
-    width: 26vh;
-    position: absolute;
-    top: -52px;
-    left: 105px;
+	display: unset;
+	width: 26vh;
+	position: absolute;
+	top: -52px;
+	left: 105px;
 }
 input[id="classic"]:checked ~ label[for="classic"]{
-    font-size: 20px;
-    background-color: cornflowerblue;
-    border: 1px dotted;
+	font-size: 20px;
+	background-color: cornflowerblue;
+	border: 1px dotted;
 
-  	animation-name: colors;
+	animation-name: colors;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 }
@@ -165,45 +167,45 @@ input[id="classic"]:checked ~ label[for="classic"]{
 	to{background-color: gold;}
 }
 input[id="laser"]:checked ~ label[for="laser"]{
-    font-size: 20px;
-    background-color: cornflowerblue;
-    border: 1px dotted;
+	font-size: 20px;
+	background-color: cornflowerblue;
+	border: 1px dotted;
 }
 section.skill{
 	position: fixed;
-    top: 266px;
-    left: 17px;
-    color: darkblue;
-    width: 170px;
-    z-index: 10;
+	top: 266px;
+	left: 17px;
+	color: darkblue;
+	width: 215px;
+	z-index: 10;
 }
 section.skill ul li{
-    padding-bottom: 13px;
-    font-size: 0.9em;
+	padding-bottom: 13px;
+	font-size: 0.9em;
+	display: flex;
 }
 section.skill ul li span{
 	color: goldenrod;
-    font-size: 1.2em;
+	font-size: 1.2em;
+	padding-right: 5px;
 }
 #titre_entreprise{
 	display: unset;
-    position: absolute;
+	position: absolute;
 	top: 125px;
-    left: 257px;
-    font-size: 2em;
+	left: 257px;
+	font-size: 2em;
 }
 section.entreprise{
-    position: absolute;
-    top: 170px;
-    left: 275px;
+	position: absolute;
+	top: 170px;
+	left: 275px;
 }
 section.entreprise p,
 section.cursus p{
 	font-style: italic;
 	font-size: 0.8em;
 }
-
-
 section.entreprise span,
 section.cursus span{
 	color: goldenrod;
@@ -223,17 +225,17 @@ section.cursus div{
 	padding-bottom: 20px;
 }
 #titre_cursus{
-    display: unset;
-    position: absolute;
-    top: 880px;
-    left: 257px;
-    font-size: 1.5em;
+	display: unset;
+	position: absolute;
+	top: 880px;
+	left: 257px;
+	font-size: 1.5em;
 }
 section.cursus{
 	position: absolute;
-    top: 920px;
-    left: 275px;
-    color: darkblue;
+	top: 920px;
+	left: 275px;
+	color: darkblue;
 }
 ul li{
 	list-style-type: none;
@@ -251,18 +253,17 @@ footer{
 	width: 60vh;
 	height: 100vh; 
 	display: unset;
-    color: cadetblue;
-    background-color: gainsboro;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+	color: cadetblue;
+	background-color: gainsboro;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 header nav ul li{
 	margin-bottom: 25px;
 	color: white;
 	font-size: 1.3em;
-
 	transition: 2.5s margin-bottom ease;
 	transition: 2.5s font-size ease;
 }
@@ -284,7 +285,6 @@ header nav ul li:hover{
  	position: fixed ; /*relative absolute fixed sticky*/
 	bottom: -450px;
 	right: 80px;
-/*	right: -350px;*/
 	z-index: 100;
 	width: 325px;
 	padding: 0.5%;
@@ -295,7 +295,6 @@ header nav ul li:hover{
 	0% {bottom:-450px; right:80px;}
 	100% {bottom:20px; right:10px;}
 }
-
 .popup button{
 	border-radius: 20px;
 	border-color: palegoldenrod;
@@ -309,15 +308,14 @@ header nav ul li:hover{
 	top: 7px;
 }
 .popup button#fermerMiniForm{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 35px;
-
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35px;
 }
 .popup button#fermerMiniForm:before{
 	content: 'Fermer';
-    position: absolute;
+	position: absolute;
 	margin-left: 0px;
 	width: 0px;
 	opacity: 0;
@@ -326,12 +324,11 @@ header nav ul li:hover{
 }
 .popup button#fermerMiniForm:hover:before{
 	content: 'Fermer';
-    position: absolute;
-    margin-left: -53px;
-    width: 45px;
-    opacity: 1;
+	position: absolute;
+	margin-left: -53px;
+	width: 45px;
+	opacity: 1;
 }
-
 .popup form.float button#envoyer{
 	position: static;
 	display: block;
@@ -376,24 +373,23 @@ header nav ul li:hover{
 }
 @media screen and (min-width: 1024px){
 	/* CSS poour les ordianteurs */
-
 	header h2 {
-    	padding-left: 150px;
-    	font-size: 2em;
+		padding-left: 150px;
+		font-size: 2em;
 	}
 	section.entreprise{
-	    top: 170px;
-	    font-size: 1.5em;
+		top: 170px;
+		font-size: 1.5em;
 	}
 	#hr2 {
-	    top: -75px;
+		top: -75px;
 	}
 	#titre_cursus {
-    	top: 930px;
+		top: 930px;
 		font-size: 2em;
 	}
 	section.cursus{
-    	top: 980px;
+		top: 980px;
 		font-size: 1.5em;
 	}
 }
