@@ -312,6 +312,12 @@ article#wildcatPodcast {
   font-size: 0.9em;
   margin: 10px 0;
 }
+#badgeIA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80% !important;
+}
 #imgLabyby {
   width: 50%;
   scale: 0.9;
