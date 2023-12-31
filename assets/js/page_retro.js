@@ -94,7 +94,7 @@ class Boxe {
 }
 
 function onClickProjectBoxesShadowBoxesEffect() {
-    let projectBoxes = document.querySelectorAll('.projectBoxes');
+    let projectBoxes = document.querySelectorAll('.projectImages');
     console.log("project boxes : ", projectBoxes);
     for (let i = 0; i < projectBoxes.length; i++) {
         projectBoxes[i].addEventListener('click', function () {

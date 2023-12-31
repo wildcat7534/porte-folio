@@ -44,6 +44,7 @@
 - [x] Rajout de la bibliothèque icomoon (Pfiou...)
 - [x] Corrections des icones manquants etc 
 - [x] Ajout des postes de rêves avec leur adresse internet / de recrutement
+- [x] Restauration du débit du réseau interne ( enfin ! )
 
 26/12/2023 :
 
@@ -58,3 +59,8 @@
 - [x] Correction Mobile
 - [x] Ajout sélection dessin par IA
  
+ 29/12/2023 :
+
+ - [x] Ajout du mini jeu engima
+ - [x] Préparation à l'utilisation de LlamaIndex ( utilisation d'une BDD pour marcher avec un Model LLM)
+ - [x] Renseignement sur l'utilisation d'agents ( avec CrewAI )
