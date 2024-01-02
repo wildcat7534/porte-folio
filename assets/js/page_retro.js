@@ -25,7 +25,6 @@ function changeButton() {
     body.style.backgroundSize = "300px";
     body.style.color = "deeppink";
 }
-
 function projectBoxesOnTouch() {
     let box = document.getElementById('projetBox');
     box.style.backgroundColor = "#2d573f";
@@ -94,9 +93,9 @@ class Boxe {
 }
 
 function onClickProjectBoxesShadowBoxesEffect() {
-    let projectBoxes = document.querySelectorAll('.projectImages');
-    console.log("project boxes : ", projectBoxes);
-    for (let i = 0; i < projectBoxes.length; i++) {
+  let projectBoxes = document.querySelectorAll('.projectImages');
+  console.log("project boxes : ", projectBoxes);
+  for (let i = 0; i < projectBoxes.length; i++) {
         projectBoxes[i].addEventListener('click', function () {
             if (projectBoxes[i].style.boxShadow == "rgb(255 236 120) 0px 0px 11px 9px") {
                 console.log("box shadow : ", projectBoxes[i].style.boxShadow);
@@ -108,7 +107,7 @@ function onClickProjectBoxesShadowBoxesEffect() {
                     let imgILC = projectBoxes[i].querySelector('img');
                     imgILC.style.opacity = "0";
                     imgILC.src = "assets/pictures/pro/ILC_France_After_home.png";
-                    setTimeout(() => {
+                    setTimeout( () => {
                         imgILC.style.transition = "all 1s ease-in-out";
                         imgILC.style.opacity = "1";
                     }, 500);
@@ -117,8 +116,6 @@ function onClickProjectBoxesShadowBoxesEffect() {
         });
     }
 }
-
-
 
 //......................................................//
 /////////////////////page RETRO END///////////////////////////
@@ -153,7 +150,7 @@ function podcastsPictures() {
         "assets/pictures/podcasts/un_bon_moment.jpg",
     );
     
-    const podcastsPicturesBoxe = document.querySelector('#wildcatPodcast');
+    const podcastsPicturesBoxe = document.querySelector('#wildcatPodcast figure');
     
     console.log("podcastsPicturesTab : ", podcastsPicturesTab);
 
