@@ -46,7 +46,9 @@ h1 {
 }
 #catLogoFigure {
   width: 120px;
-  height: 40px;
+  height: 100%;
+  position: absolute;
+  top: 145px;
 }
 #catLogoFigure img {
   width: 100%;
@@ -206,6 +208,9 @@ h2.wildcatTitle {
   justify-content: space-around;
   align-items: center;
 }
+#divDiplomes article {
+  margin: 10px 0;
+}
 .yearDiplome {
   font-size: 1.5em;
   color: var(--wc-blue-400);
@@ -263,6 +268,7 @@ h2.wildcatTitle {
 }
 #divHobbies article span:nth-child(2){
   font-size: 12px;
+  padding: 0 25px;
 }
 .imgHobbies {
   width: 45%;
@@ -285,6 +291,11 @@ h2.wildcatTitle {
 }
 article#wildcatPodcast {
 
+}
+#wildcatPodcast figure {
+  min-height: 320px;
+  display: flex;
+  justify-content: center;
 }
 #wildcatPodcast .podcastsPictures {
 /*   position: relative; */
@@ -370,13 +381,20 @@ article#wildcatPodcast {
 footer {
   margin: 2em;
 }
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 #contact a {
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin: 1em;
   display: inline-block;
   color: var(--wc-pink-100);
+  min-width: fit-content;
 }
 #contact a:hover {
   color: var(--wc-pink-800);
@@ -397,8 +415,13 @@ footer {
   h1 {
     font-size: 2em;
   }
+  .description {
+    font-size: 1em;
+    line-height: 16px;
+  }
   #projects div.projectBoxes {
     width: 100%;
+    margin: 0;
   }
   .titleProject {
     font-size: 1.2em;
@@ -419,6 +442,9 @@ footer {
   }
   .imgHobbies {
     min-width: 240px;
+  }
+  #wildcatPodcast figure {
+    min-height: 270px;
   }
   #contact a {
     font-size: 1.2em;
