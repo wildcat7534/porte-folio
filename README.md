@@ -74,3 +74,4 @@
 
 - [x] Ajout de la page serveurs
 - [x] Ajout du bouton "voulez-vous en savoir plus ?"
+- [x] Ajout de sections hobbies, diplome etc
