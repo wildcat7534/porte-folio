@@ -69,3 +69,8 @@
 
 - [x] Création de row dans projet pour aligner horizontalement
 - [x] test de jan (interface chat et installeur Win/linux/Mac IA)
+
+05/01/2024 :
+
+- [x] Ajout de la page serveurs
+- [x] Ajout du bouton "voulez-vous en savoir plus ?"

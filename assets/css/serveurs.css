@@ -1,3 +1,6 @@
+body {
+  background-image: url(../pictures/fondStars.webp);
+}
 #setupServers {
   display: flex;
   justify-content: center;
@@ -43,4 +46,34 @@
   width: 100%;
   border-radius: 16px;
   border: 4px ridge var(--wc-gold-doree);
+}
+/****************************************************************/
+/****************************************************************/
+/* Contact */
+/****************************************************************/
+/****************************************************************/
+footer {
+  margin: 2em;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#contact a {
+  font-family: 'lobster';
+  animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
+  font-size: 1.6em;
+  margin: 1em;
+  display: inline-block;
+  color: var(--wc-pink-100);
+  min-width: fit-content;
+}
+
+#contact a:hover {
+  color: var(--wc-pink-800);
+  animation: none;
 }
