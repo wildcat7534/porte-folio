@@ -202,7 +202,7 @@ h2.wildcatTitle {
   border: ridge 6px #ff0;
 }
 #project3 a:hover {
-  
+
 }
 /****************************************************************/
 /****************************************************************/
@@ -285,6 +285,13 @@ h2.wildcatTitle {
   max-width: 300px;
   height: auto;
 }
+#sakura {
+  padding: 3%;
+  margin-top: 20%;
+}
+#dessinsStable {
+  width: 60%;
+}
 #neroWildcatDrawAI {
   width: 45%;
   height: auto;
@@ -318,10 +325,6 @@ article#wildcatPodcast {
   height: auto;
   opacity: 0;
   position: relative;
-}
-#sakura {
-  padding: 3%;
-  margin-top: 20%;
 }
 #listPodcast {
   
@@ -482,7 +485,7 @@ footer {
     font-size: 0.9em;
   }
   .imgHobbies {
-    width: 100% !important;
+    width: 100% ;
   }
   #divHobbies article {
 /*     width: 45%; */
