@@ -100,3 +100,17 @@ img {
 p {
   font-size: 1.1em;
 }
+.boutonRetro {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.1em;
+  font-family: 'inconsolata';
+  cursor: pointer;
+}
+.boutonRetro:hover {
+  background-color: #fff;
+  color: #000;
+}

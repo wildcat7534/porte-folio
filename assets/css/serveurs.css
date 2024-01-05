@@ -1,0 +1,46 @@
+#setupServers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 25px;
+}
+#setupServers h2 {
+  color: aliceblue;
+  text-align: center;
+  margin: 50px 0;
+}
+.mousePad {
+  padding: 20px;
+}
+.mousePad h2 {
+  text-align: center;
+  color: var(--wc-gold-doree);
+  font-family: system-ui;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  padding: 0;
+  text-shadow: 3px 3px 10px var(--wc-gold-doree);
+  width: 100%;
+}
+#descriptionMontageServeurs {
+  color: aliceblue;
+}
+.picturesServeurs {
+  display: flex;
+  flex-direction: column; 
+}
+.rowServeurs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 75px 0;
+}
+.figureServeurs {
+  width: 25%;
+}
+.figureServeurs img {
+  width: 100%;
+  border-radius: 16px;
+  border: 4px ridge var(--wc-gold-doree);
+}

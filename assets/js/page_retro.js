@@ -159,25 +159,20 @@ function podcastsPictures() {
     img.style.transition = "all 1.2s ease-in-out";
 
     setInterval(() => {
-/*         setTimeout(() => {
-        }, 1000); */
         img.style.opacity = "0";
         img.style.opacity = "1";
         podcastsPicturesTab.push(podcastsPicturesTab.shift());
         img.src = podcastsPicturesTab[0];
         podcastsPicturesBoxe.appendChild(img);
     }, 2000);
-
-
-
-/*     for (let i = 0; i < podcastsPicturesTab.length; i++) {
-        img.src = podcastsPicturesTab[i];
-        podcastsPicturesBoxe.appendChild(img);
-    } */
 }
 
+var boutonServeur = document.querySelector('#boutonServeur');
 
+// bouton pour charger la page du projet de montage du serveur à l'adresse "serveurs.html" dans un nouvel onglet du navigateur
 
-
+boutonServeur.addEventListener('click', function () {
+    window.open('serveurs.html', '_blank');
+});
 
 
