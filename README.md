@@ -42,7 +42,7 @@
 - [x] Installation de Docker + lazydocker (affichage info docker dans terminal avec prise en charge de la souris)
 - [x] Rustinage du CV.html (mes premiers code html,css,js...)
 - [x] Rajout de la bibliothèque icomoon (Pfiou...)
-- [x] Corrections des icones manquants etc 
+- [x] Corrections des icones manquants etc
 - [x] Ajout des postes de rêves avec leur adresse internet / de recrutement
 - [x] Restauration du débit du réseau interne ( enfin ! )
 
@@ -51,16 +51,21 @@
 - [x] Capture d'écran, tri des images de chaque podcast
 - [x] Intégration (version beta) du changement des images dans l'article section hobbies
 - [x] Retravaille de la taille, bordure etc des articles
-- [x] Ajout de la section Diplôme 
+- [x] Ajout de la section Diplôme
 
 27/12/2023 :
 
 - [x] Ajout de l'association de la Gamers Assembly dans mes Hobbies
 - [x] Correction Mobile
 - [x] Ajout sélection dessin par IA
- 
- 29/12/2023 :
 
- - [x] Ajout du mini jeu engima
- - [x] Préparation à l'utilisation de LlamaIndex ( utilisation d'une BDD pour marcher avec un Model LLM)
- - [x] Renseignement sur l'utilisation d'agents ( avec CrewAI )
+29/12/2023 :
+
+- [x] Ajout du mini jeu engima
+- [x] Préparation à l'utilisation de LlamaIndex ( utilisation d'une BDD pour marcher avec un Model LLM)
+- [x] Renseignement sur l'utilisation d'agents ( avec CrewAI )
+
+04/01/2024 :
+
+- [x] Création de row dans projet pour aligner horizontalement
+- [x] test de jan (interface chat et installeur Win/linux/Mac IA)

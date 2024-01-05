@@ -137,6 +137,12 @@ h2.wildcatTitle {
   color: var(--wc-pink-200);
   animation: neonVioletRetroFlashes 1s ease-in-out infinite alternate;
 }
+.rowProject {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
 #projects div.projectBoxes {
   position: relative;
   flex-direction: column;
