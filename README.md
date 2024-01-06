@@ -65,6 +65,13 @@
 - [x] Préparation à l'utilisation de LlamaIndex ( utilisation d'une BDD pour marcher avec un Model LLM)
 - [x] Renseignement sur l'utilisation d'agents ( avec CrewAI )
 
+## __2024__
+
+01/01/2024 :
+
+- [x] Entrainement avec la voix de Dorothée Pousséo ( Lucy de CyberPunk EdgeRunner, margot Robbie... ) avec Bark + Hubert
+- [x] Première génération de voix ( Très drole mais pas convaincant ET trop court ) // Doit essayer avec RVC(japonais)
+
 04/01/2024 :
 
 - [x] Création de row dans projet pour aligner horizontalement
