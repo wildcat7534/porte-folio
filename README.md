@@ -82,3 +82,11 @@
 - [x] Ajout de la page serveurs
 - [x] Ajout du bouton "voulez-vous en savoir plus ?"
 - [x] Ajout de sections hobbies, diplome etc
+
+06/01/2024 :
+
+- [x] Installation de whisper sur le server
+- [x] première configuration de jan / TGW en server
+- [x] WORLD PREMIERE ! Sakura accessible du net et sur mobile ! Sakura extremement rapide (moins de context, meilleurs model), 
+- [x] WORLD PREMIERE ! Sakura peut dessiner et générer des images ! Aussi les comprendre !! (intégration de ma 2ème CG pour charger Sakura dans l'une 
+            et Stable dans l'autre)
