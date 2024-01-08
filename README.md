@@ -97,3 +97,7 @@
 - [x] Découverte des 3D gaussian splatting, clip crée : https://youtube.com/clip/UgkxsPYuzADp_49WrRAOeFO1V8PhfWwL4NDN?si=08IIb3AZx6t2Zo2s
 - [x] Tentaive de quantisation en q4 puis fp16 à la volé avec Mixtral, echec si moins de 30 Go de VRAM, test avec un model déjà quantisé en GPTQ + décharge de ce qui ne rentre pas dans les 24 Go vers le CPU ( tuto de chez Mistral : https://huggingface.co/blog/mixtral#load-mixtral-with-4-bit-quantization)
 
+08/01/2024 :
+- [x] Utilisation de mistralai_Mistral-7B-Instruct-v0.2 ( vanilla ) + le bon template = super OK ! ( mais Tiny Mistral is in English )
+- [x] NB : the most hyped tech startups in the French tech ecosystem: Dust, Finegrain, Gladia, Mistral AI and Scenario
+
