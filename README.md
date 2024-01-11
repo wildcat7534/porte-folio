@@ -101,3 +101,8 @@
 - [x] Utilisation de mistralai_Mistral-7B-Instruct-v0.2 ( vanilla ) + le bon template = super OK ! ( mais Tiny Mistral is in English )
 - [x] NB : the most hyped tech startups in the French tech ecosystem: Dust, Finegrain, Gladia, Mistral AI and Scenario
 
+10/01/2024 :
+- [x] Tuto Django !
+
+11/01/2024 :
+- [x] Utilisation de Python venv pour installer vLLM et ses paquets
