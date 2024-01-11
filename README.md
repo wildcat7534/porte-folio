@@ -109,4 +109,5 @@
 
 11/01/2024 :
 - [x] Utilisation de Python venv pour installer vLLM et ses paquets
+- [x] Utilisation de ray et parralélisation de la charge sur mes 2 GPU (!!!!!!ENORME)
 
