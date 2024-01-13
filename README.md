@@ -125,3 +125,5 @@
 
 - [x] [DEVOP] Je garde que serveur#1 (conso environs 15€/mois/serveur (pour 100Watt/h)) 
 - [x] [DISCORD] Contact avec Jmorgan développeur de Ollama pour vérifier mes logs (prblm sur WSL2 avec sa dernière version)
+- [x] [BACKEND] Achat de clément-portefolio.fr (avec accent) et création du sous domaine www.labybi.clément-portefolio.fr chez OVH
+- [x] [BACKEND] Configuration de Apache2 pour mes 2 hôtes virtuels et utilisation de Certbot pour valider le HTTPS

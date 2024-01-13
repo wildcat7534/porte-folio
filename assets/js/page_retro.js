@@ -9,34 +9,36 @@ init();
 //......................................................//
 /////////////////////page RETRO///////////////////////////
 //......................................................//
-var debugWidth = document.querySelector('#debugWidth');
-debugWidth.innerHTML = "_w " +window.innerWidth;
-var gifLogo = document.getElementById('imgHeader');
+const debugWidth = document.querySelector('#debugWidth');
 
-if ((buttonVersions = document.getElementById('buttonVersions')) != null) {
-    var buttonVersions = document.getElementById('buttonVersions');
+debugWidth.innerHTML = `_w ${window.innerWidth}`;
+const gifLogo = document.getElementById('imgHeader');
+const buttonVersions = document.getElementById('buttonVersions');
+
+if (buttonVersions != null) {
+    const buttonVersions = document.getElementById('buttonVersions');
     buttonVersions.addEventListener('click', changeButton);
 }
 function changeButton() {
     buttonVersions.innerHTML = "Rabbits !!!";
-    let body = document.querySelector('body');
+    const body = document.querySelector('body');
     body.style.backgroundImage = "url('assets/pictures/littleRabbits.gif')";
     body.style.backgroundColor = "#2d573f";
     body.style.backgroundSize = "300px";
     body.style.color = "deeppink";
 }
 function projectBoxesOnTouch() {
-    let box = document.getElementById('projetBox');
+    const box = document.getElementById('projetBox');
     box.style.backgroundColor = "#2d573f";
     box.style.color = "#fff";
     box.style.border = "1px solid #fff";
-    let descriptionProjectClass = document.getElementsByClassName('descriptionProject');
+    const descriptionProjectClass = document.getElementsByClassName('descriptionProject');
     for (let i = 0; i < descriptionProjectClass.length; i++) {
         descriptionProjectClass[i].style.display = "block";
     }
 }
-var projectBoxesActived = false;
-var clickDetail = 0;
+//let projectBoxesActived = false;
+//let clickDetail = 0;
 // function titleProjectGetBoundingClientRect() {
 //     const projectBoxes = document.querySelectorAll('.projectBoxes');
 //     for (projectBox of projectBoxes) {
@@ -93,18 +95,18 @@ class Boxe {
 }
 
 function onClickProjectBoxesShadowBoxesEffect() {
-  let projectBoxes = document.querySelectorAll('.projectImages');
+  const projectBoxes = document.querySelectorAll('.projectImages');
   console.log("project boxes : ", projectBoxes);
   for (let i = 0; i < projectBoxes.length; i++) {
-        projectBoxes[i].addEventListener('click', function () {
-            if (projectBoxes[i].style.boxShadow == "rgb(255 236 120) 0px 0px 11px 9px") {
+        projectBoxes[i].addEventListener('click', () =>  {
+            if (projectBoxes[i].style.boxShadow === "rgb(255 236 120) 0px 0px 11px 9px") {
                 console.log("box shadow : ", projectBoxes[i].style.boxShadow);
                 projectBoxes[i].style.boxShadow = "none";
             } else {
                 projectBoxes[i].style.boxShadow = "rgb(255 236 120) 0px 0px 11px 9px";
-                if (projectBoxes[i].id == "projet2") {
+                if (projectBoxes[i].id === "projet2") {
                     console.log("projet2 : ", projectBoxes[i].className);
-                    let imgILC = projectBoxes[i].querySelector('img');
+                    const imgILC = projectBoxes[i].querySelector('img');
                     imgILC.style.opacity = "0";
                     imgILC.src = "assets/pictures/pro/ILC_France_After_home.png";
                     setTimeout( () => {
@@ -123,7 +125,7 @@ function onClickProjectBoxesShadowBoxesEffect() {
 // projectsData = [{title: "labiby", description: "description", picture: "picture"}]
 
 function podcastsPictures() {
-    var  podcastsPicturesTab = [];
+    const  podcastsPicturesTab = [];
     podcastsPicturesTab.push(
         "assets/pictures/podcasts/tech_cafe.jpg",
         "assets/pictures/podcasts/quete_laterale.jpg",
@@ -167,12 +169,16 @@ function podcastsPictures() {
     }, 2000);
 }
 
-var boutonServeur = document.querySelector('#boutonServeur');
-
+//////////////BOUTON/////////////////////
+const boutonServeur = document.querySelector('#boutonServeur');
 // bouton pour charger la page du projet de montage du serveur à l'adresse "serveurs.html" dans un nouvel onglet du navigateur
-
-boutonServeur.addEventListener('click', function () {
+boutonServeur.addEventListener('click', () => {
     window.open('serveurs.html', '_blank');
+});
+const boutonLabybi = document.querySelector('#boutonLabybi');
+// bouton pour ouvrir l'adresse internet du projet labybi dans un nouvel onglet du navigateur
+boutonLabybi.addEventListener('click', () => {
+    window.open('https://www.labybi.clément-portefolio.fr/', '_blank');
 });
 
 
