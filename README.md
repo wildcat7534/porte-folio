@@ -95,7 +95,8 @@
 
 - [x] Installation et formation sur Gradio ( librairie Python gratuite )
 - [x] Découverte des 3D gaussian splatting, clip crée : https://youtube.com/clip/UgkxsPYuzADp_49WrRAOeFO1V8PhfWwL4NDN?si=08IIb3AZx6t2Zo2s
-- [x] Tentaive de quantisation en q4 puis fp16 à la volé avec Mixtral, echec si moins de 30 Go de VRAM, test avec un model déjà quantisé en GPTQ + décharge de ce qui ne rentre pas dans les 24 Go vers le CPU ( tuto de chez Mistral : https://huggingface.co/blog/mixtral#load-mixtral-with-4-bit-quantization)
+- [x] Tentaive de quantisation en q4 puis fp16 à la volé avec Mixtral, echec si moins de 30 Go de VRAM, test avec un model déjà
+      quantisé en GPTQ + décharge de ce qui ne rentre pas dans les 24 Go vers le CPU ( tuto de chez Mistral : https://huggingface.co/blog/mixtral#load-mixtral-with-4-bit-quantization)
 
 08/01/2024 :
 
@@ -103,11 +104,14 @@
 - [x] NB : the most hyped tech startups in the French tech ecosystem: Dust, Finegrain, Gladia, Mistral AI and Scenario
 
 10/01/2024 :
+
 - [x] Découverte de pipX pour installer des pacquets python en venv ( sudo apt update sudo apt install pipx pipx ensurepath )
 - [x] Utilisation de python venv pour installer Gradio puis les paquets transformers, PyTorch et le model gpt2 À L'AGENCE. ia LOCAL ok !
 - [x] Tuto Django !
 
 11/01/2024 :
+
 - [x] Utilisation de Python venv pour installer vLLM et ses paquets
 - [x] Utilisation de ray et parralélisation de la charge sur mes 2 GPU (!!!!!!ENORME)
 
+- 42 : imane@42paris.fr
