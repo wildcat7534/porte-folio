@@ -2,13 +2,14 @@
 
 ## <span style="color:blue">First Step</span>
 
-15/11/2023 : 
+15/11/2023 :
 
 - [x] Démarrage du portfolio !
 
 ### <span style="color:red">Pour commencer</span>
 
 - [x] J'ai commencé par l'idée d'une page avec un style rétro en me rappelant l'époque des années 2000's avec des néons que j'affectionne en ce moment ^^
+
 ### <span style="color:green">Allez démarrage !!</span>
 
 - [x] Pour commencer j'ai préparé mon environnement de travail :
@@ -17,7 +18,7 @@
 
 11/12/23 :
 
-- [x] Animation projet ILC Avant Après, création d'une page index pour choicir les styles différents du portfolio, page retro renomée, récupération 
+- [x] Animation projet ILC Avant Après, création d'une page index pour choicir les styles différents du portfolio, page retro renomée, récupération
       police player 2P, refonte header "divHeaderBlock"
 
 - [x] [Ticket BETA] bien avancé, [PAGE RETRO] résumé d'accueil, Email, decritpion projets et titres tjs apparent, titre des sections cohérent,
@@ -96,8 +97,8 @@
 
 - [x] [IA] Installation et découverte de Gradio ( librairie Python gratuite pour affichage web opti pour LLM etc. )
 - [x] [IA] [3D] Découverte des 3D gaussian splatting, clip crée : https://youtube.com/clip/UgkxsPYuzADp_49WrRAOeFO1V8PhfWwL4NDN?si=08IIb3AZx6t2Zo2s
-- [x] [IA] Tentative d'utilisation de model LLM avec quantisation en q4 puis fp16 à la volé avec Mixtral, echec si moins de 30 Go de VRAM, test avec 
-            un model déjà quantisé en GPTQ + décharge de ce qui ne rentre pas dans les 24 Go vers le CPU ( tuto de chez Mistral : https://huggingface.co/blog/mixtral#load-mixtral-with-4-bit-quantization)
+- [x] [IA] Tentative d'utilisation de model LLM avec quantisation en q4 puis fp16 à la volé avec Mixtral, echec si moins de 30 Go de VRAM, test avec
+      un model déjà quantisé en GPTQ + décharge de ce qui ne rentre pas dans les 24 Go vers le CPU ( tuto de chez Mistral : https://huggingface.co/blog/mixtral#load-mixtral-with-4-bit-quantization)
 
 08/01/2024 :
 
@@ -124,7 +125,7 @@
 
 13/01/2024 :
 
-- [x] [DEVOP] [SERVER] Je garde que le serveur#1 (conso environs 15€/mois/serveur (pour 100Watt/h)) 
+- [x] [DEVOP] [SERVER] Je garde que le serveur#1 (conso environs 15€/mois/serveur (pour 100Watt/h))
 - [x] [DISCORD] Contact avec Jmorgan développeur de Ollama pour vérifier mes logs (prblm sur WSL2 avec sa dernière version)
 - [x] [BACKEND] Achat de clément-portefolio.fr (avec accent) et création du sous domaine www.labybi.clément-portefolio.fr chez OVH
 - [x] [BACKEND] Configuration de Apache2 pour mes 2 hôtes virtuels et utilisation de Certbot pour valider le HTTPS !
