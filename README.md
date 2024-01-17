@@ -151,3 +151,11 @@
 
 - [x] [ECOLE42] Attente, atente ^^'
 - [x] [TUTO] Django #4
+- [x] [DEVOP] [BACKEND] [URGENCE] 11h20 : Site down après un reboot de mon serveur qui a fait une MaJ --> location server chez
+      OVH, connexion en ssh, installation de apache2, demande à Bard pour me rappeler un fichier type du fichier
+      de configuration mon_site.conf, démarrage de Apache2, installation de certbot + python3-certbot-apache,
+      changement de la redirection de mon IP vers l'IP de OVH pour mon nom de domaine, propagation instantanée,
+      lancement de certbot qui vérifie si le nom de domaine renvoit bien là où il est installé et génère mes clefs SSL,
+      création d'un dossier portefolio dans /var/www et changement des permission pour ajouter moi et www-data pour apache2,
+      connexion en sftp:// et transfert des fichiers du portefolio.
+      12h27 : portefolio accessible !!!! \*fièr ^^
