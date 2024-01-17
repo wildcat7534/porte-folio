@@ -135,3 +135,19 @@
 - [x] [IA] Découverte de exLlamaV2 (Bon usgage des CG et de la quantisation, à tester et à tester avec Mistral/Mixtral)
 - [x] [ECOLE42] Préparation de la lettre de demande d'intégration (OMG...)
 - [x] [PATCH/MAJ] Corrections, liens, Labybi sur Github etc
+
+15/01/2024 :
+
+- [x] Entrainement et passage des test en ligne de [ECOLE42] !!!
+- [x] [TUTO] Django #3/#4
+
+16/01/2024 :
+
+- [x] [TUTO] Django #4
+- [x] [ECOLE42] Résultat des tests valdidés !!! Envoi d'un Email à imane *croise les doigts*1000
+- [x] [COFEE] Balade dans Paris 6 et parc luxembourg, photo d'une peruche :)
+
+17/01/2024 :
+
+- [x] [ECOLE42] Attente, atente ^^'
+- [x] [TUTO] Django #4
