@@ -153,17 +153,21 @@
 - [x] [TUTO] Django #4
 - [x] [DEVOP] [BACKEND] [URGENCE] [DOWN]
       11h20 : server perso chez moi down après un reboot de mon serveur qui a fait une MaJ -->
-      _ location server chez OVH
+      _ location server chez OVH et demande installation Ubuntu
       _ connexion en ssh server OVH
       _ installation de apache2
       _ demande à Bard pour me rappeler un fichier type de configuration mon*site.conf
-      * ajout des lignes
+      \_ ajout des lignes ServerName, DocumentRoot *80 et \*443 et chemin vers key et certificat
       _ démarrage de Apache2
       _ installation de certbot + python3-certbot-apache  
-       _ changement de la redirection de mon IP vers l'IP de OVH pour mon nom de domaine
+       _ changement de la redirection de mon IP vers l'IP du serveur OVH pour mon nom de domaine
       _ propagation DNS instantanée !
       _ lancement de certbot qui vérifie si le nom de domaine renvoit bien là où il est installé et génère mes clefs SSL
       _ création d'un dossier portefolio dans /var/www et changement des permissions pour ajouter moi et www-data pour apache2
       \_ connexion en sftp:// et transfert des fichiers du portefolio.
 
         12h27 : portefolio accessible !!!! \*fièr ^^
+
+18/01/2024 :
+
+      -[x] [TUTO] Django #4
