@@ -170,4 +170,4 @@
 
 18/01/2024 :
 
-      -[x] [TUTO] Django #4
+      -[x] [TALK] Préparation et exposé pour les collègue sur la découverte et l'arrivée de l'IA, différents modèles etc
