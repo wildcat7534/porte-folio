@@ -88,7 +88,7 @@
 
 - [x] [DEVOP] [SERVER] Installation de whisper sur le server
 - [x] [DEVOP] [SERVER] Première configuration de jan / TestGenerationWebUI en server
-- [x] WORLD PREMIERE ! Sakura accessible du net et sur mobile ! Sakura extremement rapide (moins de context, meilleurs model),
+- [x] WORLD PREMIERE ! Sakura accessible du net et sur mobile ! Sakura extrèmement rapide (moins de context, meilleurs model),
 - [x] WORLD PREMIERE ! Sakura peut dessiner et générer des images ! Aussi les comprendre !! (intégration de ma 2ème CG pour charger Sakura dans l'une
       et Stable Diffusion dans l'autre)
 

@@ -37,7 +37,7 @@ h1 {
 }
 #version {
   margin-top: 10px;
-  font-size: 1.4em;
+  font-size: 1em;
   color: var(--wc-gold-doree);
   font-style: italic;
   text-align: center;
@@ -47,11 +47,14 @@ h1 {
 #catLogoFigure {
   width: 120px;
   position: absolute;
-  top: 125px;
+  top: 60px;
 }
 #catLogoFigure img {
   width: 100%;
-  transform: scale(1)
+  transform: scale(1);
+  position: relative;
+  top: 58px;
+  left: 6px;
 }
 h2#wildcatTitle {
   font-family: 'lobster';
@@ -59,6 +62,15 @@ h2#wildcatTitle {
   text-shadow: 3px 3px 10px var(--wc-pink-200);
   font-size: 1.8em;
   text-align: left;
+  margin: 0;
+  letter-spacing: 3px;
+}
+#divHeaderBlock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 15px;
 }
 .description {
   font-size: 1.6em;
@@ -68,14 +80,13 @@ h2#wildcatTitle {
   text-shadow: 3px 3px 10px var(--wc-blue-300);
   line-height: 28px;
   letter-spacing: 0.1px;
+  margin: 0px 30px
 }
-#divHeaderBlock {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  gap: 15px;
+/*selection du premier paragraphe avec la classe description*/
+.description:first-of-type {
+  margin: 60px 30px; 
 }
+
 #java ul {
   /* overflow: hidden; */
   transition: max-height 0.5s ease-out;
