@@ -170,4 +170,5 @@
 
 18/01/2024 :
 
-      -[x] [TALK] Préparation et exposé pour les collègue sur la découverte et l'arrivée de l'IA, différents modèles etc
+      -[x] [TALK] Préparation et exposé pour les collègues sur la découverte et l'arrivée de l'IA, différents modèles,
+            ollama, janai, web_text_generation etc
