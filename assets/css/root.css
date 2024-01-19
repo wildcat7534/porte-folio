@@ -63,6 +63,22 @@ body {
   background-color: #000;
   font-family: 'inconsolata';
 }
+a#readme {
+  text-decoration: none;
+  color: var(--wc-yellow-500);
+  font-size: 0.5em;
+  font-family: 'Press-Start-2P', cursive;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 1em;
+  cursor: pointer;
+}
+
+a#readme:hover {
+  color: var(--wc-gold-doree);
+  text-decoration: underline;
+}
 li {
   list-style: none;
 }

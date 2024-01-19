@@ -2,13 +2,14 @@
 
 ## <span style="color:blue">First Step</span>
 
-15/11/2023 : 
+15/11/2023 :
 
 - [x] Démarrage du portfolio !
 
 ### <span style="color:red">Pour commencer</span>
 
 - [x] J'ai commencé par l'idée d'une page avec un style rétro en me rappelant l'époque des années 2000's avec des néons que j'affectionne en ce moment ^^
+
 ### <span style="color:green">Allez démarrage !!</span>
 
 - [x] Pour commencer j'ai préparé mon environnement de travail :
@@ -17,7 +18,7 @@
 
 11/12/23 :
 
-- [x] Animation projet ILC Avant Après, création d'une page index pour choicir les styles différents du portfolio, page retro renomée, récupération 
+- [x] Animation projet ILC Avant Après, création d'une page index pour choicir les styles différents du portfolio, page retro renomée, récupération
       police player 2P, refonte header "divHeaderBlock"
 
 - [x] [Ticket BETA] bien avancé, [PAGE RETRO] résumé d'accueil, Email, decritpion projets et titres tjs apparent, titre des sections cohérent,
@@ -96,8 +97,8 @@
 
 - [x] [IA] Installation et découverte de Gradio ( librairie Python gratuite pour affichage web opti pour LLM etc. )
 - [x] [IA] [3D] Découverte des 3D gaussian splatting, clip crée : https://youtube.com/clip/UgkxsPYuzADp_49WrRAOeFO1V8PhfWwL4NDN?si=08IIb3AZx6t2Zo2s
-- [x] [IA] Tentative d'utilisation de model LLM avec quantisation en q4 puis fp16 à la volé avec Mixtral, echec si moins de 30 Go de VRAM, test avec 
-            un model déjà quantisé en GPTQ + décharge de ce qui ne rentre pas dans les 24 Go vers le CPU ( tuto de chez Mistral : https://huggingface.co/blog/mixtral#load-mixtral-with-4-bit-quantization)
+- [x] [IA] Tentative d'utilisation de model LLM avec quantisation en q4 puis fp16 à la volé avec Mixtral, echec si moins de 30 Go de VRAM, test avec
+      un model déjà quantisé en GPTQ + décharge de ce qui ne rentre pas dans les 24 Go vers le CPU ( tuto de chez Mistral : https://huggingface.co/blog/mixtral#load-mixtral-with-4-bit-quantization)
 
 08/01/2024 :
 
@@ -124,7 +125,7 @@
 
 13/01/2024 :
 
-- [x] [DEVOP] [SERVER] Je garde que le serveur#1 (conso environs 15€/mois/serveur (pour 100Watt/h)) 
+- [x] [DEVOP] [SERVER] Je garde que le serveur#1 (conso environs 15€/mois/serveur (pour 100Watt/h))
 - [x] [DISCORD] Contact avec Jmorgan développeur de Ollama pour vérifier mes logs (prblm sur WSL2 avec sa dernière version)
 - [x] [BACKEND] Achat de clément-portefolio.fr (avec accent) et création du sous domaine www.labybi.clément-portefolio.fr chez OVH
 - [x] [BACKEND] Configuration de Apache2 pour mes 2 hôtes virtuels et utilisation de Certbot pour valider le HTTPS !
@@ -134,3 +135,40 @@
 - [x] [IA] Découverte de exLlamaV2 (Bon usgage des CG et de la quantisation, à tester et à tester avec Mistral/Mixtral)
 - [x] [ECOLE42] Préparation de la lettre de demande d'intégration (OMG...)
 - [x] [PATCH/MAJ] Corrections, liens, Labybi sur Github etc
+
+15/01/2024 :
+
+- [x] Entrainement et passage des test en ligne de [ECOLE42] !!!
+- [x] [TUTO] Django #3/#4
+
+16/01/2024 :
+
+- [x] [TUTO] Django #4
+- [x] [ECOLE42] Résultat des tests valdidés !!! Envoi d'un Email à imane *croise les doigts*1000
+- [x] [COFEE] Balade dans Paris 6 et parc luxembourg, photo d'une peruche :)
+
+17/01/2024 :
+
+- [x] [ECOLE42] Attente, atente ^^'
+- [x] [TUTO] Django #4
+- [x] [DEVOP] [BACKEND] [URGENCE] [DOWN]
+      11h20 : server perso chez moi down après un reboot de mon serveur qui a fait une MaJ -->
+      _ location server chez OVH et demande installation Ubuntu
+      _ connexion en ssh server OVH
+      _ installation de apache2
+      _ demande à Bard pour me rappeler un fichier type de configuration mon*site.conf
+      \_ ajout des lignes ServerName, DocumentRoot *80 et \*443 et chemin vers key et certificat
+      _ démarrage de Apache2
+      _ installation de certbot + python3-certbot-apache  
+       _ changement de la redirection de mon IP vers l'IP du serveur OVH pour mon nom de domaine
+      _ propagation DNS instantanée !
+      _ lancement de certbot qui vérifie si le nom de domaine renvoit bien là où il est installé et génère mes clefs SSL
+      _ création d'un dossier portefolio dans /var/www et changement des permissions pour ajouter moi et www-data pour apache2
+      \_ connexion en sftp:// et transfert des fichiers du portefolio.
+
+        12h27 : portefolio accessible !!!! \*fièr ^^
+
+18/01/2024 :
+
+      -[x] [TALK] Préparation et exposé pour les collègues sur la découverte et l'arrivée de l'IA, différents modèles,
+            ollama, janai, web_text_generation etc
