@@ -46,7 +46,8 @@ h1 {
 }
 #catLogoFigure {
   width: 120px;
-  top: 147px;
+  top: 45px;
+  position: absolute;
 }
 #catLogoFigure img {
   width: 100%;
