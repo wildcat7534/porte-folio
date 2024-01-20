@@ -180,5 +180,10 @@ const boutonLabybi = document.querySelector('#boutonLabybi');
 boutonLabybi.addEventListener('click', () => {
     window.open('https://www.labybi.clément-portefolio.fr/', '_blank');
 });
+// bouton pour ouvrir l'adresse internet du projet fermeObjets dans un nouvel onglet du navigateur
+const boutonFermeObjets = document.querySelector('#boutonFermeObjets');
+boutonFermeObjets.addEventListener('click', () => {
+    window.open('https://lafermeaobjets.clément-portefolio.fr/', '_blank');
+});
 
 
