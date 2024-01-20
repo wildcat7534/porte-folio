@@ -153,22 +153,36 @@
 - [x] [TUTO] Django #4
 - [x] [DEVOP] [BACKEND] [URGENCE] [DOWN]
       11h20 : server perso chez moi down après un reboot de mon serveur qui a fait une MaJ -->
-      _ location server chez OVH et demande installation Ubuntu
-      _ connexion en ssh server OVH
-      _ installation de apache2
-      _ demande à Bard pour me rappeler un fichier type de configuration mon*site.conf
-      \_ ajout des lignes ServerName, DocumentRoot *80 et \*443 et chemin vers key et certificat
-      _ démarrage de Apache2
-      _ installation de certbot + python3-certbot-apache  
-       _ changement de la redirection de mon IP vers l'IP du serveur OVH pour mon nom de domaine
-      _ propagation DNS instantanée !
-      _ lancement de certbot qui vérifie si le nom de domaine renvoit bien là où il est installé et génère mes clefs SSL
-      _ création d'un dossier portefolio dans /var/www et changement des permissions pour ajouter moi et www-data pour apache2
-      \_ connexion en sftp:// et transfert des fichiers du portefolio.
+      [x] location server chez OVH et demande installation Ubuntu
+      [x] connexion en ssh server OVH
+      [x] installation de apache2
+      [x] demande à Bard pour me rappeler un fichier type de configuration mon*site.conf
+      [x] ajout des lignes ServerName, DocumentRoot *80 et \*443 et chemin vers key et certificat
+      [x] démarrage de Apache2
+      [x] installation de certbot + python3-certbot-apache  
+      [x] changement de la redirection de mon IP vers l'IP du serveur OVH pour mon nom de domaine
+      [x] propagation DNS instantanée !
+      [x] lancement de certbot qui vérifie si le nom de domaine renvoit bien là où il est installé et génère mes clefs SSL
+      [x] création d'un dossier portefolio dans /var/www et changement des permissions pour ajouter moi et www-data pour apache2
+      [x] connexion en sftp:// et transfert des fichiers du portefolio.
 
-        12h27 : portefolio accessible !!!! \*fièr ^^
+      12h27 : portefolio accessible !!!! \*fièr ^^
 
 18/01/2024 :
 
       -[x] [TALK] Préparation et exposé pour les collègues sur la découverte et l'arrivée de l'IA, différents modèles,
-            ollama, janai, web_text_generation etc
+            ollama, janai, web_text_generation etc.
+
+19/01/2024 :
+
+- [x] [TUTO] Django #4
+- [x] [TALK] Rattrapage découverte IA
+- [x] [IA] [LINUX] Maj de Linux, driver Nvidia... Essai de ollama qui tourne sur les 2 GPU d'office!
+
+20/01/2024 :
+
+- [x] [IA] test de pixart alpha / delta ( a revoir)
+- [x] [PORTEFOLIO] Ajout d'un lien vers la ferme à objet
+- [x] [SERVER] [OVH] ajout du lien et des dossiers lafermeaobjet.clément-portefolio.fr 
+- [x] [TUTO] Django Installation de django en venv sur WSL, démarrage
+ 
