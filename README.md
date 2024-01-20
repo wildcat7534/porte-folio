@@ -166,7 +166,7 @@
       [x] création d'un dossier portefolio dans /var/www et changement des permissions pour ajouter moi et www-data pour apache2
       [x] connexion en sftp:// et transfert des fichiers du portefolio.
 
-      12h27 : portefolio accessible !!!! \*fièr ^^
+      12h27 : portefolio accessible !!!! \*fière ^^
 
 18/01/2024 :
 
