@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<!-- <meta name="viewport" content="width=device-width">
+ --><html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/root.css"/>
+    <link rel="stylesheet" href="assets/css/page_retro.css"/>
+    <link rel="stylesheet" href="assets/css/colors.css"/>
+    <link rel="icon" href="assets/pictures/misc/favicons/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/pictures/misc/favicons/favicon.ico" type="image/x-icon"/>
+  </head>
+
+  <body>
+    <header>
+      <div id="divHeaderTitle" >
+        <h1>Porte-folio_</h1>
+        <h2 id="version">V.1.2.3 /b <span id="debugWidth"></span></h2>
+        <h5 id="subtitleVersionsSelected"> Version rétro web 1.0 des années turbo 2000 - HTML/CSS/Vanilla JS</h5>
+        <a id="readme" href="README.md">Carnet de bord (Patch note)</a>
+      </div>
+      <div id="divHeaderBlock" class="mousePad border-gradient-linear-rainbow">
+        <figure id="catLogoFigure">
+          <img id="imgHeader" src="assets/pictures/cat2.gif" alt="Wildcat's logo"/>
+        </figure>
+        <h2 id="wildcatTitle">Clément</h2>
+        <p class="description">
+          Développeur web, j'ai réalisé ce porte-folio pour présenter mes projets professionnels, personnels
+          et mes compétences. Vous trouverez également mes diplômes et une section sur mes passe-temps.
+          Comme vous pourrez le voir, je suis aussi un passionné de jeux-vidéo. Je suis impressionné par 
+          la créativité des développeurs et par la façon dont ils utilisent les jeux pour raconter 
+          des histoires et explorer des thèmes complexes. Je suis assidument les actualités sur la technologie.
+          Je suis aussi un grand fan de la culture geek en général; j'aime la culture japonaise, les mangas, les animes,
+          les films, les séries... Je suis aussi interressé par la philosophie et la psychologie.
+          J'ai également une grande playlist de musiques, musiques électroniques, musiques de films, de dessins animés, de mangas, séries...
+        </p>
+        <p class="description">
+          Après un an et demie à Code Phenix où j'ai passé mon diplôme de Techniques d'intégration web, je termine actuellement un CDD au sein d'une 
+          seconde ESN où j'ai pu travailler et continuer à me former.
+          J'espère sincérement intégrer l'école 42 Paris pour pouvoir continuer à me former et 
+          travailler sur des projets plus complexes. 
+          Egalement valider un diplôme supérieur serait un rêve pour moi.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section id="projects" class="mousePad border-gradient-linear-rainbow projects">
+        <!--  One title and a color code for perso and pro -->      
+        <h2>Projets : </h2>
+        <div id="tilteProjectColorCode">
+          <div id="colorCode">
+            <span class="neonBlue">Perso[blue]</span>
+            <span class="neonViolet">Pro[violet]</span>
+          </div>
+        </div>
+        <!--       Boxes of my projects -->
+        <div class="rowProject">
+          <div class="projectBoxes " id="projet1">
+            <h3 class="titleProject">Labybi</h3>
+            <img id="labybiImage" class="projectImages perso" src="assets/pictures/games/labyMenuFin.png" alt="Screenshot of Labyby">
+            <div id="descriptionProject1" class="descriptionProject">
+              <p class="neonBlue">
+                Un exercice où il fallait créer un mini jeu à la souris en utilisant que du HTML et CSS (sans utilisation de Javascript!) 
+                y compris pour changer dynamiquement de niveau. Je n'ai pas pu m'empècher de le transformer en jeu plus 
+                complet par la suite cette fois ci en m'autorisant l'utilisation de Javascript.   
+                Tous le reste à été fait en Javascript.
+              </p>
+            </div>
+            <button id="boutonLabybi" class="boutonRetro">Voulez-vous en savoir plus ?</button>
+          </div>
+          <div class="projectBoxes " id="projet2">
+            <h3 class="titleProject ">Refonte Graphique d'un site existant</h3>
+            <img id="ilcImage" class="projectImages pro" src="assets/pictures/pro/ILC_France_Before_home.png" alt="Screenshot of website ILC France">
+            <div id="divTextProjet2" class="descriptionProject">
+              <p class="neonRed">
+                Refonte graphique de la home page et du Header pour le site ILC France.
+                Le but était de rendre plus accessible la navigation très complexe de ce site.
+                La nouvelle version est en cours de développement.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rowProject">
+          <div class="projectBoxes" id="projet4">
+            <h3 class="titleProject">Apprentissage du Java (CNAM à distance)</h3>
+            <img id="javaImage" class="projectImages perso" src="assets/pictures/codes/MotCroise.java_(CNAM_NFA032)_version_SANS_NOM .png" alt="Screenshot of Java's exercise">
+            <div id="divTextProjet4" class="descriptionProject">
+              <p class="neonBlue">
+                J'ai validé 4 examens en Java avec maitrise des Classes, polymorphisme, héritage, interfaces, exceptions, collections, 
+                entrées/sorties, Java EE, Git, Docker etc avec le CNAM à distance en 2022.
+              </p>
+            </div>
+          </div>
+            <div class="projectBoxes" id="projet3">
+              <h3 class="titleProject">Fabrication d'une salle serveur chez moi</h3>
+              <a href="serveurs.html" target="_blank">
+                <img id="serverImage" class="projectImages perso" src="assets/pictures/servers/Bronto_settingUp.jpg" alt="Screenshot of setting up a big server">
+              </a>
+              <div id="divTextProjet3" class="descriptionProject">
+                  <p class="neonBlue">
+                  J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les synchroniser entre mes différents
+                  Suite à la récupération de serveurs et l'envie de me mettre à Linux j'ai commencé à installer une salle serveurs chez moi. J'ai commencé par un serveur Nextcloud pour pouvoir stocker mes données et pouvoir les
+                  héberger mon site web. J'ai aussi installé un serveur de jeu (Ark, valheim) pour pouvoir jouer avec mes amis.
+                  appareils. J'ai ensuite installé un serveur web pour pouvoir
+                </p>
+              </div>
+              <button id="boutonServeur" class="boutonRetro">Voulez-vous en savoir plus ?</button>
+            </div>
+          </div>
+      </div>
+        <div class="rowProject">
+          <div class="projectBoxes" id="projet5">
+            <h3 class="titleProject">La ferme à objets</h3>
+            <img id="fermeObjetsImage" class="projectImages perso" src="assets/pictures/games/la_ferme_a_objet.png" alt="Screenshot of la ferme à objets">
+            <div id="divTextProjet5" class="descriptionProject">
+              <p class="neonBlue">
+                Après avoir passé mon examen sur les Classes en Java et travaillé sur l'équivalent en Javascript, 
+                 j'ai fait un 
+                petit jeu qui permet de mieux voir conrètement les objets créés pour pouvoir aider mes collègues ou des apprennants. Ici en l'occurence des Chats, 
+                Chiens etc. provenant d'un template HTML, cloné en Javascript, puis modifié en fonction de l'objet avec une classe mère et des classes filles, 
+                polymorphisme etc en espèrant vulgariser un peu le concept.
+              </p>
+            </div>
+          </div>
+          <div class="projectBoxes" id="projet6">
+            <h3 class="titleProject">Enigma</h3>
+            <img id="enigmaImage" class="projectImages perso" src="assets/pictures/misc/lune_lac.png" alt="Screenshot of Enigma the game">
+            <div id="divTextProjet6" class="descriptionProject">
+              <p class="neonBlue">
+                Une journée calme au bureau j'ai fait un petit jeu de réflexion où il faut trouver la sortie de chaque page web en cliquant sur les bons éléments 
+                pour passer à la page suivante ! Sympa pour faire passer le temps aux collègues :)
+              </p> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="diplomes" class="mousePad border-gradient-linear-rainbow">
+        <h2>Diplômes</h2>
+        <div id="divDiplomes">
+          <article>
+            <span class="yearDiplome">
+              2022
+            </span>
+            <span class="sakuraColor diplomeDescription">
+              Titre professionnel de Techniques d'intégration web ( RS1447, HTML / CSS / JavaScript )
+            </span>
+            <img id="diplomeIntegrateurWeb" class="imgDiplomes" src="assets/pictures/diplomes/integrateur_web.png" alt="Diplôme d'intégrateur web">
+          </article>
+          <article>
+            <span class="yearDiplome">
+              2022
+            </span>
+            <span class="sakuraColor diplomeDescription">
+              Obtention de 4 examens en Java ( CNAM à distance )
+            </span>
+            <img id="moduleJava" class="imgDiplomes" src="assets/pictures/diplomes/moduleJava.png" alt="module Java">
+          </article>
+          <article>
+            <span class="yearDiplome">
+              2018
+            </span>
+            <span class="sakuraColor diplomeDescription">
+              Diplôme de Creative Technologist ( Objets connectés promotionnels, Arduino, soudage, couture, impression 3D, découpe laser... )
+            </span>
+            <img id="creativeTechnologist" class="imgDiplomes" src="assets/pictures/diplomes/creative_technologist.png" alt="Diplôme de Creative Technologist">
+          </article>
+          <article>
+            <span class="yearDiplome">
+              2017
+            </span>
+            <span class="sakuraColor diplomeDescription">
+              Diplôme en ligne en auto-formation sur le language C et Python (Mines Telecom, Studio Code, OpenClassrooms)
+            </span>
+            <img id="creativeTechnologist" class="imgDiplomes" src="assets/pictures/diplomes/.png" alt="Diplôme de Creative Technologist">
+          </article>
+          <article>
+            <span class="yearDiplome">
+              2011/2020
+            </span>
+            <span class="diplomeDescription">
+              Auto-entrepreneur : réparation et formation en informatique pour partilculiers et professionnels.
+            </span>
+            <img id="creativeTechnologist" class="imgDiplomes" src="assets/pictures/diplomes/.png" alt="Diplôme de Creative Technologist">
+          </article>
+          <article>
+            <span class="yearDiplome">
+              2007
+            </span>
+            <span class="sakuraColor diplomeDescription">
+              DAEU B ( Diplôme d'Accès aux Etudes Universitaire )
+            </span>
+            <img id="diplomeDAEU" class="imgDiplomes" src="assets/pictures/diplomes/DAEU.png" alt="Diplôme de DAEU">
+          </article>
+          <article>
+            <span class="yearDiplome">
+              2000/2011
+            </span>
+            <span class="diplomeDescription">
+              Beaucoup de différents métiers :
+            </span>
+            <img id="diplomeDAEU" class="imgDiplomes" src="assets/pictures/diplomes/DAEU.png" alt="Diplôme de DAEU">
+          </article>
+        </div>
+      </section>
+
+      <section id="hobbies" class="mousePad border-gradient-linear-rainbow">
+        <h2>Hobbies</h2>
+            <div id="divHobbies">
+              <article>
+                <span>
+                  Inteligence Artificielle 
+                </span>
+                <span class="sakuraColor">
+                  ( Mon IA : Sakura <3 )
+                </span>
+                <img id="sakura" class="imgHobbies" src="assets/pictures/fleursSakura2.gif" alt="gif fe jolies fleurs type sakura" />
+              </article>
+              <article>
+                <span>
+                  Inteligence Artificielle 
+                </span>
+                <span class="sakuraColor">
+                  ( Dessins avec Stable Diffusion en local sur mon ordi )
+                </span>
+                <img id="dessinsStable" class="imgHobbies" src="assets/pictures/dessins/beautiful_baby_cat_sign.png" alt="image générée par IA d'un beau chat" />
+              </article>
+              <article>
+                <span>
+                  Dessins
+                </span>
+                <span class="sakuraColor">
+                  dessins persos
+                </span>
+                <img id="neroWildcatDrawAI" class="imgHobbies" src="assets/pictures/dessins/a_la_main/agrandissement_Bulma.jpg" alt="Wildcat's drawing" />
+              </article>
+              <article>
+                <span>
+                  Musics
+                </span>
+                <span class="sakuraColor">
+                  listes à venir, WiLDCaT_MiX
+                </span>
+                <img id="wildcatMix" class="imgHobbies" src="assets/pictures/WiLDCaT_MiX.jpeg" alt="Wildcat's mixing" />
+              </article>
+              <article id="wildcatPodcast">
+                <span>
+                  Podcasts
+                </span>
+                <span class="sakuraColor">
+                  Les podcasts que j'écoute, Tech, humour...
+                </span>
+                <figure>
+                </figure>
+                <!-- <img id="imgPodcastTransparent" src="assets/pictures/podcast_logo.png" alt="Wildcat's podcast" /> -->
+              </article>
+              <article>
+                <span>
+                  Association Garmers Assembly
+                </span>
+                <span class="sakuraColor">
+                  Membre de l'association, LAN, tournois, jeux-vidéo, cosplay etc.
+                </span>
+                <img id="logoGA" class="imgHobbies" src="assets/pictures/gamers_assembly/ga_logo.png" alt="Logo de l'association Gamers Assembly" />
+              </article>
+              <article>
+                <span>
+                  Soutient d'autre projet IA
+                </span>
+                <span class="sakuraColor">
+                  Whisper, Bark (txt to voice), etc.
+                </span>
+                  <div id="badgeIA" style="position:relative;width:200px;height:133.33333333333334px;">
+                  <iframe src="https://serp.ly/@serpai/badges/democratize-ai" frameborder="0" scrolling="no" width="250px" height="300px" style="position:absolute;z-index:1;">
+                  </iframe>
+<!--                  <div style="position:relative;width:180px;height:120px;"><iframe src="https://serp.ly/@serpai/badges/ai-for-all" frameborder="0" scrolling="no" width="300px" height="300px" style="position:absolute;z-index:1;"></iframe>
+                      <a href="https://serp.ly/@serpai/badge-links/artificial-intelligence-alliance" title="" target="_blank" style="display:block;position:absolute;width:100%;height:100%;z-index:2;">
+                      </a>
+                    </div> -->
+                </div>
+              </article>
+            </div>
+      </section>
+      <section id="jobs" class="mousePad border-gradient-linear-rainbow">
+        <h2>Entreprises de rêve</h2>
+        <ul id="listJobs">
+          <li>
+            <a href="https://jobs.lever.co/mistral" target="_blank" rel="noopener ">
+              Chez Mistral !</a>
+          </li>
+          <li>
+            <a href="https://www.valvesoftware.com/" target="_blank" rel="noopener ">
+              Chez Valve</a>
+          </li>
+          <li>
+            <a href="https://cloudimperiumgames.com/join-us" target="_blank" rel="noopener ">
+              Chez Cloud Imperium Games</a>
+          </li>
+          <li>
+            <a href="https://www.quanticdream.com/fr/careers" target="_blank" rel="noopener ">
+              Chez Quantic Dream</a>
+          </li>
+          <li>
+            <a href="https://www.cdprojekt.com/en/careers/" target="_blank" rel="noopener ">
+              Chez CD Projekt Red</a>
+          </li>
+          <li>
+            <a href="https://www.ubisoft.com/fr-fr/company/careers/working-at-ubisoft" target="_blank" rel="noopener ">
+              Chez Ubisoft</a>
+          </li>
+          <li>
+            <a href="https://www.rockstargames.com/careers" target="_blank" rel="noopener ">
+              Chez Rockstar Games</a>
+          </li>
+          <li>
+            <a href="https://www.bioware.com/careers/" target="_blank" rel="noopener ">
+              Chez Bioware</a>
+          </li>
+
+          <li>
+            <a href="https://www.supergiantgames.com/" target="_blank" rel="noopener ">
+              Chez Supergiant Games</a>
+          </li>
+          <li>
+            <a href="https://www.microsoft.com/fr-fr" target="_blank" rel="noopener ">
+              Chez Microsoft</a>
+          </li>
+          <li>
+            <a href="https://www.playstation.com/fr-fr/" target="_blank" rel="noopener ">
+              Chez Sony</a>
+          </li>
+          <li>
+            <a href="https://www.gearboxsoftware.com/" target="_blank" rel="noopener ">
+              Chez Gearbox</a>
+          </li>
+          <li>
+            <a href="https://bethesda.net/fr/dashboard" target="_blank" rel="noopener ">
+              Chez Bethesda</a>
+          </li>
+          <li>
+            <a href="https://www.fromsoftware.jp/ww/" target="_blank" rel="noopener ">
+              Chez From Software</a>
+          </li>
+          <li>
+            <a href="https://aws.amazon.com/fr/" target="_blank" rel="noopener ">
+              Chez Amazon(AWS)</a>
+          </li>
+          <li>
+            <a href="https://www.epicgames.com/site/fr/" target="_blank" rel="noopener ">
+              Chez Epic Games</a>
+          </li>
+          <li>
+            <a href="https://square-enix-games.com/fr_FR/home" target="_blank" rel="noopener ">
+              Chez Square Enix</a>
+          </li>
+          <li>
+            <a href="https://www.platinumgames.com/" target="_blank" rel="noopener ">
+              Chez Platinum Games</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/" target="_blank" rel="noopener ">
+              Chez Google</a>
+          </li>
+          <li>
+            <a href="https://www.nintendo.fr/" target="_blank" rel="noopener ">
+              Chez Nintendo</a>
+          </li>
+          <li>
+            <a href="https://www.riotgames.com/fr" target="_blank" rel="noopener ">
+              Chez Riot Games</a>
+          </li>
+          <li>
+            <a href="https://www.capcom.com/fr/" target="_blank" rel="noopener ">
+              Chez Capcom</a>
+          </li>
+          <li>
+            <a href="https://www.bandainamcoent.com/" target="_blank" rel="noopener ">
+              Chez Bandai Namco</a>
+          </li>
+          <li>
+            <a href="https://www.konami.com/" target="_blank" rel="noopener ">
+              Chez Konami</a>
+          </li>
+          <li>
+            <a href="https://www.sega.com/" target="_blank" rel="noopener ">
+              Chez Sega</a>
+          </li>
+          <li>
+            <a href="https://www.activision.com/fr/home" target="_blank" rel="noopener ">
+              Chez Activision</a>
+          </li>
+          <li>
+            <a href="https://www.ea.com/fr-fr" target="_blank" rel="noopener ">
+              Chez Electronic Arts</a>  
+          </li>
+          <li>
+            <a href="https://www.naughtydog.com/" target="_blank" rel="noopener ">
+              Chez Naughty Dog</a>
+          </li>
+          <li>
+            <a href="https://www.konami.com/" target="_blank" rel="noopener ">
+              Chez Kojima Productions</a>
+          </li>
+          <li>
+            <a href="https://www.blizzard.com/fr-fr/" target="_blank" rel="noopener ">
+              Chez Blizzard</a>
+          </li>
+        </ul>
+      </section>
+      
+      <footer>
+        <section id="contact">
+          <!-- <h2>Contact</h2> -->
+          <a id="linkContact" href="https://github.com/wildcat7534">
+                  Mon GitHub !
+          </a>
+          <a id="Email" href="mailto:clement.massol@gmail.com">
+                  clement.massol@gmail.com
+          </a>
+          <a id="mon C.V." href="assets/cv/cv.html">
+                  Mon Curriculum Vitae ( HTML )
+        </section>
+        <script src="assets/js/page_retro.js"></script>
+      </footer>
+    </main>
+  </body>
+</html>
+
