@@ -46,14 +46,13 @@ h1 {
 }
 #catLogoFigure {
   width: 120px;
-  top: 45px;
+  top: 114px;
   position: absolute;
 }
 #catLogoFigure img {
   width: 100%;
   transform: scale(1);
   position: relative;
-  top: 58px;
   left: 6px;
 }
 h2#wildcatTitle {
