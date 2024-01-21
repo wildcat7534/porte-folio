@@ -165,7 +165,6 @@
       [x] lancement de certbot qui vérifie si le nom de domaine renvoit bien là où il est installé et génère mes clefs SSL
       [x] création d'un dossier portefolio dans /var/www et changement des permissions pour ajouter moi et www-data pour apache2
       [x] connexion en sftp:// et transfert des fichiers du portefolio.
-
       12h27 : portefolio accessible !!!! \*fière ^^
 
 18/01/2024 :
