@@ -53,6 +53,7 @@ h1 {
   width: 100%;
   transform: scale(1);
   position: relative;
+  top: 56px;
   left: 6px;
 }
 h2#wildcatTitle {
@@ -244,6 +245,12 @@ h2.wildcatTitle {
   text-shadow: 0 0 25px rgb(255 0 255);
   font-family: sans-serif;
   font-weight: bold;
+}
+#diplomes p {
+  color: var(--wc-blue-400);
+  font-size: 0.9em;
+  padding: 2px 16px;
+  width: 100%;
 }
 .imgDiplomes {
   display: none;
@@ -464,9 +471,7 @@ footer {
   #divHobbies article {
     width: 270px;
   }
-  .imgHobbies {
-    min-width: 240px;
-  }
+
   #wildcatPodcast figure {
     min-height: 270px;
   }
@@ -494,7 +499,7 @@ footer {
   }
   .yearDiplome,
   .diplomeDescription {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .imgHobbies {
     width: 100% ;
