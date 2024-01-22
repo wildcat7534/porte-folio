@@ -185,3 +185,11 @@
 - [x] [SERVER] [OVH] ajout du lien et des dossiers lafermeaobjet.clément-portefolio.fr 
 - [x] [TUTO] Django Installation de django en venv sur WSL, démarrage
  
+21/01/2024 :
+
+- [x] [PORTEFOLIO] Corrections/ Ajouts
+- [x] [COFFEE] Rangement Bureaux, Portal Revolution (fan game top!)
+
+22/01/2024 :
+
+- [x] [TUTO] Personnalisation du Bash  !!! Météo, citation, colorisation ( toilet, lolcat, curl la meteo etc)
