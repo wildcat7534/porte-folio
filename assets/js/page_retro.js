@@ -2,16 +2,13 @@ function init() {
     //titleProjectGetBoundingClientRect();
     onClickProjectBoxesShadowBoxesEffect();
     podcastsPictures();
-   
+
 }
 init();
 
 //......................................................//
 /////////////////////page RETRO///////////////////////////
 //......................................................//
-const debugWidth = document.querySelector('#debugWidth');
-
-debugWidth.innerHTML = `_w ${window.innerWidth}`;
 const gifLogo = document.getElementById('imgHeader');
 const buttonVersions = document.getElementById('buttonVersions');
 
@@ -50,7 +47,7 @@ function projectBoxesOnTouch() {
 //         //console.log("titleProjectHeight : ", (titleProjectHeight + 18.72 + 19));
 //         projectBox.addEventListener('click', function () {
 //             let para = this.querySelector('p');
-            
+
 //             if ( clickDetail == 0 && projectBoxesActived == false ) {
 //                 projectBoxesActived = true;
 //                 descriptionProject.style.transition = "all 0.5s ease-in-out";
@@ -69,7 +66,7 @@ function projectBoxesOnTouch() {
 //                 para.style.visibility = "visible";
 //                 console.log("else if : this : ", this, "this.p : ", para);
 //                 clickDetail++;
-                
+
 //             }
 //             else {
 //                 para.style.visibility = "hidden";
@@ -95,10 +92,10 @@ class Boxe {
 }
 
 function onClickProjectBoxesShadowBoxesEffect() {
-  const projectBoxes = document.querySelectorAll('.projectImages');
-  console.log("project boxes : ", projectBoxes);
-  for (let i = 0; i < projectBoxes.length; i++) {
-        projectBoxes[i].addEventListener('click', () =>  {
+    const projectBoxes = document.querySelectorAll('.projectImages');
+    console.log("project boxes : ", projectBoxes);
+    for (let i = 0; i < projectBoxes.length; i++) {
+        projectBoxes[i].addEventListener('click', () => {
             if (projectBoxes[i].style.boxShadow === "rgb(255 236 120) 0px 0px 11px 9px") {
                 console.log("box shadow : ", projectBoxes[i].style.boxShadow);
                 projectBoxes[i].style.boxShadow = "none";
@@ -109,7 +106,7 @@ function onClickProjectBoxesShadowBoxesEffect() {
                     const imgILC = projectBoxes[i].querySelector('img');
                     imgILC.style.opacity = "0";
                     imgILC.src = "assets/pictures/pro/ILC_France_After_home.png";
-                    setTimeout( () => {
+                    setTimeout(() => {
                         imgILC.style.transition = "all 1s ease-in-out";
                         imgILC.style.opacity = "1";
                     }, 500);
@@ -125,7 +122,7 @@ function onClickProjectBoxesShadowBoxesEffect() {
 // projectsData = [{title: "labiby", description: "description", picture: "picture"}]
 
 function podcastsPictures() {
-    const  podcastsPicturesTab = [];
+    const podcastsPicturesTab = [];
     podcastsPicturesTab.push(
         "assets/pictures/podcasts/tech_cafe.jpg",
         "assets/pictures/podcasts/quete_laterale.jpg",
@@ -151,12 +148,12 @@ function podcastsPictures() {
         "assets/pictures/podcasts/le_rendez-vous_tech.jpg",
         "assets/pictures/podcasts/un_bon_moment.jpg",
     );
-    
+
     const podcastsPicturesBoxe = document.querySelector('#wildcatPodcast figure');
-    
+
     console.log("podcastsPicturesTab : ", podcastsPicturesTab);
 
-    const  img = document.createElement('img');
+    const img = document.createElement('img');
     img.classList.add('podcastsPictures');
     img.style.transition = "all 1.2s ease-in-out";
 
