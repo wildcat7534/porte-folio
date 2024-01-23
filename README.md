@@ -183,7 +183,7 @@
 - [x] [IA] test de pixart alpha / delta ( a revoir)
 - [x] [PORTEFOLIO] Ajout d'un lien vers la ferme à objet
 - [x] [SERVER] [OVH] ajout du lien et des dossiers lafermeaobjet.clément-portefolio.fr 
-- [x] [TUTO] Django Installation de django en venv sur WSL, démarrage
+- [x] [TUTO] Django#5 Installation de django en venv sur WSL, démarrage
  
 21/01/2024 :
 
@@ -193,3 +193,7 @@
 22/01/2024 :
 
 - [x] [TUTO] Personnalisation du Bash  !!! Météo, citation, colorisation ( toilet, lolcat, curl la meteo etc)
+
+23/01/2024 :
+
+- [x] [TUTO] Django#7 insertion de laFermeAObjet et début correction des erreurs (lien avec la CSS, JS, images...)
