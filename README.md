@@ -197,3 +197,6 @@
 23/01/2024 :
 
 - [x] [TUTO] Django#7 insertion de laFermeAObjet et début correction des erreurs (lien avec la CSS, JS, images...)
+
+- [x] [FUTUROLAN] Réunion avec l'asso pour peut-être intégrer l'équipe animation des 500 joueurs libres pendant l'évènement de la Gamers Assembly !(20ans déjà...)
+- [x] [IA] Ollama en JS ! A tester avec Django viiiiiite
