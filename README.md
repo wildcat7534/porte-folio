@@ -200,3 +200,7 @@
 
 - [x] [FUTUROLAN] Réunion avec l'asso pour peut-être intégrer l'équipe animation des 500 joueurs libres pendant l'évènement de la Gamers Assembly !(20ans déjà...)
 - [x] [IA] Ollama en JS ! A tester avec Django viiiiiite
+
+24/01/2024 : 
+
+- [x] [TUTO] Django Début de l'app SakuraOllama pour utiliser l'API d'ollama... dur je m'embrouille entre back et front...MAIS quand ça va être clair popopooo
