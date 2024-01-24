@@ -204,3 +204,4 @@
 24/01/2024 : 
 
 - [x] [TUTO] Django Début de l'app SakuraOllama pour utiliser l'API d'ollama... dur je m'embrouille entre back et front...MAIS quand ça va être clair popopooo
+            A montrer au formateur les librairies Python et JS qui viennent de sortir, quel intêret avec l'utilisation de Django
