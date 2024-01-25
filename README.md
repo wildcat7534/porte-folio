@@ -207,3 +207,6 @@
             A montrer au formateur les librairies Python et JS qui viennent de sortir, quel intêret avec l'utilisation de Django
 
 ![Alt Text](assets/pictures/IA/ollamaPipAndNpm.png)
+
+- [x] [TUTO] [DJANGO] [RESTapi] [WINDOWS] [VENV] Il faut activer l'activation des scripts, même en adminsitrateur, pour lancer le venv.
+- [x] [TUTO] [DJANGO] [RESTapi] [WINDOWS] [VENV] Ok ça marche, à tester avec Ollama.
