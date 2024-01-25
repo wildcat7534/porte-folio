@@ -180,9 +180,9 @@
 
 20/01/2024 :
 
-- [x] [IA] test de pixart alpha / delta ( a revoir)
+- [x] [IA] Test de pixart alpha / delta ( a revoir)
 - [x] [PORTEFOLIO] Ajout d'un lien vers la ferme à objet
-- [x] [SERVER] [OVH] ajout du lien et des dossiers lafermeaobjet.clément-portefolio.fr 
+- [x] [SERVER] [OVH] Ajout du lien et des dossiers lafermeaobjet.clément-portefolio.fr 
 - [x] [TUTO] Django#5 Installation de django en venv sur WSL, démarrage
  
 21/01/2024 :
@@ -209,4 +209,9 @@
 ![Alt Text](assets/pictures/IA/ollamaPipAndNpm.png)
 
 - [x] [TUTO] [DJANGO] [RESTapi] [WINDOWS] [VENV] Il faut activer l'activation des scripts, même en adminsitrateur, pour lancer le venv.
+
 - [x] [TUTO] [DJANGO] [RESTapi] [WINDOWS] [VENV] Ok ça marche, à tester avec Ollama.
+
+25/01/2024 : 
+
+- [x] [PYTHON] [UBUNTU.23] Toujours ajouter '--break-system-packages' avec pip install depuis ubuntu 23 (nvlle sécu) même en venv(!)
