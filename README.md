@@ -217,3 +217,4 @@
 - [x] [PYTHON] [UBUNTU.23] Toujours ajouter '--break-system-packages' avec pip install depuis ubuntu 23 (nvlle sécu) même en venv(!)
 - [x] [DJANGO] Modules à voir : django-instant(websockets), installws(server websockets), djangorestframework(REST),
             huey(task queue légère),
+- [x] [DJANGO] Premier POST !!!
