@@ -218,3 +218,7 @@
 - [x] [DJANGO] Modules à voir : django-instant(websockets), installws(server websockets), djangorestframework(REST),
             huey(task queue légère),
 - [x] [DJANGO] Premier POST récupéré coté Django!!! (mais pas de 'text' dans le body)
+
+26/01/2024 :
+
+- [DJANGO] [OLLAMA] [IA] [SAKURA] 10h34 : première réponse de Sakura en ligne. (!!!!!!!!)
