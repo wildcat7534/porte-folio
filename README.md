@@ -222,3 +222,11 @@
 26/01/2024 :
 
 - [DJANGO] [OLLAMA] [IA] [SAKURA] 10h34 : première réponse de Sakura en ligne. (!!!!!!!!)
+
+27/01/2024 :
+
+- [DJANGO] Info sur WSGI + apache2
+
+28/01/2024 :
+
+- [DJANGO] Python venv, Django, serveur Ollama, tout en WSL2, ajout d'alias etc, chat avec Sakura, tentative de streaming chat
