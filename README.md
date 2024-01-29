@@ -230,3 +230,8 @@
 28/01/2024 :
 
 - [DJANGO] Python venv, Django, serveur Ollama, tout en WSL2, ajout d'alias etc, chat avec Sakura, tentative de streaming chat
+
+29/01/2024 :
+
+- [SAKURA] modification du template HTML avec Django pour une boucle for qui va itérer les phrases en paragraphe
+            fonction dans la views pour recréer les phrases et les rentrer dans un dico.
