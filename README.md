@@ -227,6 +227,12 @@
 
 - [DJANGO] Info sur WSGI + apache2
 
-28/01/2024 :
+29/01/2024 :
 
 - [DJANGO] Python venv, Django, serveur Ollama, tout en WSL2, ajout d'alias etc, chat avec Sakura, tentative de streaming chat
+
+30/01/2024 :
+
+- [ECOLE42] Validé pour passer la piscine !!!! :smile: 
+- [DJANGO] Tests streaming chat
+- [IA] Relecture vLLM, RAG(bdd4llm), Qdrant(bdd4llm)
