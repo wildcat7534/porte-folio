@@ -230,7 +230,9 @@
 29/01/2024 :
 
 - [DJANGO] Python venv, Django, serveur Ollama, tout en WSL2, ajout d'alias etc, chat avec Sakura, tentative de streaming chat
-
+- [SAKURA] modification du template HTML avec Django pour une boucle for qui va itérer les phrases en paragraphe
+            fonction dans la views pour recréer les phrases et les rentrer dans un dico.
+            
 30/01/2024 :
 
 - [ECOLE42] Validé pour passer la piscine !!!! :smile: 
