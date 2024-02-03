@@ -235,7 +235,7 @@
             
 30/01/2024 :
 
-- [ECOLE42] Validé pour passer la piscine !!!! :smile: 
+- [ECOLE42] Validé pour passer la piscine !!!! (mais attente de la validation de la validation):smile: 
 - [DJANGO] Tests streaming chat
 - [IA] Relecture vLLM, RAG(bdd4llm), Qdrant(bdd4llm)
 
