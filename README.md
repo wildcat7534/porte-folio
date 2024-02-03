@@ -238,3 +238,16 @@
 - [ECOLE42] Validé pour passer la piscine !!!! :smile: 
 - [DJANGO] Tests streaming chat
 - [IA] Relecture vLLM, RAG(bdd4llm), Qdrant(bdd4llm)
+
+31/01/2024 :
+
+-[x] Test de passer en chat avec le model, mise en place dde la discussion avec les questions réponses, garder le context etc et ça marche!
+
+01/02/2024 : 
+
+-[x] Entrainement VIM, C
+
+02/02/2024 :
+
+-[x] Entrainemetn VIM, C (en fait pas de #stdio.h -O-')
+
