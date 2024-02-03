@@ -429,6 +429,9 @@ article#wildcatPodcast {}
 #imgServerRoom {
   width: 40%;
 }
+#projetsVrac {
+  width: 60%;
+}
 
 /****************************************************************/
 /****************************************************************/
@@ -485,7 +488,7 @@ footer {
 #contact a {
   font-family: 'lobster';
   animation: neonVioletRetroFlashes 2s ease-in-out infinite alternate;
-  font-size: 1.6em;
+  font-size: 1.4em;
   margin: 1em;
   display: inline-block;
   color: var(--wc-pink-100);
@@ -496,7 +499,9 @@ footer {
   color: var(--wc-pink-800);
   animation: none;
 }
-
+#contact #lienGitHub {
+  font-size: 2rem;
+}
 /****************************************************************/
 /****************************************************************/
 /* Breakpoints */

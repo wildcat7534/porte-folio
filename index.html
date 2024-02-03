@@ -59,6 +59,29 @@
         </div>
       </div>
       <!--       Boxes of my projects -->
+      <div class="rowproject">
+        <div class="projectBoxes" id="sakuraStreamChat">
+          <h3 class="titleProject">[En cours]Sakura Stream Chat</h3>
+          <img id="AIStreamChatImage" class="projectImages perso" src="assets/pictures/IA/sakura_chat_v0_1.png"
+          alt="Screenshot of Sakura Stream Chat">
+          <div id="descriptionProject0" class="descriptionProject">
+            <p class="neonBlue">
+              <encours de travail>
+                J'ai commencé à utiliser des IA pour générer des images, des textes, des musiques, clonage de voix,
+                des vidéos etc. Sur mon ordinateur en local. J'ai commencé par des tests de génération de textes 
+                avec Mistral/Mixtral puis lui donner une personnalité. J'ai pu lui faire générer des images dans le chat
+                avec le model Stable Diffusion chargé dans une carte graphique (RTX2080 8Go) et le Mixtral dans une autre 
+                (RTX3090 24Go). J'ai ensuite mis en place une application Django pour pouvoir discuter avec elle en ligne.
+                Le model est géré par mon sereur ollama et l'api Python communique avec le serveur Django avec lequel
+                je génère le HTML/CSS/JS et python pour le chat. Pour la connexion web j'utilise Apache2 et le module
+                WSGI. J'utilise que des models et API open source.
+              </p>
+            </div>
+            <button id="boutonSakuraStreamChat" class="boutonRetro">[A VENIR]Voulez-vous en savoir plus ?</button>
+          </div>
+        </div>
+      </div>
+      <!--       Boxes of my projects -->
       <div class="rowProject">
         <div class="projectBoxes " id="projet1">
           <h3 class="titleProject">Labybi</h3>
@@ -314,8 +337,10 @@
             Tests d'autres projets IA
           </span>
           <span class="sakuraColor">
-            Whisper, Bark (txt to voice), etc.
+            Whisper, Bark (txt to voice / voice to txt), clonage de voix etc
           </span>
+          <img id="projetsVrac" class="imgHobbies" src="assets/pictures/stickers/IA_mosaic.gif"
+            alt="mosaïque de projets IA" />           
         </article>
       </div>
     </section>
@@ -449,13 +474,13 @@
     <footer>
       <section id="contact">
         <!-- <h2>Contact</h2> -->
-        <a id="linkContact" href="https://github.com/wildcat7534">
-          Mon GitHub !
+        <a id="lienGitHub" href="https://github.com/wildcat7534">
+        --> Mon GitHub ! <--
         </a>
         <a id="Email" href="mailto:clement.massol@gmail.com">
           clement.massol@gmail.com
         </a>
-        <a id="mon C.V." href="assets/cv/cv.html">
+        <a id="monCV" href="assets/cv/cv.html">
           Mon Curriculum Vitae ( HTML )
       </section>
       <script src="assets/js/page_retro.js"></script>
