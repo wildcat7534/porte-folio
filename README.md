@@ -251,3 +251,13 @@
 
 -[x] Entrainemetn VIM, C (en fait pas de #stdio.h -O-')
 
+03/02/2024 :
+
+-[x] Cours sur django, WSGI, Apache2 + mod_WSGI, tentative de mettre django en live (échec) Apache2 semble ok 
+      mais pas de lien avec WSGI ou WSGI avec Django, dur de débugger...
+
+04/02/2024 :
+
+-[x] Cours sur Websockets, Daphne, ASGI (autre tentative, re lancement d'un Venv + re install Django) (bcp d'info...)
+
+
