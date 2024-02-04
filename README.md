@@ -4,7 +4,7 @@
 
 15/11/2023 :
 
-- [x] Démarrage du portfolio !
+- [x] Démarrage du portfolio ! :shipit:
 
 ### <span style="color:red">Pour commencer</span>
 
