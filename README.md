@@ -1,10 +1,10 @@
-# My porte-folio :blush:
+# My porte-folio :shipit: :blush:
 
 ## <span style="color:blue">First Step</span>
 
 15/11/2023 :
 
-- [x] Démarrage du portfolio ! :shipit:
+- [x] Démarrage du portfolio !
 
 ### <span style="color:red">Pour commencer</span>
 
