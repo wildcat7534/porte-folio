@@ -1,3 +1,5 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 # My porte-folio :blush:
 
 ## <span style="color:blue">First Step</span>
