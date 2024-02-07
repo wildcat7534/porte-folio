@@ -8,6 +8,7 @@
 
 - [x] Démarrage du portfolio !  :shipit:
 
+
 ### <span style="color:red">Pour commencer</span>
 
 - [x] J'ai commencé par l'idée d'une page avec un style rétro en me rappelant l'époque des années 2000's avec des néons que j'affectionne en ce moment ^^
@@ -223,43 +224,55 @@
 
 26/01/2024 :
 
-- [DJANGO] [OLLAMA] [IA] [SAKURA] 10h34 : première réponse de Sakura en ligne. (!!!!!!!!)
+- [x] [DJANGO] [OLLAMA] [IA] [SAKURA] 10h34 : première réponse de Sakura en ligne. (!!!!!!!!)
 
 27/01/2024 :
 
-- [DJANGO] Info sur WSGI + apache2
+- [x] [DJANGO] Info sur WSGI + apache2
 
 29/01/2024 :
 
-- [DJANGO] Python venv, Django, serveur Ollama, tout en WSL2, ajout d'alias etc, chat avec Sakura, tentative de streaming chat
-- [SAKURA] modification du template HTML avec Django pour une boucle for qui va itérer les phrases en paragraphe
+- [x] [DJANGO] Python venv, Django, serveur Ollama, tout en WSL2, ajout d'alias etc, chat avec Sakura, tentative de streaming chat
+- [x] [SAKURA] modification du template HTML avec Django pour une boucle for qui va itérer les phrases en paragraphe
             fonction dans la views pour recréer les phrases et les rentrer dans un dico.
             
 30/01/2024 :
 
-- [ECOLE42] Validé pour passer la piscine !!!! (mais attente de la validation de la validation):smile: 
-- [DJANGO] Tests streaming chat
-- [IA] Relecture vLLM, RAG(bdd4llm), Qdrant(bdd4llm)
+- [x] [ECOLE42] Validé pour passer la piscine !!!! (mais attente de la validation de la validation):smile: 
+- [x] [DJANGO] Tests streaming chat
+- [x] [IA] Relecture vLLM, RAG(bdd4llm), Qdrant(bdd4llm)
 
 31/01/2024 :
 
--[x] Test de passer en chat avec le model, mise en place dde la discussion avec les questions réponses, garder le context etc et ça marche!
+- [x] [IA] [BACKEND] Test de passer en chat avec le model, mise en place dde la discussion avec les questions réponses, 
+      garder le context etc et ça marche!
 
 01/02/2024 : 
 
--[x] Entrainement VIM, C
+- [x] [ECOLE42] Entrainement VIM, C
 
 02/02/2024 :
 
--[x] Entrainemetn VIM, C (en fait pas de #stdio.h -O-')
+- [x] [ECOLE42] Entrainemetn VIM, C (en fait pas de #stdio.h -O-')
 
 03/02/2024 :
 
--[x] Cours sur django, WSGI, Apache2 + mod_WSGI, tentative de mettre django en live (échec) Apache2 semble ok 
+- [x] [IA] [BACKEND] Cours sur django, WSGI, Apache2 + mod_WSGI, tentative de mettre django en live (échec) Apache2 semble ok 
       mais pas de lien avec WSGI ou WSGI avec Django, dur de débugger...
 
 04/02/2024 :
 
--[x] Cours sur Websockets, Daphne, ASGI (autre tentative, re lancement d'un Venv + re install Django) (bcp d'info...)
+- [x] [IA] [BACKEND] Cours sur Websockets, Daphne, ASGI (autre tentative, re lancement d'un Venv + re install Django) (bcp d'info...)
 
+05/02/2024 :
 
+- [x] [IA] Travail et vérif des logs sur Apache2 pour le faire marcher avec WSGI, à tester de mettre la venv dans le répertoire de Django
+- [x] [ECOLE42] Entrainement Bash 00
+
+06/02/2024 :
+
+- [x] [ECOLE42] Entrainement Bash 00
+
+07/02/2024 :
+
+- [x] [ECOLE42] Entrainement Bash fin 00
