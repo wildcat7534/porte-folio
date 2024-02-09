@@ -275,4 +275,13 @@
 
 07/02/2024 :
 
-- [x] [ECOLE42] Entrainement Bash fin 00
+- [x] [ECOLE42] Entrainement Bash 00 suite
+
+08/02/2024 :
+
+- [x] [ECOLE42] Entrainement Bash 00 suite
+
+09/02/2024 :
+
+- [x] [ECOLE42] Entrainement Bash 00 finit !
+- [x] [ECOLE42] Entrainement C 00 Exo05
