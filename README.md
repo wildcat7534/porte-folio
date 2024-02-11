@@ -292,3 +292,4 @@
 
 11/02/2024 :
 - [x] [PYTHON] [ASYNC] [IA] Première communciation LIVE entre le serveur -->mon ordi->WSL2[SAKURA] !
+- [x] [IA] Création de le Flibustier Malotru, Ia non censuré qui insulte, dit des conneries etc pour le podcast l'Apéro du Captain !!
