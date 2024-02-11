@@ -285,3 +285,10 @@
 
 - [x] [ECOLE42] Entrainement Bash 00 finit !
 - [x] [ECOLE42] Entrainement C 00 Exo05
+
+10/02/2024 :
+
+- [x] [PYTHON] [ASYNC] [IA] Probleme Apache2 SSL/443 rien à faire...HS Tentative de connection serveur -> Windows -> WSL
+
+11/02/2024 :
+- [x] [PYTHON] [ASYNC] [IA] Première communciation LIVE entre le serveur -->mon ordi->WSL2[SAKURA] !
