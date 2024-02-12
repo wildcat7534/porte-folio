@@ -300,3 +300,4 @@
 12/02/2024 :
 
 - [x] [ECOLE42] Entrainement C 00 Exo05
+- [x] [BACKEND] Prise de nouveaux noms de domaine !
