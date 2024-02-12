@@ -289,7 +289,14 @@
 10/02/2024 :
 
 - [x] [PYTHON] [ASYNC] [IA] Probleme Apache2 SSL/443 rien à faire...HS Tentative de connection serveur -> Windows -> WSL
+- [x] [WSL2] Apprentissage des commandess de la VM WSL2, redirections réseaux etc
 
 11/02/2024 :
+
+- [x] [WSL2] Apprentissage des commandess de la VM WSL2, redirections réseaux etc
 - [x] [PYTHON] [ASYNC] [IA] Première communciation LIVE entre le serveur -->mon ordi->WSL2[SAKURA] !
 - [x] [IA] Création de le Flibustier Malotru, Ia non censuré qui insulte, dit des conneries etc pour le podcast l'Apéro du Captain !!
+
+12/02/2024 :
+
+- [x] [ECOLE42] Entrainement C 00 Exo05
