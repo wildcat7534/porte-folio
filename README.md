@@ -302,6 +302,6 @@
 - [x] [ECOLE42] Entrainement C 00 Exo05
 - [x] [BACKEND] Prise de nouveaux noms de domaine !
 
-13-16/02/2024 :
+13-21/02/2024 :
 
 - [x] [ECOLE42] Du C, du C du C... `>.<
