@@ -302,6 +302,8 @@
 - [x] [ECOLE42] Entrainement C 00 Exo05
 - [x] [BACKEND] Prise de nouveaux noms de domaine !
 
-13-21/02/2024 :
+13-22/02/2024 :
 
 - [x] [ECOLE42] Du C, du C du C... `>.<
+- [x] [BACKEND] Apache2 HTTPS OK (Fichier de chalengine non accessible, bad redirection); STATIC files Django OK (laisser les static où elles sont
+et faire collectstatic, donner à Apache2 l'alias /static vers le dossiers de collectstatic (staticfiles))
